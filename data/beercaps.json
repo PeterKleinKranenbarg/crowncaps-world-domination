@@ -1988,7 +1988,7 @@
     }
   },
   "Denmark": {
-    "count": 15,
+    "count": 16,
     "cities": {
       "Copenhagen": {
         "lat": 55.6867243,
@@ -2000,7 +2000,8 @@
               "Carlsberg.jpeg",
               "Carlsberg 2.jpeg",
               "Skøll.jpeg",
-              "Somersby pear cider.jpeg"
+              "Somersby pear cider.jpeg",
+              "Tuborg pilsener.jpeg"
             ]
           },
           {
@@ -2111,6 +2112,1141 @@
             "name": "Hartwall",
             "caps": [
               "Polar monkeys chair man IPA.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Germany": {
+    "count": 275,
+    "cities": {
+      "Bamberg": {
+        "lat": 49.8916044,
+        "lon": 10.8868478,
+        "breweries": [
+          {
+            "name": "Schlenkerla (\"Heller-Bräu\" Trum)",
+            "caps": [
+              "Aecht Schlenkerla Lagerbier.jpeg",
+              "Aecht Schlenkerla Rauchbier Märzen.jpeg",
+              "Aecht Schlenkerla Rauchbier Fastenbier.jpeg",
+              "Aecht Schlenkerla Rauchbier Kräusen.jpeg",
+              "Aecht Schlenkerla Rauchbier Weizen.jpeg"
+            ]
+          }
+        ]
+      },
+      "Kaufbeuren": {
+        "lat": 47.8803788,
+        "lon": 10.622246,
+        "breweries": [
+          {
+            "name": "ABK (Aktienbrauerei Kaufbeuren)",
+            "caps": [
+              "Aktienbrauerei kaufbeuren.jpeg"
+            ]
+          }
+        ]
+      },
+      "Aldersbach": {
+        "lat": 48.5881793,
+        "lon": 13.0846579,
+        "breweries": [
+          {
+            "name": "Brauerei Aldersbach",
+            "caps": [
+              "Aldersbacher.jpeg"
+            ]
+          }
+        ]
+      },
+      "Andechs": {
+        "lat": 47.9746379,
+        "lon": 11.1828225,
+        "breweries": [
+          {
+            "name": "Klosterbrauerei Andechs",
+            "caps": [
+              "Andechs.jpeg"
+            ]
+          }
+        ]
+      },
+      "Neckarsulm": {
+        "lat": 49.191133,
+        "lon": 9.2248391,
+        "breweries": [
+          {
+            "name": "Lidl Deutschland / Germany",
+            "caps": [
+              "Argus.jpeg",
+              "Patronus.jpeg"
+            ]
+          }
+        ]
+      },
+      "Altona-Nord": {
+        "lat": 53.5614,
+        "lon": 9.94472,
+        "breweries": [
+          {
+            "name": "Holsten-Brauerei AG",
+            "caps": [
+              "Astra kiezmische alster.jpeg",
+              "Astra Rakette.jpeg",
+              "Astra rotlicht.jpeg",
+              "Astra urtyp.jpeg",
+              "Holsten Bernstein Lager.jpeg",
+              "Holsten edel pils.jpeg",
+              "Holsten pilsener.jpeg"
+            ]
+          }
+        ]
+      },
+      "Aying": {
+        "lat": 47.9699535,
+        "lon": 11.778769,
+        "breweries": [
+          {
+            "name": "Ayinger Privatbrauerei",
+            "caps": [
+              "Ayinger winterbock.jpeg"
+            ]
+          }
+        ]
+      },
+      "Steinfurt": {
+        "lat": 52.138683,
+        "lon": 7.3678356,
+        "breweries": [
+          {
+            "name": "Privatbrauerei A. Rolinck",
+            "caps": [
+              "Bastard bier en cola.jpeg",
+              "Rolinck pilsener.jpg"
+            ]
+          }
+        ]
+      },
+      "Neustadt": {
+        "lat": 49.3539802,
+        "lon": 8.1350021,
+        "breweries": [
+          {
+            "name": "Brauerei Beck",
+            "caps": [
+              "Beck's alkoholfrei.jpg",
+              "Beck's gold.jpeg",
+              "Beck's green lemon.jpeg",
+              "Beck's pils groot.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ettal": {
+        "lat": 47.5692548,
+        "lon": 11.0939733,
+        "breweries": [
+          {
+            "name": "Benediktiner Weissbräu",
+            "caps": [
+              "Benediktiner hell.jpg",
+              "Benediktiner weissbier.jpeg",
+              "Benediktiner weissbier alkoholfrei.jpeg"
+            ]
+          }
+        ]
+      },
+      "Berlin": {
+        "lat": 52.5173885,
+        "lon": 13.3951309,
+        "breweries": [
+          {
+            "name": "Berliner Berg Brauerei",
+            "caps": [
+              "Berliner berg brauerei.jpeg"
+            ]
+          },
+          {
+            "name": "Berliner-Kindl-Schultheiss-Brauerei",
+            "caps": [
+              "Berliner kindl weisse.jpeg",
+              "Berliner pils.jpeg",
+              "Herren export.jpeg",
+              "Herren pils.jpeg",
+              "Herren weizen.jpeg"
+            ]
+          },
+          {
+            "name": "BRLO",
+            "caps": [
+              "Brlo.jpeg",
+              "Brlo 2.jpeg",
+              "Brlo 3.jpeg"
+            ]
+          }
+        ]
+      },
+      "Bitburg": {
+        "lat": 49.9732762,
+        "lon": 6.524947,
+        "breweries": [
+          {
+            "name": "Bitburger Brauerei",
+            "caps": [
+              "Bitburger 0.0.jpg",
+              "Bitburger 0.0 herb.jpg",
+              "Bitburger leichtes.jpg",
+              "Bitburger Maibock.jpeg",
+              "Bitburger pils.jpeg",
+              "Bitburger premium kellerbier.jpeg",
+              "Bitburger radler.jpeg",
+              "Bitburger radler 0.0.jpeg",
+              "Bitburger winterbock.jpeg"
+            ]
+          },
+          {
+            "name": "Craftwerk Brewing",
+            "caps": [
+              "Craftwerk.jpeg"
+            ]
+          }
+        ]
+      },
+      "Korschenbroich": {
+        "lat": 51.1902651,
+        "lon": 6.5143539,
+        "breweries": [
+          {
+            "name": "Privatbrauerei Bolten",
+            "caps": [
+              "Bolten alt.jpg"
+            ]
+          }
+        ]
+      },
+      "Oelde": {
+        "lat": 51.8260823,
+        "lon": 8.1453352,
+        "breweries": [
+          {
+            "name": "Pott's Brauerei",
+            "caps": [
+              "Brau atelier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Viereth-Trunstadt": {
+        "lat": 49.9223081,
+        "lon": 10.7579534,
+        "breweries": [
+          {
+            "name": "Brauerei Kundmüller",
+            "caps": [
+              "Brauerei Kundmuller weizenbock.jpg"
+            ]
+          }
+        ]
+      },
+      "Itzgrund": {
+        "lat": 50.15,
+        "lon": 10.9,
+        "breweries": [
+          {
+            "name": "Brauerei Schleicher",
+            "caps": [
+              "Brauerei Schleicher bio pilsner.jpg"
+            ]
+          }
+        ]
+      },
+      "Breitengüßbach": {
+        "lat": 49.971513,
+        "lon": 10.8848831,
+        "breweries": [
+          {
+            "name": "Brauhaus Binkert",
+            "caps": [
+              "Brauhaus binkert main seidla.jpg"
+            ]
+          }
+        ]
+      },
+      "Dortmund": {
+        "lat": 51.5142273,
+        "lon": 7.4652789,
+        "breweries": [
+          {
+            "name": "Dortmunder Actien-Brauerei",
+            "caps": [
+              "Brinkhoff's pils.jpeg",
+              "DAB pilsner.jpeg",
+              "DAB pilsner 2.jpeg",
+              "Dortmunder union export.jpg",
+              "Dortmunder union siegel pils.jpg",
+              "Wickuler pilsener.jpg"
+            ]
+          }
+        ]
+      },
+      "Hamburg": {
+        "lat": 53.550341,
+        "lon": 10.000654,
+        "breweries": [
+          {
+            "name": "Buddelship Brauerei",
+            "caps": [
+              "Buddelship.jpeg",
+              "Buddelship 2.jpeg"
+            ]
+          },
+          {
+            "name": "Ratsherrn Brauere",
+            "caps": [
+              "Ratsherrn pilsener.jpeg"
+            ]
+          }
+        ]
+      },
+      "Kreuztal": {
+        "lat": 50.9598627,
+        "lon": 7.9896202,
+        "breweries": [
+          {
+            "name": "Krombacher Gruppe",
+            "caps": [
+              "Cab cola beer.jpeg",
+              "Krombacher 0.0.jpeg",
+              "Krombacher alkoholfrei.jpg",
+              "Krombacher fassbrause cola&orange.jpeg",
+              "Krombacher pils.jpeg",
+              "Krombacher weizen.jpeg",
+              "Krombacher weizen 0.0.jpeg",
+              "Krombacher's fassbrause zitrone.jpeg"
+            ]
+          }
+        ]
+      },
+      "Rosenheim": {
+        "lat": 47.8539273,
+        "lon": 12.127262,
+        "breweries": [
+          {
+            "name": "Auerbräu Rosenheimer Spezialitätenbrauerei",
+            "caps": [
+              "Chiemseer braustoff.jpg",
+              "Chiemseer hell.jpg"
+            ]
+          }
+        ]
+      },
+      "Frankfurt am Main": {
+        "lat": 50.1106444,
+        "lon": 8.6820917,
+        "breweries": [
+          {
+            "name": "Radeberger Gruppe",
+            "caps": [
+              "Clausthaler alkoholfrei.jpg",
+              "Schöfferhofer hefeweizen dunkel.jpeg",
+              "Schöfferhofer weizen.jpg"
+            ]
+          }
+        ]
+      },
+      "Unterschleissheim": {
+        "lat": 48.2730686,
+        "lon": 11.5702716,
+        "breweries": [
+          {
+            "name": "CREW Republic",
+            "caps": [
+              "Crew republic drunken sailor.jpeg",
+              "Crew republic easy.jpeg",
+              "Crew republic foundation 11.jpeg",
+              "Crew republic Jackpot IPA.jpg"
+            ]
+          }
+        ]
+      },
+      "Issum": {
+        "lat": 51.5347321,
+        "lon": 6.4245085,
+        "breweries": [
+          {
+            "name": "Brauerei Diebels",
+            "caps": [
+              "Diebels alkoholfrei.jpeg"
+            ]
+          }
+        ]
+      },
+      "Bayreuth": {
+        "lat": 49.9449711,
+        "lon": 11.5734327,
+        "breweries": [
+          {
+            "name": "Brauerei Gebr. Maisel",
+            "caps": [
+              "Edelhopfen extra.jpg",
+              "Maisel & Friends Alkoholfrei.jpeg",
+              "Maisel & friends artbeer #4 elle.jpg",
+              "Maisel & friends choco porter.jpeg",
+              "Maisel & friends hopfen reiter.jpeg",
+              "Maisel & Friends Hoppy Hell.jpeg",
+              "Maisel & friends IPA.jpeg",
+              "Maisel & friends pale ale.jpeg",
+              "Maisel & friends SummerCrew session IPA.jpeg",
+              "Maisel & friends Weizen IPA.jpeg",
+              "Maisel's Weisse.jpeg",
+              "Maisel's weisse 2.jpeg",
+              "Maisel's Weisse alkoholfrei.jpeg",
+              "Maisel's weisse dunkel.jpeg",
+              "Maisel's Weisse kristall.jpeg"
+            ]
+          }
+        ]
+      },
+      "Einbeck": {
+        "lat": 51.8185067,
+        "lon": 9.8678465,
+        "breweries": [
+          {
+            "name": "Einbecker Brauhaus",
+            "caps": [
+              "Einbecker.jpg",
+              "Einbecker brauherren pils.jpg",
+              "Einbecker echtes bockbier.jpg",
+              "Einbecker kellerbier.jpg",
+              "Einbecker mai-ur-bock.jpeg",
+              "Einbecker pilsener.jpeg",
+              "Einbecker ur-bock dunkel.jpeg",
+              "Einbecker ur-bock dunkel 2.jpeg",
+              "Einbecker ur-bock dunkel 3.jpg",
+              "Einbecker urbock dunkel.jpg",
+              "Einbecker winterbock.jpeg"
+            ]
+          }
+        ]
+      },
+      "Kulmbach": {
+        "lat": 50.1008448,
+        "lon": 11.4479149,
+        "breweries": [
+          {
+            "name": "Kulmbacher Brauerei",
+            "caps": [
+              "Eku.jpeg",
+              "Kulmbacher.jpeg"
+            ]
+          }
+        ]
+      },
+      "Löbau": {
+        "lat": 51.0947288,
+        "lon": 14.6692423,
+        "breweries": [
+          {
+            "name": "Bergquell Brauerei Löbau",
+            "caps": [
+              "Erdbeer porter.jpeg",
+              "Kirsch porter.jpeg"
+            ]
+          }
+        ]
+      },
+      "Erding": {
+        "lat": 48.3106834,
+        "lon": 11.9144357,
+        "breweries": [
+          {
+            "name": "Erdinger Weissbräu",
+            "caps": [
+              "Erdinger alkoholfrei.jpeg",
+              "Erdinger Helles.jpg",
+              "Erdinger leicht.jpeg",
+              "Erdinger Pikantus.jpeg",
+              "Erdinger Urweisse.jpeg",
+              "Erdinger weissbrau.jpeg",
+              "Erdinger weissbrau dunkel.jpeg",
+              "Erdinger weissbrau kristall.jpeg",
+              "Erdinger weissbrau Schneeweisse.jpeg"
+            ]
+          }
+        ]
+      },
+      "Buttenheim": {
+        "lat": 49.8027526,
+        "lon": 11.0287518,
+        "breweries": [
+          {
+            "name": "Löwenbräu Buttenheim",
+            "caps": [
+              "Familienbrauerei Buttenheim in Bayern.jpeg"
+            ]
+          }
+        ]
+      },
+      "Münster": {
+        "lat": 51.9625101,
+        "lon": 7.6251879,
+        "breweries": [
+          {
+            "name": "Finne Brauerei",
+            "caps": [
+              "Finne craft beer.jpeg"
+            ]
+          },
+          {
+            "name": "Gruthaus",
+            "caps": [
+              "Gruthaus.jpeg"
+            ]
+          },
+          {
+            "name": "Brauerei Pinkus Müller",
+            "caps": [
+              "Pinkus.jpeg"
+            ]
+          }
+        ]
+      },
+      "Flensburg": {
+        "lat": 54.7833021,
+        "lon": 9.4333264,
+        "breweries": [
+          {
+            "name": "Flensburger Brauerei Emil Petersen",
+            "caps": [
+              "Flensburger pils.jpeg"
+            ]
+          }
+        ]
+      },
+      "Düsseldorf": {
+        "lat": 51.2254018,
+        "lon": 6.7763137,
+        "breweries": [
+          {
+            "name": "Frankenheim Brauerei",
+            "caps": [
+              "Frankenheim alt.jpeg",
+              "Frankenheim blue.jpeg"
+            ]
+          }
+        ]
+      },
+      "Munich": {
+        "lat": 48.1371079,
+        "lon": 11.5753822,
+        "breweries": [
+          {
+            "name": "Spaten-Franziskaner-Löwenbräu-Gruppe",
+            "caps": [
+              "Franziskaner weissbier.jpeg",
+              "Franziskaner weissbier alkoholfrei.jpeg",
+              "Franziskaner weissbier 2.jpeg",
+              "Franziskaner weissbier&zitronenlimonade.jpeg",
+              "Löwenbrau alkoholfrei.jpeg",
+              "Lowenbrau Triumphator.jpeg",
+              "Spaten Munchner Hell.jpg",
+              "Spaten oktoberfestbier.jpeg"
+            ]
+          },
+          {
+            "name": "Staatliches Hofbräuhaus München",
+            "caps": [
+              "Hofbrauhaus München.jpeg",
+              "Hofbrauhaus Munchen Oktoberfestbier.jpeg"
+            ]
+          },
+          {
+            "name": "Augustiner-Bräu München",
+            "caps": [
+              "Münchner Bier.jpeg"
+            ]
+          },
+          {
+            "name": "Paulaner Brauerei",
+            "caps": [
+              "Pauläner.jpeg",
+              "Pauläner alkoholfrei.jpeg",
+              "Pauläner natur radler.jpeg",
+              "Paulaner Original Munchner Hell.jpeg",
+              "Pauläner salvator.jpeg",
+              "Pauläner Weissbier.jpeg",
+              "Paulaner Weissbier Alkoholfrei.jpeg"
+            ]
+          }
+        ]
+      },
+      "Cologne": {
+        "lat": 50.938361,
+        "lon": 6.959974,
+        "breweries": [
+          {
+            "name": "Cölner Hofbräu Früh",
+            "caps": [
+              "Früh Kölsch.jpeg"
+            ]
+          },
+          {
+            "name": "Privat-Brauerei Heinrich Reissdorf",
+            "caps": [
+              "Reissdorf kölsch.jpg"
+            ]
+          },
+          {
+            "name": "Schreckenskammer",
+            "caps": [
+              "Schreckenskammer.jpg"
+            ]
+          }
+        ]
+      },
+      "Wallerstein": {
+        "lat": 48.8870756,
+        "lon": 10.476036,
+        "breweries": [
+          {
+            "name": "Fürst Wallerstein Brauhaus",
+            "caps": [
+              "Fürsten hell original.jpeg"
+            ]
+          }
+        ]
+      },
+      "Köln": {
+        "lat": 50.938361,
+        "lon": 6.959974,
+        "breweries": [
+          {
+            "name": "Privatbrauerei Gaffel Becker",
+            "caps": [
+              "Gaffel kölsch.jpg",
+              "Gaffel kölsch 2.jpg",
+              "Gaffel kölsch 3.jpg",
+              "Gaffel kolsch 4.jpg",
+              "Gaffel kölsch 5.jpg",
+              "Gaffel kölsch 6.jpg",
+              "Gaffel kölsch 7.jpg"
+            ]
+          }
+        ]
+      },
+      "Fürth": {
+        "lat": 49.4885711,
+        "lon": 10.9587203,
+        "breweries": [
+          {
+            "name": "Tucher Bräu",
+            "caps": [
+              "Geismann helles weissbier.jpeg",
+              "Tucher Bajuvator Doppelbock.jpeg"
+            ]
+          }
+        ]
+      },
+      "Meschede": {
+        "lat": 51.3436532,
+        "lon": 8.2859257,
+        "breweries": [
+          {
+            "name": "Brauerei VELTINS",
+            "caps": [
+              "Grevensteiner.jpg",
+              "Pülleken.jpg",
+              "Veltins berry-x.jpeg",
+              "Veltins cola&zitrone.jpeg",
+              "Veltins curuba.jpeg",
+              "Veltins energy guarana.jpeg",
+              "Veltins fassbrause zitrone.jpeg",
+              "Veltins pilsener.jpeg",
+              "Veltins pilsener 0.0.jpeg",
+              "Veltins pilsener 2.jpg",
+              "Veltins pilsener 3.jpg",
+              "Veltins radler.jpeg"
+            ]
+          }
+        ]
+      },
+      "Holzminden": {
+        "lat": 51.8989989,
+        "lon": 9.5741099,
+        "breweries": [
+          {
+            "name": "Brauerei Allersheim",
+            "caps": [
+              "Gutsherren.jpg"
+            ]
+          }
+        ]
+      },
+      "Augsburg": {
+        "lat": 48.3690341,
+        "lon": 10.8979522,
+        "breweries": [
+          {
+            "name": "Hasen-Bräu",
+            "caps": [
+              "Hasen-Bräu.jpeg"
+            ]
+          },
+          {
+            "name": "Brauhaus Riegele",
+            "caps": [
+              "Riegele biermanufaktur.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hiddenhausen": {
+        "lat": 52.1530879,
+        "lon": 8.6394715,
+        "breweries": [
+          {
+            "name": "Herforder Brauerei",
+            "caps": [
+              "Herforder pils.jpg"
+            ]
+          }
+        ]
+      },
+      "Schlüsselfeld": {
+        "lat": 49.7569182,
+        "lon": 10.6186266,
+        "breweries": [
+          {
+            "name": "Braumanufaktur Hertl",
+            "caps": [
+              "Hertl braumanufaktur omas betthupferl.jpg",
+              "Hertl papas weissheit.jpg"
+            ]
+          }
+        ]
+      },
+      "Berchtesgaden": {
+        "lat": 47.6330221,
+        "lon": 13.0020051,
+        "breweries": [
+          {
+            "name": "Hofbrauhaus Berchtesgaden",
+            "caps": [
+              "Hofbrauhaus Berchtesgaden.jpeg"
+            ]
+          }
+        ]
+      },
+      "Freising": {
+        "lat": 48.4008273,
+        "lon": 11.7439565,
+        "breweries": [
+          {
+            "name": "Hofbrauhaus Freising",
+            "caps": [
+              "Huber weisses.jpeg"
+            ]
+          },
+          {
+            "name": "Bayerische Staatsbrauerei Weihenstephan",
+            "caps": [
+              "Weihenstephaner festbier.jpeg",
+              "Weihenstephaner hefe weissbier.jpeg",
+              "Weihenstephaner hefe weissbier alkoholfrei.jpeg",
+              "Weihenstephaner hefe weissbier dunkel.jpeg",
+              "Weihenstephaner kristal weissbier.jpeg",
+              "Weihenstephaner original.jpeg",
+              "Weihenstephaner original helles alkoholfrei.jpeg"
+            ]
+          }
+        ]
+      },
+      "Rambin": {
+        "lat": 54.3553964,
+        "lon": 13.2025199,
+        "breweries": [
+          {
+            "name": "Rügener Insel-Brauerei",
+            "caps": [
+              "Insel brauerei.jpeg",
+              "Insel brauerei alkoholfrei.jpeg"
+            ]
+          }
+        ]
+      },
+      "Jever": {
+        "lat": 53.5736426,
+        "lon": 7.9020696,
+        "breweries": [
+          {
+            "name": "Friesisches Brauhaus zu Jever",
+            "caps": [
+              "Jever fun alkoholfrei.jpeg",
+              "Jever light.jpeg",
+              "Jever light 2.jpg",
+              "Jever pilsener.jpg"
+            ]
+          }
+        ]
+      },
+      "Fürstenfeldbruck": {
+        "lat": 48.1794705,
+        "lon": 11.2547202,
+        "breweries": [
+          {
+            "name": "König Ludwig Schlossbrauerei Kaltenberg",
+            "caps": [
+              "König Ludwig Weissbier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Duisburg": {
+        "lat": 51.434999,
+        "lon": 6.759562,
+        "breweries": [
+          {
+            "name": "König Brauerei",
+            "caps": [
+              "König pilsner.jpeg"
+            ]
+          }
+        ]
+      },
+      "Krefeld": {
+        "lat": 51.3331205,
+        "lon": 6.5623343,
+        "breweries": [
+          {
+            "name": "Brauerei Königshof",
+            "caps": [
+              "Königshof pils.jpeg",
+              "Königshof weizen.jpeg"
+            ]
+          }
+        ]
+      },
+      "Bad Köstritz": {
+        "lat": 50.9301118,
+        "lon": 12.0113701,
+        "breweries": [
+          {
+            "name": "Köstritzer Schwarzbierbrauerei",
+            "caps": [
+              "Köstritzer Kellerbier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Unna": {
+        "lat": 51.5348835,
+        "lon": 7.689014,
+        "breweries": [
+          {
+            "name": "Lindenbrauerei Unna (Oetker)",
+            "caps": [
+              "Kronsberg export.jpg"
+            ]
+          }
+        ]
+      },
+      "Plankstadt": {
+        "lat": 49.3927294,
+        "lon": 8.5930329,
+        "breweries": [
+          {
+            "name": "Welde Braumanufaktur",
+            "caps": [
+              "Kurpfalz brau helles.jpeg",
+              "Welde.jpeg"
+            ]
+          }
+        ]
+      },
+      "Moos": {
+        "lat": 48.7520542,
+        "lon": 12.9624718,
+        "breweries": [
+          {
+            "name": "Arcobräu Gräfliches Brauhaus",
+            "caps": [
+              "Mooser liesl.jpg"
+            ]
+          }
+        ]
+      },
+      "Neumarkt i.d.OPf.": {
+        "lat": 49.279624,
+        "lon": 11.4594662,
+        "breweries": [
+          {
+            "name": "Neumarkter Lammsbräu",
+            "caps": [
+              "Neumarkter Lamssbräu.jpeg"
+            ]
+          }
+        ]
+      },
+      "Kempten (Allgäu)": {
+        "lat": 47.7267063,
+        "lon": 10.3168835,
+        "breweries": [
+          {
+            "name": "Allgäuer Brauhaus",
+            "caps": [
+              "Oberdorfer helles.jpg"
+            ]
+          }
+        ]
+      },
+      "Oettingen": {
+        "lat": 48.9445079,
+        "lon": 10.5991932,
+        "breweries": [
+          {
+            "name": "Oettinger Brauerei",
+            "caps": [
+              "Oettinger export.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hamm": {
+        "lat": 50.0165178,
+        "lon": 6.4184628,
+        "breweries": [
+          {
+            "name": "Altes Brauhaus Henin",
+            "caps": [
+              "Pilger land bier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Bad Laasphe": {
+        "lat": 50.9271541,
+        "lon": 8.4123648,
+        "breweries": [
+          {
+            "name": "Propeller Bier",
+            "caps": [
+              "Propeller bier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hallerndorf": {
+        "lat": 49.7595157,
+        "lon": 10.9790956,
+        "breweries": [
+          {
+            "name": "Brauerei Rittmayer Hallerndorf",
+            "caps": [
+              "Rittmayer hallerndorf.jpeg"
+            ]
+          }
+        ]
+      },
+      "Scheyern": {
+        "lat": 48.5009537,
+        "lon": 11.4562362,
+        "breweries": [
+          {
+            "name": "Kloster-Brauerei Scheyern",
+            "caps": [
+              "Scheyern.jpg"
+            ]
+          }
+        ]
+      },
+      "Kelheim": {
+        "lat": 48.91849,
+        "lon": 11.8722777,
+        "breweries": [
+          {
+            "name": "Schneider's Landbrauerei",
+            "caps": [
+              "Schneider's helles landbier.jpg"
+            ]
+          },
+          {
+            "name": "Schneider Weisse G. Schneider & Sohn",
+            "caps": [
+              "Schneiderweisse 150 jahre.jpg",
+              "Schneiderweisse aventinus eisbock.jpeg",
+              "Schneiderweisse tap 1 mein helle weisse 4.jpg",
+              "Schneiderweisse tap 1 meine helle weisse.jpeg",
+              "Schneiderweisse tap 1 meine helle weisse 2.jpeg",
+              "Schneiderweisse tap 1 meine helle weisse 3.jpeg",
+              "Schneiderweisse tap 2 mein kristall.jpeg",
+              "Schneiderweisse tap 2 mein kristall 2.jpeg",
+              "Schneiderweisse tap 3 mein alkoholfrei.jpeg",
+              "Schneiderweisse tap 3 mein alkoholfrei 2.jpeg",
+              "Schneiderweisse tap 3 mein alkoholfrei 3.jpeg",
+              "Schneiderweisse tap 3 mein alkoholfrei 4.jpg",
+              "Schneiderweisse tap 4 meine festweisse.jpeg",
+              "Schneiderweisse tap 4 meine festweisse 2.jpeg",
+              "Schneiderweisse tap 5 meine hopfenweisse.jpeg",
+              "Schneiderweisse tap 5 meine hopfenweisse 2.jpeg",
+              "Schneiderweisse tap 5 meine hopfenweisse 3.jpg",
+              "Schneiderweisse tap 6 mein aventinus.jpeg",
+              "Schneiderweisse tap 6 mein aventinus 2.jpeg",
+              "Schneiderweisse tap 6 unser aventinus.jpeg",
+              "Schneiderweisse tap 7 mein original.jpeg",
+              "Schneiderweisse tap 7 mein original 2.jpeg",
+              "Schneiderweisse tap 7 mein original 3.jpeg",
+              "Schneiderweisse tap 7 mein original 4.jpg",
+              "Schneiderweisse tap 9 aventinus eisbock 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Essen": {
+        "lat": 51.4582235,
+        "lon": 7.0158171,
+        "breweries": [
+          {
+            "name": "ALDI Nord Deutschland",
+            "caps": [
+              "Schultenbrau.jpeg"
+            ]
+          },
+          {
+            "name": "Privatbrauerei Jacob Stauder",
+            "caps": [
+              "Stauder helles bierchen.jpeg",
+              "Stauder original bierchen.jpeg"
+            ]
+          }
+        ]
+      },
+      "Stralsund": {
+        "lat": 54.3096314,
+        "lon": 13.0820846,
+        "breweries": [
+          {
+            "name": "Störtebeker Braumanufaktur",
+            "caps": [
+              "Störtebeker alkoholfrei.jpeg",
+              "Störtebeker atlantik-ale.jpeg",
+              "Störtebeker baltik-lager.jpeg",
+              "Störtebeker bernstein-weizen.jpeg",
+              "Störtebeker bernstein-weizen alkoholfrei.jpeg",
+              "Störtebeker eisbock eis lager.jpeg",
+              "Störtebeker eisbock arktik ale.jpeg",
+              "Störtebeker eisbock nordik porter.jpeg",
+              "Störtebeker frei-bier.jpeg",
+              "Störtebeker glüh-bierpunsch.jpeg",
+              "Störtebeker hanse-porter.jpeg",
+              "Störtebeker keller-bier 1402.jpeg",
+              "Störtebeker pilsener.jpeg",
+              "Störtebeker eisbock polar weizen.jpeg",
+              "Störtebeker roggen weizen.jpeg",
+              "Störtebeker Schwarz-bier.jpeg",
+              "Störtebeker Scotch-ale.jpeg",
+              "Störtebeker stark-bier.jpeg",
+              "Störtebeker ubersee pils.jpeg"
+            ]
+          }
+        ]
+      },
+      "Moers": {
+        "lat": 51.451283,
+        "lon": 6.62843,
+        "breweries": [
+          {
+            "name": "Trinkgut",
+            "caps": [
+              "Traugott Simon Export.jpeg",
+              "Traugott simon pilsener.jpeg"
+            ]
+          }
+        ]
+      },
+      "Dresden": {
+        "lat": 51.0493286,
+        "lon": 13.7381437,
+        "breweries": [
+          {
+            "name": "Vier Vogel",
+            "caps": [
+              "Vier vogel pils.jpeg"
+            ]
+          }
+        ]
+      },
+      "Warstein": {
+        "lat": 51.4458105,
+        "lon": 8.3536824,
+        "breweries": [
+          {
+            "name": "Warsteiner",
+            "caps": [
+              "Warsteiner 0.0 isotonisch.jpg",
+              "Warsteiner alkoholfrei.jpeg",
+              "Warsteiner alkoholfrei 2.jpg",
+              "Warsteiner alkoholfrei 3.jpg",
+              "Warsteiner alkoholfrei herb.jpg",
+              "Warsteiner brewers gold.jpeg",
+              "Warsteiner brewers gold 2.jpg",
+              "Warsteiner Herb.jpeg",
+              "Warsteiner herb 2.jpg",
+              "Warsteiner lemon.jpeg",
+              "Warsteiner pilsener.jpeg",
+              "Warsteiner radler.jpeg",
+              "Warsteiner radler 2.jpeg",
+              "Warsteiner winter.jpeg"
+            ]
+          }
+        ]
+      },
+      "Weltenburg": {
+        "lat": 48.8903152,
+        "lon": 11.8266329,
+        "breweries": [
+          {
+            "name": "Klosterbrauerei Weltenburg",
+            "caps": [
+              "Weltenburger.jpeg",
+              "Weltenburger Kloster.jpg"
+            ]
+          }
+        ]
+      },
+      "Zirndorf": {
+        "lat": 49.445762,
+        "lon": 10.9560462,
+        "breweries": [
+          {
+            "name": "Brauerei Zirndorf",
+            "caps": [
+              "Zirndorfer keller radler.jpeg"
+            ]
+          }
+        ]
+      },
+      "Rettenberg": {
+        "lat": 47.5874164,
+        "lon": 10.3111701,
+        "breweries": [
+          {
+            "name": "Privat-Brauerei Zötler",
+            "caps": [
+              "Zötler bier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Zwönitz": {
+        "lat": 50.6301029,
+        "lon": 12.8131994,
+        "breweries": [
+          {
+            "name": "Brauerei Zwönitz",
+            "caps": [
+              "Zwönitz.jpeg"
             ]
           }
         ]
