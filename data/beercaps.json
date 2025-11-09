@@ -5599,8 +5599,22 @@
             "caps": [
               "Hobgoblin black wych.jpeg",
               "Hobgoblin gold.jpeg",
+              "Hobgoblin gold 1.jpeg",
+              "Hobgoblin Gold 2.jpeg",
+              "Hobgoblin Gold 3.jpeg",
+              "Hobgoblin gold 4.jpeg",
               "Hobgoblin IPA.jpeg",
+              "Hobgoblin IPA 1.jpeg",
+              "Hobgoblin IPA 2.jpeg",
+              "Hobgoblin IPA 3.jpeg",
+              "Hobgoblin IPA 4.jpeg",
               "Hobgoblin ruby beer.jpeg",
+              "Hobgoblin Ruby beer 1.jpeg",
+              "Hobgoblin Ruby beer 2.jpeg",
+              "Hobgoblin ruby beer 3.jpeg",
+              "Hobgoblin Ruby beer 4.jpeg",
+              "Hobgoblin King Goblin Imperial ruby beer.jpeg",
+              "Marston's brewery.jpeg",
               "Wainwright.jpeg"
             ]
           }
@@ -5618,7 +5632,9 @@
           },
           {
             "name": "Samuel Smith",
-            "caps": []
+            "caps": [
+              "Samuel Smith's organic chocolate stout.jpeg"
+            ]
           }
         ]
       },
@@ -5667,7 +5683,8 @@
             "name": "Eagle Brewery",
             "caps": [
               "Bombardier.jpeg",
-              "Eagle brewery bombardier.jpeg"
+              "Eagle brewery bombardier.jpeg",
+              "Young's.jpeg"
             ]
           }
         ]
@@ -5723,7 +5740,9 @@
         "breweries": [
           {
             "name": "John Crabbie & Co",
-            "caps": []
+            "caps": [
+              "Crabbie's.jpeg"
+            ]
           }
         ]
       },
@@ -5733,7 +5752,9 @@
         "breweries": [
           {
             "name": "Cromarty Brewing Co.",
-            "caps": []
+            "caps": [
+              "Cromarty brewing.jpeg"
+            ]
           }
         ]
       },
@@ -5743,7 +5764,15 @@
         "breweries": [
           {
             "name": "Fuller's Griffin Brewery",
-            "caps": []
+            "caps": [
+              "Fuller's.jpeg",
+              "Fuller's ESB.jpeg",
+              "Fuller's london pride 10.jpeg",
+              "Fuller's London pride 12.jpeg",
+              "Fuller's london pride 2.jpeg",
+              "Fuller's london pride 4.jpeg",
+              "Fuller's London Pride 7.jpeg"
+            ]
           },
           {
             "name": "Meantime Brewing Company",
@@ -5785,6 +5814,7 @@
           {
             "name": "Robinsons Brewery",
             "caps": [
+              "Robinson's brewery.jpeg",
               "Trooper 1980 Iron Maiden.jpeg",
               "Trooper 1981 Killers.jpeg",
               "Trooper 1982 The number of the beast.jpeg",
@@ -5810,7 +5840,9 @@
         "breweries": [
           {
             "name": "Sadler's Ales",
-            "caps": []
+            "caps": [
+              "Sadler's ales.jpeg"
+            ]
           }
         ]
       },
@@ -5820,7 +5852,9 @@
         "breweries": [
           {
             "name": "St. Peter’s Brewery Co.",
-            "caps": []
+            "caps": [
+              "St Peter's brewery.jpeg"
+            ]
           }
         ]
       },
@@ -6391,7 +6425,10 @@
         "breweries": [
           {
             "name": "Nøgne Ø",
-            "caps": []
+            "caps": [
+              "Nøgne ø pale ale.jpeg",
+              "Nøgne ø Svart Hvit.jpeg"
+            ]
           }
         ]
       }
@@ -6563,7 +6600,9 @@
           {
             "name": "Zillertal Bier",
             "caps": [
+              "Zillertal bier.jpg",
               "Zillertal pils.jpg",
+              "Zillertal radler naturtrüb.jpg",
               "Zillertal weissbier dunkel.jpg",
               "Zillertal zeller hell.jpg"
             ]
@@ -6623,7 +6662,8 @@
             "caps": [
               "Gambrinus pils.jpeg",
               "Pilsner urquell.jpeg",
-              "Pilsner urquell 2.jpeg"
+              "Pilsner urquell 2.jpeg",
+              "Pilsner urquell 3.jpeg"
             ]
           },
           {
@@ -6709,7 +6749,9 @@
         "breweries": [
           {
             "name": "Unión de Cervecerías Peruanas Backus y Johnston",
-            "caps": []
+            "caps": [
+              "Cusqueña.jpeg"
+            ]
           }
         ]
       }
@@ -6815,7 +6857,9 @@
         "breweries": [
           {
             "name": "Tyskie Browary Książęce",
-            "caps": []
+            "caps": [
+              "Tyskie Gronie.jpeg"
+            ]
           }
         ]
       },
@@ -6852,6 +6896,7 @@
               "Musa Baltic Sabbath.jpeg",
               "Musa eye of the lager.jpg",
               "Musa hazy diamond.jpeg",
+              "Musa saison O'Connor.jpeg",
               "Musa Twist & Stout.jpeg"
             ]
           }
@@ -6917,7 +6962,9 @@
         "breweries": [
           {
             "name": "Heineken Asia Pacific",
-            "caps": []
+            "caps": [
+              "Tiger.jpeg"
+            ]
           }
         ]
       }
@@ -6932,7 +6979,9 @@
         "breweries": [
           {
             "name": "Reservoir Dogs Brewery",
-            "caps": []
+            "caps": [
+              "Reservoir dogs.jpeg"
+            ]
           }
         ]
       },
@@ -6958,6 +7007,7 @@
           {
             "name": "Grupo Cervezas Alhambra",
             "caps": [
+              "Alhambra reserva 1925.jpeg",
               "Alhambra reserva cerveza roja.jpg"
             ]
           }
@@ -6969,7 +7019,9 @@
         "breweries": [
           {
             "name": "Asturias Brewing Company",
-            "caps": []
+            "caps": [
+              "Asturias.jpg"
+            ]
           }
         ]
       },
@@ -7119,7 +7171,9 @@
         "breweries": [
           {
             "name": "Lion Brewery Ceylon",
-            "caps": []
+            "caps": [
+              "Lion.jpeg"
+            ]
           }
         ]
       }
@@ -7234,7 +7288,9 @@
         "breweries": [
           {
             "name": "Boulevard Brewing Co.",
-            "caps": []
+            "caps": [
+              "Boulevard brewing co..jpeg"
+            ]
           }
         ]
       },
@@ -7287,7 +7343,9 @@
         "breweries": [
           {
             "name": "New Holland Brewing",
-            "caps": []
+            "caps": [
+              "Dragon's milk.jpeg"
+            ]
           }
         ]
       },
@@ -7360,7 +7418,9 @@
         "breweries": [
           {
             "name": "Hoppin' Frog Brewery",
-            "caps": []
+            "caps": [
+              "Hoppin' frog brewery.jpeg"
+            ]
           }
         ]
       },
@@ -7386,6 +7446,7 @@
             "name": "Lagunitas Brewing Company",
             "caps": [
               "Lagunitas.jpeg",
+              "Lagunitas a little sumpin' sumpin' ale.jpeg",
               "Lagunitas daytime IPA.jpeg"
             ]
           }
@@ -7460,7 +7521,8 @@
               "Sierra Nevada Celebration Fresh Hop IPA.jpeg",
               "Sierra Nevada Hoptimum.jpeg",
               "Sierra Nevada Narwhal.jpeg",
-              "Sierra Nevada Wanderland.jpeg"
+              "Sierra Nevada Wanderland.jpeg",
+              "Sierra Nevada Pale Ale.jpeg"
             ]
           }
         ]
@@ -7484,6 +7546,7 @@
           {
             "name": "Stone Brewing",
             "caps": [
+              "Stone brewing company.jpeg",
               "Stone brewing company 2.jpeg"
             ]
           }
