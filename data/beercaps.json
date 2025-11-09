@@ -1839,8 +1839,8 @@
       }
     }
   },
-  "Nederland": {
-    "count": 1,
+  "Netherlands": {
+    "count": 11,
     "cities": {
       "Budel": {
         "lat": 51.2744706,
@@ -1850,6 +1850,38 @@
             "name": "Budelse Brouwerij",
             "caps": [
               "Batavier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Amsterdam": {
+        "lat": 52.3730796,
+        "lon": 4.8924534,
+        "breweries": [
+          {
+            "name": "Desperados NL",
+            "caps": [
+              "Desperados.jpeg",
+              "Desperados 2.jpeg",
+              "Desperados ginger.jpeg",
+              "Desperados lime.jpeg",
+              "Desperados mojito.jpeg",
+              "Desperados mojito 2.jpeg",
+              "Desperados red.jpeg",
+              "Desperados sangria.jpeg",
+              "Desperados virgin 0.0.jpeg"
+            ]
+          }
+        ]
+      },
+      "Best": {
+        "lat": 51.5033671,
+        "lon": 5.3938665,
+        "breweries": [
+          {
+            "name": "ALDI Nederland",
+            "caps": [
+              "Amigo.jpeg"
             ]
           }
         ]
@@ -2102,7 +2134,7 @@
     }
   },
   "Finland": {
-    "count": 1,
+    "count": 3,
     "cities": {
       "Lahti": {
         "lat": 60.9826257,
@@ -2111,7 +2143,20 @@
           {
             "name": "Hartwall",
             "caps": [
-              "Polar monkeys chair man IPA.jpeg"
+              "Polar monkeys chair man IPA.jpeg",
+              "Lapin Kulta.jpeg"
+            ]
+          }
+        ]
+      },
+      "Tampere": {
+        "lat": 61.4977929,
+        "lon": 23.7616372,
+        "breweries": [
+          {
+            "name": "Pyynikin Brewing Company",
+            "caps": [
+              "Pyynikki.jpeg"
             ]
           }
         ]
@@ -3247,6 +3292,996 @@
             "name": "Brauerei Zwönitz",
             "caps": [
               "Zwönitz.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Estonia": {
+    "count": 9,
+    "cities": {
+      "Keila": {
+        "lat": 59.3110918,
+        "lon": 24.420907,
+        "breweries": [
+          {
+            "name": "Lehe Pruulikoda",
+            "caps": [
+              "Lehe.jpeg"
+            ]
+          }
+        ]
+      },
+      "Tallinn": {
+        "lat": 59.4372419,
+        "lon": 24.7572802,
+        "breweries": [
+          {
+            "name": "Põhjala",
+            "caps": [
+              "Pohjala.jpeg",
+              "Pohjala cocobanger.jpeg",
+              "Pohjala Karneval.jpeg",
+              "Pohjala Virmalised.jpeg"
+            ]
+          }
+        ]
+      },
+      "Tartu": {
+        "lat": 58.3779528,
+        "lon": 26.7290023,
+        "breweries": [
+          {
+            "name": "Pühaste Brewery",
+            "caps": [
+              "Pühaste.jpeg",
+              "Pühaste 2.jpeg",
+              "Pühaste 3.jpeg",
+              "Sori brewing.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Ethiopia": {
+    "count": 1,
+    "cities": {
+      "Bole": {
+        "lat": 8.982254,
+        "lon": 38.8383871,
+        "breweries": [
+          {
+            "name": "Habesha Breweries",
+            "caps": [
+              "Habesha.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "France": {
+    "count": 38,
+    "cities": {
+      "Rueil-Malmaison": {
+        "lat": 48.87778,
+        "lon": 2.1802832,
+        "breweries": [
+          {
+            "name": "Heineken France",
+            "caps": [
+              "Adelscott.jpeg",
+              "Fischer.jpeg"
+            ]
+          }
+        ]
+      },
+      "Launois-sur-Vence": {
+        "lat": 49.6547305,
+        "lon": 4.5391314,
+        "breweries": [
+          {
+            "name": "ARDWEN - Société Ardennaise de Brasserie",
+            "caps": [
+              "Ardwen.jpeg"
+            ]
+          }
+        ]
+      },
+      "La Motte-Servolex": {
+        "lat": 45.5984113,
+        "lon": 5.8767935,
+        "breweries": [
+          {
+            "name": "Brasserie du Mont Blanc",
+            "caps": [
+              "Brasserie du Mont Blanc.jpeg"
+            ]
+          }
+        ]
+      },
+      "Blaringhem": {
+        "lat": 50.6915331,
+        "lon": 2.4042836,
+        "breweries": [
+          {
+            "name": "Brasserie du Pays Flamand",
+            "caps": [
+              "Brasserie du Pays Flamand.jpeg",
+              "Brasserie du pays flamand blonde.jpeg"
+            ]
+          }
+        ]
+      },
+      "La Chapelle-d'Armentières": {
+        "lat": 50.6727867,
+        "lon": 2.8965721,
+        "breweries": [
+          {
+            "name": "Brasserie Lepers",
+            "caps": [
+              "Brasserie Lepers L'angelus blonde.jpeg"
+            ]
+          }
+        ]
+      },
+      "Val-de-Moder": {
+        "lat": 48.8395866,
+        "lon": 7.6003933,
+        "breweries": [
+          {
+            "name": "Brasserie Uberach",
+            "caps": [
+              "Brasserie uberach.jpg"
+            ]
+          }
+        ]
+      },
+      "Bénifontaine": {
+        "lat": 50.4854775,
+        "lon": 2.830488,
+        "breweries": [
+          {
+            "name": "Brasserie Castelain",
+            "caps": [
+              "Ch'ti blonde.jpeg"
+            ]
+          }
+        ]
+      },
+      "Furiani": {
+        "lat": 42.6584811,
+        "lon": 9.4151285,
+        "breweries": [
+          {
+            "name": "Brasserie Pietra",
+            "caps": [
+              "Colomba.jpeg",
+              "Pietra.jpeg"
+            ]
+          }
+        ]
+      },
+      "Strasbourg": {
+        "lat": 48.584614,
+        "lon": 7.7507127,
+        "breweries": [
+          {
+            "name": "Lidl France",
+            "caps": [
+              "El tequito.jpeg"
+            ]
+          }
+        ]
+      },
+      "Saint-Denis": {
+        "lat": 48.935773,
+        "lon": 2.3580232,
+        "breweries": [
+          {
+            "name": "Brasseries de Bourbon",
+            "caps": [
+              "Heritage Blanche.jpeg"
+            ]
+          }
+        ]
+      },
+      "Maxéville": {
+        "lat": 48.7119046,
+        "lon": 6.1641314,
+        "breweries": [
+          {
+            "name": "Hoppy Road",
+            "caps": [
+              "Hoppy road.jpg"
+            ]
+          },
+          {
+            "name": "La Fabrique des GrÔ",
+            "caps": [
+              "La fabrique des Grô.jpg"
+            ]
+          }
+        ]
+      },
+      "Obernai": {
+        "lat": 48.4623358,
+        "lon": 7.4817123,
+        "breweries": [
+          {
+            "name": "Kronenbourg Brewery",
+            "caps": [
+              "Kronenbourg 1664.jpeg",
+              "Kronenbourg 1664 2.jpeg",
+              "Kronenbourg 1664 blanche.jpeg"
+            ]
+          },
+          {
+            "name": "Micro Brasserie La Bête à Biere",
+            "caps": [
+              "La Bête à Biere.jpg"
+            ]
+          }
+        ]
+      },
+      "Les Monts d'Aunay": {
+        "lat": 48.9907532,
+        "lon": -0.6760951,
+        "breweries": [
+          {
+            "name": "Brasserie de l'Odon",
+            "caps": [
+              "L'odon printemps.jpeg"
+            ]
+          }
+        ]
+      },
+      "Senones": {
+        "lat": 48.3951521,
+        "lon": 6.9816511,
+        "breweries": [
+          {
+            "name": "L'Opercule",
+            "caps": [
+              "L'Opercule.jpg"
+            ]
+          }
+        ]
+      },
+      "Marseille": {
+        "lat": 43.2961743,
+        "lon": 5.3699525,
+        "breweries": [
+          {
+            "name": "La Cagole de Marseille",
+            "caps": [
+              "La cacole biere blonde.jpeg"
+            ]
+          }
+        ]
+      },
+      "Giey-sur-Aujon": {
+        "lat": 47.9058798,
+        "lon": 5.0700133,
+        "breweries": [
+          {
+            "name": "Brasserie de Vauclair",
+            "caps": [
+              "La Choue.jpg"
+            ]
+          }
+        ]
+      },
+      "Angoulême": {
+        "lat": 45.6484505,
+        "lon": 0.1561947,
+        "breweries": [
+          {
+            "name": "La Débauche",
+            "caps": [
+              "La Debauche.jpeg"
+            ]
+          }
+        ]
+      },
+      "Arques": {
+        "lat": 50.7396639,
+        "lon": 2.3062068,
+        "breweries": [
+          {
+            "name": "Brasserie Goudale",
+            "caps": [
+              "La goudale.jpeg",
+              "La goudale grand cru.jpeg"
+            ]
+          }
+        ]
+      },
+      "Chanverrie": {
+        "lat": 46.9466925,
+        "lon": -0.9868361,
+        "breweries": [
+          {
+            "name": "Brasserie Mélusine",
+            "caps": [
+              "Melusine.jpg"
+            ]
+          }
+        ]
+      },
+      "Godewaersvelde": {
+        "lat": 50.7942556,
+        "lon": 2.6429118,
+        "breweries": [
+          {
+            "name": "Abbaye du Mont des Cats",
+            "caps": [
+              "Mont des cats.jpeg"
+            ]
+          }
+        ]
+      },
+      "Lyon": {
+        "lat": 45.7578137,
+        "lon": 4.8320114,
+        "breweries": [
+          {
+            "name": "Ninkasi",
+            "caps": [
+              "Ninkasi Ambrée.jpeg",
+              "Ninkasi Blonde.jpeg",
+              "Ninkasi French IPA.jpeg",
+              "Ninkasi Kilt 'Em All.jpeg",
+              "Ninkasi Noire.jpeg",
+              "Ninkasi Session IPA.jpeg",
+              "Ninkasi Triple.jpeg"
+            ]
+          }
+        ]
+      },
+      "Liverdun": {
+        "lat": 48.7494954,
+        "lon": 6.0630033,
+        "breweries": [
+          {
+            "name": "The Piggy Brewing Company",
+            "caps": [
+              "The piggy brewing company.jpeg",
+              "The piggy brewing company 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Haisnes": {
+        "lat": 50.5081773,
+        "lon": 2.8009381,
+        "breweries": [
+          {
+            "name": "Brasserie Artésienne",
+            "caps": [
+              "Brasserie Artésienne.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "French Polynesia": {
+    "count": 1,
+    "cities": {
+      "Papeete": {
+        "lat": -17.5373835,
+        "lon": -149.5659964,
+        "breweries": [
+          {
+            "name": "Brasserie de Tahiti",
+            "caps": [
+              "Hinano Tahiti.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Greece": {
+    "count": 3,
+    "cities": {
+      "Kyparissi": {
+        "lat": 35.1906944,
+        "lon": 25.0779643,
+        "breweries": [
+          {
+            "name": "Hellenic Brewery of Atalanti (EZA)",
+            "caps": [
+              "Blue island.jpeg"
+            ]
+          }
+        ]
+      },
+      "Kifissia": {
+        "lat": 38.0736082,
+        "lon": 23.8082244,
+        "breweries": [
+          {
+            "name": "Olympic Brewery",
+            "caps": [
+              "Mythos.jpeg"
+            ]
+          }
+        ]
+      },
+      "Serres": {
+        "lat": 41.0910711,
+        "lon": 23.5498031,
+        "breweries": [
+          {
+            "name": "Siris Microbrewery",
+            "caps": [
+              "Siris microbrewery.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Ireland": {
+    "count": 13,
+    "cities": {
+      "Muine Bheag": {
+        "lat": 52.7018267,
+        "lon": -6.9566623,
+        "breweries": [
+          {
+            "name": "Boyne Brewhouse",
+            "caps": [
+              "Boyne brewhouse.jpeg"
+            ]
+          }
+        ]
+      },
+      "Dublin": {
+        "lat": 53.3493795,
+        "lon": -6.2605593,
+        "breweries": [
+          {
+            "name": "Guinness",
+            "caps": [
+              "Guinness hop house lager.jpeg",
+              "Guinness west indies porter.jpeg",
+              "Guinness extra stout.jpeg",
+              "Guinness original.jpeg",
+              "Guinness special export.jpeg",
+              "Kilkenny.jpeg"
+            ]
+          }
+        ]
+      },
+      "Clonmel": {
+        "lat": 52.3610817,
+        "lon": -7.6991241,
+        "breweries": [
+          {
+            "name": "Magners Irish Cider",
+            "caps": [
+              "Magners.jpeg"
+            ]
+          }
+        ]
+      },
+      "Carlow": {
+        "lat": 52.8408344,
+        "lon": -6.9261131,
+        "breweries": [
+          {
+            "name": "O'Hara's Brewery",
+            "caps": [
+              "O'hara's irish extra stout.jpeg",
+              "O'hara's irish pale ale.jpeg",
+              "O'hara's irish red.jpeg",
+              "O'hara's irish stout.jpeg"
+            ]
+          }
+        ]
+      },
+      "Celbridge": {
+        "lat": 53.3383004,
+        "lon": -6.5396223,
+        "breweries": [
+          {
+            "name": "Rye River Brewing Company",
+            "caps": [
+              "The crafty brewing company Irish lager.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Iceland": {
+    "count": 2,
+    "cities": {
+      "Reykjavík": {
+        "lat": 64.145981,
+        "lon": -21.9422367,
+        "breweries": [
+          {
+            "name": "Borg Brugghús",
+            "caps": [
+              "Borg.jpeg"
+            ]
+          }
+        ]
+      },
+      "Akureyri": {
+        "lat": 65.6826364,
+        "lon": -18.0912993,
+        "breweries": [
+          {
+            "name": "Einstök Ölgerð",
+            "caps": [
+              "Einstök.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "United Kingdom": {
+    "count": 2,
+    "cities": {
+      "Burton-on-Trent": {
+        "lat": 52.802742,
+        "lon": -1.629917,
+        "breweries": [
+          {
+            "name": "Molson Coors (UK)",
+            "caps": [
+              "Cobra.jpeg",
+              "Cobra 2.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Indonesia": {
+    "count": 1,
+    "cities": {
+      "Tangerang": {
+        "lat": -6.1761924,
+        "lon": 106.6382161,
+        "breweries": [
+          {
+            "name": "PT Multi Bintang Indonesia Tbk.",
+            "caps": [
+              "Bintang.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Italy": {
+    "count": 24,
+    "cities": {
+      "Piozzo": {
+        "lat": 44.5156548,
+        "lon": 7.892257,
+        "breweries": [
+          {
+            "name": "BIRRIFICIO AGRICOLO BALADIN - Baladin Indipendente Italian Farm Brewery",
+            "caps": [
+              "Birra Baladin.jpeg"
+            ]
+          }
+        ]
+      },
+      "Borgorose": {
+        "lat": 42.1933543,
+        "lon": 13.2338183,
+        "breweries": [
+          {
+            "name": "Birra Del Borgo",
+            "caps": [
+              "Birra Del Borgo 25 Dodici.jpeg",
+              "Birra del Borgo LISA.jpeg",
+              "Birra del Borgo ReAle.jpeg",
+              "Birra del borgo santa punch IPA.jpeg"
+            ]
+          }
+        ]
+      },
+      "Gualdo Tadino": {
+        "lat": 43.2316518,
+        "lon": 12.7809617,
+        "breweries": [
+          {
+            "name": "Birra Flea",
+            "caps": [
+              "Birra Flea.jpeg",
+              "MAMA Birra Flea.jpg"
+            ]
+          }
+        ]
+      },
+      "Udine": {
+        "lat": 46.0634632,
+        "lon": 13.2358377,
+        "breweries": [
+          {
+            "name": "Birra Moretti",
+            "caps": [
+              "Birra moretti.jpeg",
+              "Birra Moretti IPA.jpg",
+              "Birra Moretti La Bianca.jpg",
+              "Birra moretti zero.jpg",
+              "Birra Moretti zero.jpg"
+            ]
+          }
+        ]
+      },
+      "Induno Olona": {
+        "lat": 45.8524484,
+        "lon": 8.839608,
+        "breweries": [
+          {
+            "name": "Birrificio Angelo Poretti",
+            "caps": [
+              "Birrificio angelo poretti 7 luppoli la fiorita.jpg"
+            ]
+          }
+        ]
+      },
+      "Soragna": {
+        "lat": 44.9281878,
+        "lon": 10.1235973,
+        "breweries": [
+          {
+            "name": "Birrificio del Ducato",
+            "caps": [
+              "Birrificio del ducato.jpeg"
+            ]
+          }
+        ]
+      },
+      "Codogno": {
+        "lat": 45.1600664,
+        "lon": 9.70437,
+        "breweries": [
+          {
+            "name": "BrewFist",
+            "caps": [
+              "Brewfist.jpeg",
+              "Brewfist italian ales.jpg"
+            ]
+          }
+        ]
+      },
+      "Pianoro": {
+        "lat": 44.392964,
+        "lon": 11.342314,
+        "breweries": [
+          {
+            "name": "Ca' del Brado",
+            "caps": [
+              "Ca' del Brado.jpeg"
+            ]
+          }
+        ]
+      },
+      "Milan": {
+        "lat": 45.4641943,
+        "lon": 9.1896346,
+        "breweries": [
+          {
+            "name": "Birrificio Lambrate",
+            "caps": [
+              "Lambrate.jpeg"
+            ]
+          }
+        ]
+      },
+      "Biella": {
+        "lat": 45.5669538,
+        "lon": 8.086912,
+        "breweries": [
+          {
+            "name": "G. Menabrea & Figli",
+            "caps": [
+              "Menabrea Blonda.jpg"
+            ]
+          }
+        ]
+      },
+      "Roma": {
+        "lat": 41.8933203,
+        "lon": 12.4829321,
+        "breweries": [
+          {
+            "name": "Birra Peroni",
+            "caps": [
+              "Peroni Libera.jpeg",
+              "Peroni nastro azzurro.jpeg"
+            ]
+          },
+          {
+            "name": "Abbazia Tre Fontane",
+            "caps": [
+              "Tre fontane scala coeli.jpeg",
+              "Tre fontane tripel.jpeg"
+            ]
+          }
+        ]
+      },
+      "Fidenza": {
+        "lat": 44.866522,
+        "lon": 10.0611939,
+        "breweries": [
+          {
+            "name": "Birra Toccalmatto",
+            "caps": [
+              "Toccalmatto Stray Dog no rules bitter.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Jamaica": {
+    "count": 1,
+    "cities": {
+      "Kingston": {
+        "lat": 17.9712148,
+        "lon": -76.7928128,
+        "breweries": [
+          {
+            "name": "Desnoes & Geddes",
+            "caps": [
+              "Red stripe.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Japan": {
+    "count": 4,
+    "cities": {
+      "Sumida-ku": {
+        "lat": 35.7104196,
+        "lon": 139.8017421,
+        "breweries": [
+          {
+            "name": "Asahi Breweries",
+            "caps": [
+              "Asahi.jpeg"
+            ]
+          }
+        ]
+      },
+      "Nakano-ku": {
+        "lat": 35.7086179,
+        "lon": 139.6629399,
+        "breweries": [
+          {
+            "name": "Kirin Brewery Company",
+            "caps": [
+              "Kirin Ichiban.jpeg"
+            ]
+          }
+        ]
+      },
+      "Naka-shi": {
+        "lat": 36.457227,
+        "lon": 140.4871772,
+        "breweries": [
+          {
+            "name": "Kiuchi Brewery",
+            "caps": [
+              "Kiuchi brewery.jpg"
+            ]
+          }
+        ]
+      },
+      "Shibuya-ku": {
+        "lat": 35.6633709,
+        "lon": 139.6964952,
+        "breweries": [
+          {
+            "name": "Sapporo Breweries",
+            "caps": [
+              "Sapporo.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Croatia": {
+    "count": 5,
+    "cities": {
+      "Poreč": {
+        "lat": 45.2271961,
+        "lon": 13.5957333,
+        "breweries": [
+          {
+            "name": "Bura Brew",
+            "caps": [
+              "Bura.jpg"
+            ]
+          }
+        ]
+      },
+      "Zagreb": {
+        "lat": 45.8130967,
+        "lon": 15.9772795,
+        "breweries": [
+          {
+            "name": "Pivovara Medvedgrad",
+            "caps": [
+              "Pivovara Medvedgrad.jpg",
+              "Pivovara medvedgrad pilsner.jpeg"
+            ]
+          },
+          {
+            "name": "Zmajska Pivovara",
+            "caps": [
+              "Zmajska pivovara.jpeg",
+              "Zmajska pivovara pale ale.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Laos": {
+    "count": 1,
+    "cities": {
+      "Vientiane": {
+        "lat": 17.9640988,
+        "lon": 102.6133707,
+        "breweries": [
+          {
+            "name": "Lao Brewery Co., Ltd",
+            "caps": [
+              "Beerlao.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Latvia": {
+    "count": 1,
+    "cities": {
+      "Riga": {
+        "lat": 56.9493977,
+        "lon": 24.1051846,
+        "breweries": [
+          {
+            "name": "Labietis. Pagan Brews",
+            "caps": [
+              "Labietis.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Lebanon": {
+    "count": 2,
+    "cities": {
+      "Mazraet Yachou": {
+        "lat": 33.9299369,
+        "lon": 35.6329493,
+        "breweries": [
+          {
+            "name": "Gravity Brewing Sal",
+            "caps": [
+              "961 beer.jpeg",
+              "Lebanese brew.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Lithuania": {
+    "count": 1,
+    "cities": {
+      "Vilnius": {
+        "lat": 54.6870458,
+        "lon": 25.2829111,
+        "breweries": [
+          {
+            "name": "Vilniaus Alus",
+            "caps": [
+              "Vilniaus.jpg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Luxembourg": {
+    "count": 7,
+    "cities": {
+      "Bascharage": {
+        "lat": 49.5712686,
+        "lon": 5.912845,
+        "breweries": [
+          {
+            "name": "Brasserie Nationale",
+            "caps": [
+              "Battin blanche.jpg",
+              "Battin extra.jpg",
+              "Battin fruitée.jpg",
+              "Battin gambrinus.jpg",
+              "Battin pils.jpg",
+              "Battin tripel.jpg",
+              "Bofferding.jpg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Morocco": {
+    "count": 1,
+    "cities": {
+      "Casablanca": {
+        "lat": 33.5945144,
+        "lon": -7.6200284,
+        "breweries": [
+          {
+            "name": "Groupe des Boissons du Maroc",
+            "caps": [
+              "Casablanca.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Mexico": {
+    "count": 5,
+    "cities": {
+      "Ciudad de México": {
+        "lat": 19.3207722,
+        "lon": -99.1514678,
+        "breweries": [
+          {
+            "name": "Grupo Modelo",
+            "caps": [
+              "Corona cero.jpg",
+              "Corona extra.jpeg",
+              "Corona extra 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Monterrey": {
+        "lat": 25.6802019,
+        "lon": -100.315258,
+        "breweries": [
+          {
+            "name": "Cervecería Cuauhtémoc Moctezuma S.A. de C.V.",
+            "caps": [
+              "Dos Equis.jpg"
+            ]
+          }
+        ]
+      },
+      "Tecate": {
+        "lat": 32.5653831,
+        "lon": -116.6298787,
+        "breweries": [
+          {
+            "name": "Cervecería Mexicana",
+            "caps": [
+              "Mexicali.jpeg"
             ]
           }
         ]
