@@ -1,0 +1,154 @@
+const map = L.map('map').setView([20, 0], 2);
+
+// Basemap
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 10
+}).addTo(map);
+
+// Load your data
+Promise.all([
+  fetch('data/world.geojson').then(r => r.json()),
+  fetch('data/beercaps.json').then(r => r.json())
+]).then(([world, capsData]) => {
+  
+  function getColor(countryName) {
+    const count = capsData[countryName]?.count || 0;
+
+    return count === 0 ? '#eee' :
+           count < 10 ? '#cce5ff' :
+           count < 30 ? '#66b2ff' :
+           '#0066cc';
+  }
+
+  L.geoJSON(world, {
+    style: feature => ({
+      color: "#333",
+      weight: 1,
+      fillColor: getColor(feature.properties.ADMIN),
+      fillOpacity: 0.8
+    }),
+    onEachFeature: (feature, layer) => {
+      const name = feature.properties.ADMIN;
+      layer.on('click', () => zoomToCountry(layer, name, capsData));
+    }
+  }).addTo(map);
+});
+
+function zoomToCountry(layer, name, capsData) {
+  map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+
+  const cities = capsData[name]?.cities;
+  if (!cities) return;
+
+  // Clear old markers
+  if (window.cityLayer) map.removeLayer(window.cityLayer);
+
+  const markers = [];
+
+  for (const cityName in cities) {
+    const c = cities[cityName];
+    markers.push(
+      L.marker([c.lat, c.lon])
+        .bindPopup(`<b>${cityName}</b><br>${Object.keys(c.breweries).length} breweries`)
+        .on('click', () => showCityBreweries(cityName, c))
+    );
+  }
+
+  window.cityLayer = L.layerGroup(markers).addTo(map);
+}
+
+function showCityBreweries(cityName, cityData) {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.style.display = 'block'; // show sidebar
+
+  // Sidebar content with close button
+  let html = `
+    <button id="close-sidebar" title="Close sidebar">&times;</button>
+    <h2>${cityName}</h2>
+    <ul style="list-style:none; padding-left:0;">
+  `;
+
+  cityData.breweries.forEach((brewery, index) => {
+    html += `
+      <li style="margin-bottom:8px;">
+        <button class="brewery-btn" data-index="${index}" style="background:none; border:none; color:blue; cursor:pointer; text-decoration:underline; font-size:16px;">
+          ${brewery.name}
+        </button>
+        <div class="caps" id="caps-${index}" style="display:none; margin-top:5px;"></div>
+      </li>
+    `;
+  });
+
+  html += `</ul>`;
+
+  sidebar.innerHTML = html;
+
+  // Add close button event
+  document.getElementById('close-sidebar').addEventListener('click', () => {
+    sidebar.style.display = 'none';
+  });
+
+  // Stop map zoom/pan when clicking inside sidebar
+  sidebar.addEventListener('click', e => {
+    e.stopPropagation();
+  });
+
+  // Add click event listeners to brewery buttons
+  document.querySelectorAll('.brewery-btn').forEach(button => {
+    button.addEventListener('click', (e) => {
+      const idx = e.target.dataset.index;
+      toggleCaps(cityData.breweries[idx], idx);
+    });
+  });
+}
+
+function toggleCaps(brewery, index) {
+  const capsDiv = document.getElementById(`caps-${index}`);
+  if (!capsDiv) return;
+
+  if (capsDiv.style.display === 'none') {
+    // Show caps
+    let html = '';
+    brewery.caps.forEach(capImg => {
+      html += `<img src="data/images/${capImg}" style="width:80px; margin:5px; border:1px solid #ccc; border-radius:4px;" alt="Cap image" />`;
+    });
+    capsDiv.innerHTML = html;
+    capsDiv.style.display = 'block';
+  } else {
+    // Hide caps
+    capsDiv.style.display = 'none';
+  }
+}
+
+function toggleCaps(brewery, index) {
+  const capsDiv = document.getElementById(`caps-${index}`);
+  if (!capsDiv) return;
+
+  if (capsDiv.style.display === 'none') {
+    // Show caps with clickable images revealing the name
+    let html = '';
+    brewery.caps.forEach(capImg => {
+      // Extract the cap name from the filename (remove extension)
+      const capName = capImg.replace(/\.(jpe?g|png|gif)$/i, '');
+
+      html += `
+        <div style="display:inline-block; margin:5px; text-align:center; cursor:pointer;">
+          <img 
+            src="data/images/${capImg}" 
+            style="width:80px; border:1px solid #ccc; border-radius:4px;" 
+            alt="Cap image"
+            onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none';"
+          />
+          <div style="display:none; font-size:12px; margin-top:4px; color:#333;">
+            ${capName}
+          </div>
+        </div>
+      `;
+    });
+    capsDiv.innerHTML = html;
+    capsDiv.style.display = 'block';
+  } else {
+    // Hide caps
+    capsDiv.style.display = 'none';
+  }
+}
