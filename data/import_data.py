@@ -15,6 +15,7 @@ images_dir = 'images'  # for image file existence checks (optional)
 
 
 
+
 city_geometries = {}
 
 # Load cities lat/lon into a dict: city_name -> (lat, lon)
@@ -36,6 +37,19 @@ with open(cities_csv_path, newline='', encoding='utf-8') as f:
 with open(raw_csv_path, newline='', encoding='utf-8') as f:
     reader = csv.DictReader(f, delimiter=';')
     raw_rows = list(reader)
+
+def find_image_case_insensitive(images_dir, base_name):
+    """Return actual filename matching base_name with .jpeg or .jpg, case-insensitive."""
+    base_lower = base_name.lower()
+
+    for file in os.listdir(images_dir):
+        fname_lower = file.lower()
+
+        if fname_lower == base_lower + ".jpeg" or fname_lower == base_lower + ".jpg":
+            return file  # return correct casing from disk
+
+    return None
+
 
 # Build the beercaps JSON structure
 beercaps_data = {}
@@ -73,22 +87,17 @@ for row in raw_rows:
         city_data['breweries'].append(brewery_data)
 
     # Determine cap image filename with .jpeg or .jpg
-    jpeg_file = crowncap + '.jpeg'
-    jpg_file = crowncap + '.jpg'
+    img_filename = find_image_case_insensitive(
+        os.path.join(BASE_DIR, images_dir),
+        crowncap
+    )
 
-    jpeg_path = os.path.join(BASE_DIR, images_dir, jpeg_file)
-    jpg_path = os.path.join(BASE_DIR, images_dir, jpg_file)
-
-    if os.path.exists(jpeg_path):
-        img_filename = jpeg_file
-    elif os.path.exists(jpg_path):
-        img_filename = jpg_file
+    if img_filename is None:
+        print(f"Warning: Image for '{crowncap}' not found (.jpeg/.jpg).")
     else:
-        print(f"Warning: Image file '{jpeg_file}' or '{jpg_file}' not found.")
-        img_filename = None  # no image found
+        if img_filename not in brewery_data['caps']:
+            brewery_data['caps'].append(img_filename)
 
-    if img_filename and img_filename not in brewery_data['caps']:
-        brewery_data['caps'].append(img_filename)
 
 
 # Write out beercaps.json
