@@ -34,28 +34,74 @@ Promise.all([
   }).addTo(map);
 });
 
+let cityLayer = null;
+let currentCountryLayer = null;
+
 function zoomToCountry(layer, name, capsData) {
   map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+
+  // Remove previous city layer if exists
+  if (cityLayer) {
+    cityLayer.remove();
+    cityLayer = null;
+  }
 
   const cities = capsData[name]?.cities;
   if (!cities) return;
 
-  // Clear old markers
-  if (window.cityLayer) map.removeLayer(window.cityLayer);
-
   const markers = [];
+
+  let totalCapsInCountry = 0;
 
   for (const cityName in cities) {
     const c = cities[cityName];
-    markers.push(
-      L.marker([c.lat, c.lon])
-        .bindPopup(`<b>${cityName}</b><br>${Object.keys(c.breweries).length} breweries`)
-        .on('click', () => showCityBreweries(cityName, c))
-    );
+    totalCapsInCountry += c.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0);
   }
 
-  window.cityLayer = L.layerGroup(markers).addTo(map);
+  for (const cityName in cities) {
+    const c = cities[cityName];
+
+    // Total caps count in city
+    const totalCaps = c.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0);
+
+    // Radius in meters - scale it as you want
+    // For example, base radius 5000m + 1000m per cap (adjust!)
+    const radiusMeters = 1000 + (totalCaps / totalCapsInCountry) * 100000;
+
+    const circle = L.circle([c.lat, c.lon], {
+      radius: radiusMeters,
+      fillColor: '#fc2626ff',
+      color: '#ff1100ff',
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.7,
+      pane: 'markerPane'
+    }).bindPopup(`<b>${cityName}</b><br>${totalCaps} crown caps<br>${c.breweries.length} breweries`)
+      .on('click', () => showCityBreweries(cityName, c));
+
+    markers.push(circle);
+  }
+
+  cityLayer = L.layerGroup(markers).addTo(map);
+  currentCountryLayer = layer;
 }
+
+// Remove city circles when clicking outside countries
+map.on('click', (e) => {
+  // If click target is NOT inside the current country polygon, remove cityLayer
+  if (!currentCountryLayer) return;
+
+  if (!currentCountryLayer.getBounds().contains(e.latlng)) {
+    if (cityLayer) {
+      cityLayer.remove();
+      cityLayer = null;
+    }
+    const sidebar = document.getElementById('sidebar');
+    sidebar.style.display = 'none';
+  }
+});
+
+
 
 function showCityBreweries(cityName, cityData) {
   const sidebar = document.getElementById('sidebar');
