@@ -1878,7 +1878,7 @@
     }
   },
   "Netherlands": {
-    "count": 403,
+    "count": 404,
     "cities": {
       "Budel": {
         "lat": 51.2744706,
@@ -1935,7 +1935,7 @@
           {
             "name": "Brouwerij 't IJ",
             "caps": [
-              "Brouwerij 't IJ.jpeg"
+              "Brouwerij 't IJ.jpg"
             ]
           },
           {
@@ -2794,6 +2794,12 @@
             "name": "Brouwerij & Proeflokaal Puik Bieren",
             "caps": [
               "Puik bieren.jpeg"
+            ]
+          },
+          {
+            "name": "Gymnasium Apeldoorn examenbier",
+            "caps": [
+              "Vosbiertje.jpeg"
             ]
           }
         ]
@@ -5992,7 +5998,8 @@
               "Birra Moretti.jpeg",
               "Birra Moretti ipa.jpg",
               "Birra Moretti la bianca.jpg",
-              "Birra Moretti zero.jpg"
+              "Birra Moretti zero.jpg",
+              "Birra moretti zero 2.jpg"
             ]
           }
         ]
@@ -6991,7 +6998,9 @@
         "breweries": [
           {
             "name": "Reset Brewery",
-            "caps": []
+            "caps": [
+              "Reset brewery.jpg"
+            ]
           }
         ]
       }
@@ -7674,7 +7683,9 @@
         "breweries": [
           {
             "name": "Fischerstube",
-            "caps": []
+            "caps": [
+              "Ueli bier.jpg"
+            ]
           }
         ]
       }
