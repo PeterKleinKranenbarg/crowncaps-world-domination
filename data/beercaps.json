@@ -1986,5 +1986,135 @@
         ]
       }
     }
+  },
+  "Denmark": {
+    "count": 15,
+    "cities": {
+      "Copenhagen": {
+        "lat": 55.6867243,
+        "lon": 12.5700724,
+        "breweries": [
+          {
+            "name": "Carlsberg Group",
+            "caps": [
+              "Carlsberg.jpeg",
+              "Carlsberg 2.jpeg",
+              "Skøll.jpeg",
+              "Somersby pear cider.jpeg"
+            ]
+          },
+          {
+            "name": "Mikkeller",
+            "caps": [
+              "Mikkeler year round.jpeg"
+            ]
+          }
+        ]
+      },
+      "Fur": {
+        "lat": 56.8213427,
+        "lon": 9.0020303,
+        "breweries": [
+          {
+            "name": "Fur Bryghus",
+            "caps": [
+              "Fur bock.jpeg"
+            ]
+          }
+        ]
+      },
+      "Herslev": {
+        "lat": 55.6695821,
+        "lon": 11.9834816,
+        "breweries": [
+          {
+            "name": "Herslev Bryghus",
+            "caps": [
+              "Herslev bryghus.jpeg"
+            ]
+          }
+        ]
+      },
+      "Charlottenlund": {
+        "lat": 55.7552973,
+        "lon": 12.5671103,
+        "breweries": [
+          {
+            "name": "Kissmeyer Beer & Brewing",
+            "caps": [
+              "Kissmeyer.jpeg"
+            ]
+          }
+        ]
+      },
+      "Svaneke": {
+        "lat": 55.136227,
+        "lon": 15.1411115,
+        "breweries": [
+          {
+            "name": "Svaneke Bryghus",
+            "caps": [
+              "Svaneke.jpeg"
+            ]
+          }
+        ]
+      },
+      "Thisted": {
+        "lat": 56.9562093,
+        "lon": 8.6848749,
+        "breweries": [
+          {
+            "name": "Thisted Bryghus",
+            "caps": [
+              "Thisted Bryghus Brugge.jpeg"
+            ]
+          }
+        ]
+      },
+      "Svinninge": {
+        "lat": 55.7200463,
+        "lon": 11.4613759,
+        "breweries": [
+          {
+            "name": "To Øl",
+            "caps": [
+              "To ol.jpeg",
+              "To ol 2.jpeg",
+              "To ol 3.jpeg",
+              "To ol groot.jpg"
+            ]
+          }
+        ]
+      },
+      "Viborg": {
+        "lat": 56.4469128,
+        "lon": 9.4059354,
+        "breweries": [
+          {
+            "name": "Viborg Bryghus",
+            "caps": [
+              "Viborg Latinerhaven.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Finland": {
+    "count": 1,
+    "cities": {
+      "Lahti": {
+        "lat": 60.9826257,
+        "lon": 25.66137,
+        "breweries": [
+          {
+            "name": "Hartwall",
+            "caps": [
+              "Polar monkeys chair man IPA.jpeg"
+            ]
+          }
+        ]
+      }
+    }
   }
 }
