@@ -79,7 +79,7 @@
     }
   },
   "Belgium": {
-    "count": 554,
+    "count": 564,
     "cities": {
       "Thuin": {
         "lat": 50.3397445,
@@ -420,6 +420,12 @@
               "Martha sweet red.jpg",
               "Martha wild blond.jpeg",
               "Martha wild red.jpg"
+            ]
+          },
+          {
+            "name": "Hugel",
+            "caps": [
+              "Zeven zonden.jpg"
             ]
           }
         ]
@@ -1352,7 +1358,8 @@
               "Kompel ondergronds.jpeg",
               "Kompel ondergronds 2.jpeg",
               "Kompel prion des fleurs.jpeg",
-              "Kompel Tripel Hop.jpeg"
+              "Kompel Tripel Hop.jpeg",
+              "Kompel winter.jpg"
             ]
           }
         ]
@@ -1836,11 +1843,30 @@
             ]
           }
         ]
+      },
+      "Hoogstraten": {
+        "lat": 51.4012894,
+        "lon": 4.7616865,
+        "breweries": [
+          {
+            "name": "Scheldebrouwerij",
+            "caps": [
+              "Schelde brouwerij.jpeg",
+              "Schelde brouwerij dulle griet.jpg",
+              "Schelde brouwerij hopruiter.jpg",
+              "Schelde brouwerij krab.jpg",
+              "Schelde brouwerij oester stout.jpg",
+              "Schelde brouwerij witheer.jpg",
+              "Schelde brouwerij zeezuiper.jpg",
+              "Schelde strandgaper.jpg"
+            ]
+          }
+        ]
       }
     }
   },
   "Netherlands": {
-    "count": 11,
+    "count": 403,
     "cities": {
       "Budel": {
         "lat": 51.2744706,
@@ -1849,7 +1875,10 @@
           {
             "name": "Budelse Brouwerij",
             "caps": [
-              "Batavier.jpeg"
+              "Batavier.jpeg",
+              "Budels Weizen.jpeg",
+              "Capucijn.jpeg",
+              "Witte Parel.jpeg"
             ]
           }
         ]
@@ -1871,6 +1900,109 @@
               "Desperados sangria.jpeg",
               "Desperados virgin 0.0.jpeg"
             ]
+          },
+          {
+            "name": "Brouwerij Asperius",
+            "caps": [
+              "Asperius.jpeg"
+            ]
+          },
+          {
+            "name": "De Bierfabriek",
+            "caps": [
+              "Bier fabriek.jpeg"
+            ]
+          },
+          {
+            "name": "Breugem Bier",
+            "caps": [
+              "Breugem.jpeg",
+              "Breugem 2.jpg"
+            ]
+          },
+          {
+            "name": "Brouwerij 't IJ",
+            "caps": [
+              "Brouwerij 't IJ.jpeg"
+            ]
+          },
+          {
+            "name": "Bierverbond",
+            "caps": [
+              "Brouwerij bierverbond.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij De 7 Deugden",
+            "caps": [
+              "Brouwerij de 7 deugden.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij de Eeuwige Jeugd",
+            "caps": [
+              "Brouwerij de eeuwige jeugd.jpeg",
+              "Brouwerij de eeuwige jeugd 2.jpg"
+            ]
+          },
+          {
+            "name": "Brouwerij Het Paleisje",
+            "caps": [
+              "Brouwerij het paleisje.jpg",
+              "Het paleisje.jpeg"
+            ]
+          },
+          {
+            "name": "Cinema Brewers",
+            "caps": [
+              "Cinema Brewers.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij De Prael Amsterdam",
+            "caps": [
+              "De Prael.jpeg"
+            ]
+          },
+          {
+            "name": "Low Five Brewing",
+            "caps": [
+              "Low five brewing.jpeg"
+            ]
+          },
+          {
+            "name": "Lowlander Botanical Beer",
+            "caps": [
+              "Lowlander.jpeg",
+              "Lowlander 2.jpeg"
+            ]
+          },
+          {
+            "name": "Oedipus Brewing",
+            "caps": [
+              "Oedipus.jpeg",
+              "Oedipus 2.jpeg",
+              "Oedipus 3.jpg",
+              "Oedipus collaboration.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij Troost",
+            "caps": [
+              "Troost.jpeg",
+              "Troost Honingblond.jpeg",
+              "Troost IPA.jpeg",
+              "Troost Tropicana.jpeg",
+              "Troost Winterbier.jpeg"
+            ]
+          },
+          {
+            "name": "Two Chefs Brewing",
+            "caps": [
+              "Two chefs brewing.jpeg",
+              "Two chefs brewing 2.jpeg",
+              "Two chefs brewing 3.jpeg"
+            ]
           }
         ]
       },
@@ -1879,9 +2011,1605 @@
         "lon": 5.3938665,
         "breweries": [
           {
-            "name": "ALDI Nederland",
+            "name": "ALDI Netherlands",
             "caps": [
               "Amigo.jpeg"
+            ]
+          }
+        ]
+      },
+      "Eindhoven": {
+        "lat": 51.4485569,
+        "lon": 5.4501225,
+        "breweries": [
+          {
+            "name": "100 Watt Brewery",
+            "caps": [
+              "100 Watt Stadsbrouwerij Eindhoven.jpeg",
+              "100 Watt Stadsbrouwerij Eindhoven 2.jpeg",
+              "100 Watt Stadsbrouwerij Eindhoven 3.jpeg"
+            ]
+          },
+          {
+            "name": "Van Moll",
+            "caps": [
+              "van Moll.jpeg",
+              "van Moll 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Zaandam": {
+        "lat": 52.4424926,
+        "lon": 4.8298607,
+        "breweries": [
+          {
+            "name": "Brouwers",
+            "caps": [
+              "AH basic.jpeg",
+              "AH premium lager.jpeg",
+              "Brouwers 0.0.jpeg",
+              "Brouwers 2.5.jpeg",
+              "Brouwers bockbier.jpg",
+              "Brouwers IPA.jpeg",
+              "Brouwers pilsener.jpeg",
+              "Brouwers pilsener draaidop.jpeg",
+              "Brouwers Premium Bier.jpeg",
+              "Brouwers tripel.jpeg",
+              "Brouwers weijzen.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij Piek",
+            "caps": [
+              "Brouwerij piek.jpg"
+            ]
+          }
+        ]
+      },
+      "Colmschate": {
+        "lat": 52.2500936,
+        "lon": 6.2242533,
+        "breweries": [
+          {
+            "name": "Alderbastend Bieren",
+            "caps": [
+              "Alderbastend bieren.jpeg"
+            ]
+          }
+        ]
+      },
+      "Schinnen": {
+        "lat": 50.9425257,
+        "lon": 5.8861938,
+        "breweries": [
+          {
+            "name": "Alfa Bierbrouwerij",
+            "caps": [
+              "Alfa edel pils.jpeg"
+            ]
+          }
+        ]
+      },
+      "Zoeterwoude": {
+        "lat": 52.1146987,
+        "lon": 4.5047558,
+        "breweries": [
+          {
+            "name": "Amstel Bier",
+            "caps": [
+              "Amstel 0.0.jpeg",
+              "Amstel 0.0 2.jpeg",
+              "Amstel 0.0 3.jpeg",
+              "Amstel bright.jpeg",
+              "Amstel pilsner.jpeg",
+              "Amstel pilsner 2.jpeg",
+              "Amstel pilsner 3.jpeg",
+              "Amstel pilsner 4.jpeg",
+              "Amstel pilsner 5.jpg",
+              "Amstel radler.jpeg",
+              "Amstel radler 0.0.jpeg",
+              "Amstel Radler 0.0 2.jpg",
+              "Amstel radler 0.0 fris.jpeg",
+              "Amstel Radler 2.jpg",
+              "Amstel radler fris 0.0 2.jpeg",
+              "Amstel witbier Radler 0.0.jpg"
+            ]
+          },
+          {
+            "name": "Heineken",
+            "caps": [
+              "Heineken.jpeg",
+              "Heineken 0.0.jpeg",
+              "Heineken 0.0 draaidop.jpeg",
+              "Heineken 0.0 draaidop 2.jpeg",
+              "Heineken draaidop.jpeg",
+              "Heineken draaidop 2.jpeg",
+              "Heineken H41.jpeg",
+              "Heineken oud bruin.jpeg",
+              "Heineken oud bruin oud.jpeg",
+              "Heineken silver.jpeg",
+              "Heineken tarwebok.jpeg",
+              "Heineken tarwebok 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Lieshout": {
+        "lat": 51.5179298,
+        "lon": 5.5953771,
+        "breweries": [
+          {
+            "name": "Royal Swinkels",
+            "caps": [
+              "Bavaria.jpeg",
+              "Bavaria 0.0.jpeg",
+              "Bavaria 0.0 2.jpeg",
+              "Bavaria 2.jpeg",
+              "Bavaria draaidop.jpeg",
+              "Bavaria oud bruin.jpeg",
+              "Bavaria radler 0.0.jpeg",
+              "Claro.jpeg",
+              "Keizerskroon.jpeg",
+              "Swinckels.jpeg",
+              "Swinckels 0.0.jpeg"
+            ]
+          }
+        ]
+      },
+      "Groningen": {
+        "lat": 53.2190652,
+        "lon": 6.5680077,
+        "breweries": [
+          {
+            "name": "Baxbier",
+            "caps": [
+              "Baxbier.jpeg"
+            ]
+          },
+          {
+            "name": "Graansilo",
+            "caps": [
+              "Graansilo.jpg"
+            ]
+          },
+          {
+            "name": "Brouwerij Martinus",
+            "caps": [
+              "Martinus.jpeg"
+            ]
+          }
+        ]
+      },
+      "Velsen-Noord": {
+        "lat": 52.4738528,
+        "lon": 4.6379311,
+        "breweries": [
+          {
+            "name": "Brookland Products",
+            "caps": [
+              "Best bier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Uitgeest": {
+        "lat": 52.523294,
+        "lon": 4.737467,
+        "breweries": [
+          {
+            "name": "Bier Door Mannen",
+            "caps": [
+              "Bier door mannen.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hulst": {
+        "lat": 51.3315936,
+        "lon": 4.0877328,
+        "breweries": [
+          {
+            "name": "Bierbrouwerij Vermeersen",
+            "caps": [
+              "Bierbrouwerij Vermeersen.jpeg",
+              "Bierbrouwerij Vermeersen 2.jpg"
+            ]
+          }
+        ]
+      },
+      "Zaandijk": {
+        "lat": 52.4744145,
+        "lon": 4.8080282,
+        "breweries": [
+          {
+            "name": "Blaes",
+            "caps": [
+              "Blaes Cabron.jpg"
+            ]
+          },
+          {
+            "name": "Brouwerij Hoop",
+            "caps": [
+              "Hoop.jpeg",
+              "Hoop 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Almere": {
+        "lat": 52.4417513,
+        "lon": 5.2092943,
+        "breweries": [
+          {
+            "name": "Bolschout",
+            "caps": [
+              "Bolschout ster.jpeg"
+            ]
+          }
+        ]
+      },
+      "Dokkum": {
+        "lat": 53.3243515,
+        "lon": 5.9992306,
+        "breweries": [
+          {
+            "name": "Bonifatius 754",
+            "caps": [
+              "Bonifatius bier.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij Dockum",
+            "caps": [
+              "Brouwerij Dockum.jpeg"
+            ]
+          }
+        ]
+      },
+      "Oosterhout": {
+        "lat": 51.6322376,
+        "lon": 4.8630424,
+        "breweries": [
+          {
+            "name": "Brouwerij Bourgogne Kruis",
+            "caps": [
+              "Bourgogne kruis.jpg"
+            ]
+          }
+        ]
+      },
+      "Lichtenvoorde": {
+        "lat": 51.9890577,
+        "lon": 6.5716944,
+        "breweries": [
+          {
+            "name": "Bourgondische Broeders",
+            "caps": [
+              "Bourgondische broeders.jpeg"
+            ]
+          }
+        ]
+      },
+      "Enschede": {
+        "lat": 52.2209855,
+        "lon": 6.8940537,
+        "breweries": [
+          {
+            "name": "Bracque",
+            "caps": [
+              "Bracque.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij Eanske",
+            "caps": [
+              "Brouwerij eanske.jpeg"
+            ]
+          },
+          {
+            "name": "Koninklijke Grolsch",
+            "caps": [
+              "De Klok.jpeg",
+              "Grolsch.jpeg",
+              "Grolsch 0.0.jpeg",
+              "Grolsch 0.0 2.jpeg",
+              "Grolsch 0.0 3.jpg",
+              "Grolsch 0.0 radler citroen.jpeg",
+              "Grolsch 0.0 radler limoen.jpeg",
+              "Grolsch 0.0 radler minder zoet.jpeg",
+              "Grolsch beugel.jpeg",
+              "Grolsch beugel groot.jpeg",
+              "Grolsch blonde saison.jpeg",
+              "Grolsch draaidop.jpeg",
+              "Grolsch dunkel weizen.jpeg",
+              "Grolsch flesopener gebruiken.jpg",
+              "Grolsch Herfstbier 0.0.jpeg",
+              "Grolsch IPA.jpeg",
+              "Grolsch kanon.jpeg",
+              "Grolsch kanon 2.jpeg",
+              "Grolsch Kornuit.jpeg",
+              "Grolsch kornuit nieuw.jpeg",
+              "Grolsch lentebok.jpeg",
+              "Grolsch lentebok 2.jpeg",
+              "Grolsch premium lager.jpeg",
+              "Grolsch premium pilsner 1994.jpeg",
+              "Grolsch premium pilsner 1996.jpeg",
+              "Grolsch radler.jpeg",
+              "Grolsch radler 0.0 2.jpg",
+              "Grolsch radler oud.jpeg",
+              "Grolsch rijke herfstbok.jpeg",
+              "Grolsch session ipa.jpeg",
+              "Grolsch speciaalbier.jpg",
+              "Grolsch Stender bier 1992.jpeg",
+              "Grolsch weizen.jpeg",
+              "Grolsch weizen 0.0.jpeg",
+              "Grolsch weizen ipa.jpeg",
+              "Grolsch wilde amber.jpeg",
+              "Grolsch winterbok.jpeg",
+              "Grolsch zomerbok.jpeg",
+              "Grolsch zomerbok 2.jpeg"
+            ]
+          },
+          {
+            "name": "Jongbloed Cerveza",
+            "caps": [
+              "Jongbloed.jpeg",
+              "Jongbloed belastingplan 2020.jpeg",
+              "Jongbloed belastingplan 2022.jpeg",
+              "Jongbloed Box 3 Tripel.jpeg",
+              "Jongbloed tax free willy.jpeg",
+              "Jongbloed vakantiedag.jpeg"
+            ]
+          },
+          {
+            "name": "Stanislaus Brewskovitch Craft Beer",
+            "caps": [
+              "Stanislaus brewskovitch black.jpeg",
+              "Stanislaus Brewskovitch red.jpeg"
+            ]
+          }
+        ]
+      },
+      "Wijlre": {
+        "lat": 50.8319039,
+        "lon": 5.8947023,
+        "breweries": [
+          {
+            "name": "Brand Bierbrouwerij",
+            "caps": [
+              "Brand blond.jpeg",
+              "Brand blond 2.jpeg",
+              "Brand dubbelbock.jpeg",
+              "Brand gose.jpeg",
+              "Brand herfstbier.jpeg",
+              "Brand imperator.jpeg",
+              "Brand ipa.jpeg",
+              "Brand IPA 0.0.jpeg",
+              "Brand IPA 2.jpeg",
+              "Brand krachtig blond.jpeg",
+              "Brand lentebock.jpeg",
+              "Brand lentebock 2.jpeg",
+              "Brand ongefilterd pilsener.jpeg",
+              "Brand oud bruin.jpeg",
+              "Brand pilsener.jpeg",
+              "Brand porter.jpeg",
+              "Brand session ipa.jpeg",
+              "Brand sylvester.jpeg",
+              "Brand up.jpeg",
+              "Brand weizen.jpeg",
+              "Brand weizen 0.0.jpeg",
+              "Brand winterbock.jpeg",
+              "Brand zwaar blond.jpeg"
+            ]
+          }
+        ]
+      },
+      "Rha": {
+        "lat": 52.0532469,
+        "lon": 6.1509325,
+        "breweries": [
+          {
+            "name": "Bronckhorster Brewing Company",
+            "caps": [
+              "Bronckhorster.jpeg",
+              "Bronckhorster 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Utrecht": {
+        "lat": 52.0907006,
+        "lon": 5.1215634,
+        "breweries": [
+          {
+            "name": "Brothers In Law Brewing",
+            "caps": [
+              "Brothers in law.jpeg"
+            ]
+          },
+          {
+            "name": "Stadskasteel Oudaen",
+            "caps": [
+              "Brouwerij Oudaen.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij De Leckere",
+            "caps": [
+              "De Leckere.jpeg",
+              "De Leckere 2.jpeg",
+              "Dutch beer challenge gold medal 2018 (de leckere pils).jpeg"
+            ]
+          },
+          {
+            "name": "Maximus Brouwerij",
+            "caps": [
+              "Maximus.jpeg"
+            ]
+          },
+          {
+            "name": "Oproer Brouwerij",
+            "caps": [
+              "Nachtwerk 2 Oproer & Eleven Brewery.jpeg"
+            ]
+          },
+          {
+            "name": "Rare Jongens",
+            "caps": [
+              "Rare jongens.jpeg"
+            ]
+          },
+          {
+            "name": "vandeStreek bier",
+            "caps": [
+              "Vandestreek.jpeg",
+              "Vandestreek 2.jpeg",
+              "Vandestreek 3.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hoeven": {
+        "lat": 51.5802562,
+        "lon": 4.5875432,
+        "breweries": [
+          {
+            "name": "Brouwerij 't Meuleneind",
+            "caps": [
+              "Brouwerij 't Meuleneind.jpeg",
+              "Carnaval's vaccin 1.jpeg",
+              "Carnaval's vaccin 2.jpeg",
+              "Carnaval's vaccin 3.jpeg",
+              "Spar.jpeg",
+              "Spar Blond.jpeg",
+              "Spar Bock.jpeg",
+              "Spar IPA.jpeg",
+              "Spar Quadrupel.jpeg",
+              "Spar tripel.jpeg",
+              "Spar W.I.P.A.jpeg"
+            ]
+          }
+        ]
+      },
+      "Dronten": {
+        "lat": 52.5236608,
+        "lon": 5.7160381,
+        "breweries": [
+          {
+            "name": "Brouwerij Artemis",
+            "caps": [
+              "Brouwerij Artemis.jpg"
+            ]
+          },
+          {
+            "name": "Brouwerij Praght",
+            "caps": [
+              "Praght.jpg"
+            ]
+          }
+        ]
+      },
+      "Dedemsvaart": {
+        "lat": 52.5996262,
+        "lon": 6.4593207,
+        "breweries": [
+          {
+            "name": "Brouwerij Avereest",
+            "caps": [
+              "Brouwerij Avereest.jpeg"
+            ]
+          }
+        ]
+      },
+      "Limmen": {
+        "lat": 52.5718803,
+        "lon": 4.6937182,
+        "breweries": [
+          {
+            "name": "Dampegheest",
+            "caps": [
+              "Brouwerij dampegheest.jpeg"
+            ]
+          }
+        ]
+      },
+      "Nijmegen": {
+        "lat": 51.8474946,
+        "lon": 5.8637771,
+        "breweries": [
+          {
+            "name": "Brouwerij De Hemel",
+            "caps": [
+              "Brouwerij de Hemel.jpeg"
+            ]
+          },
+          {
+            "name": "Guilty Monkey Brewery",
+            "caps": [
+              "Guilty monkey.jpg"
+            ]
+          },
+          {
+            "name": "Bierbrouwerij Het Hert",
+            "caps": [
+              "Het hert brouwerij.jpeg"
+            ]
+          },
+          {
+            "name": "Oersoep",
+            "caps": [
+              "Oersoep.jpeg",
+              "Oersoep 2.jpg"
+            ]
+          }
+        ]
+      },
+      "Venlo": {
+        "lat": 51.3924489,
+        "lon": 6.1511724,
+        "breweries": [
+          {
+            "name": "Brouwerij De Klep",
+            "caps": [
+              "Brouwerij de klep.jpg"
+            ]
+          }
+        ]
+      },
+      "Bodegraven": {
+        "lat": 52.0834347,
+        "lon": 4.7510872,
+        "breweries": [
+          {
+            "name": "Brouwerij de Molen",
+            "caps": [
+              "Brouwerij de Molen.jpeg",
+              "Brouwerij de Molen 2.jpeg",
+              "Brouwerij de Molen 3.jpg"
+            ]
+          },
+          {
+            "name": "Brouwerij Kraan",
+            "caps": [
+              "Kraanwater.jpeg"
+            ]
+          }
+        ]
+      },
+      "Goor": {
+        "lat": 52.2321562,
+        "lon": 6.5809004,
+        "breweries": [
+          {
+            "name": "Brouwerie De Olde Bandiek",
+            "caps": [
+              "Brouwerij de Olde bandiek.jpg"
+            ]
+          }
+        ]
+      },
+      "Enkhuizen": {
+        "lat": 52.7036282,
+        "lon": 5.2901222,
+        "breweries": [
+          {
+            "name": "Brouwerij De Werf",
+            "caps": [
+              "Brouwerij de werf.jpeg"
+            ]
+          }
+        ]
+      },
+      "Velp": {
+        "lat": 51.9958671,
+        "lon": 5.9751252,
+        "breweries": [
+          {
+            "name": "Brouwerij Durs",
+            "caps": [
+              "Brouwerij Durs.jpeg",
+              "Brouwerij Durs 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Rotterdam": {
+        "lat": 51.9244424,
+        "lon": 4.47775,
+        "breweries": [
+          {
+            "name": "Brouwerij Groos",
+            "caps": [
+              "Brouwerij Groos.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij Noordt",
+            "caps": [
+              "Brouwerij Noordt.jpeg"
+            ]
+          },
+          {
+            "name": "Kaapse Brouwers",
+            "caps": [
+              "Kaapse brouwers.jpeg"
+            ]
+          },
+          {
+            "name": "JELSTER",
+            "caps": [
+              "JELSTER.jpg"
+            ]
+          },
+          {
+            "name": "Stadsbrouwerij De Pelgrim",
+            "caps": [
+              "Pelgrim.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij Quispel",
+            "caps": [
+              "Quispel.jpg"
+            ]
+          },
+          {
+            "name": "Stadshaven Brouwerij",
+            "caps": [
+              "Stadshaven brouwerij.jpeg"
+            ]
+          }
+        ]
+      },
+      "Weert": {
+        "lat": 51.2355829,
+        "lon": 5.7050797,
+        "breweries": [
+          {
+            "name": "Brouwerij In De Nacht",
+            "caps": [
+              "Brouwerij in de nacht chocoholic.jpeg",
+              "Brouwerij in de nacht liquid stout.jpeg"
+            ]
+          }
+        ]
+      },
+      "Middelburg": {
+        "lat": 51.4996784,
+        "lon": 3.6137371,
+        "breweries": [
+          {
+            "name": "Brouwerij Kees",
+            "caps": [
+              "Brouwerij Kees.jpeg"
+            ]
+          }
+        ]
+      },
+      "Breda": {
+        "lat": 51.5887845,
+        "lon": 4.7760237,
+        "breweries": [
+          {
+            "name": "Brouwerij Witte Anker",
+            "caps": [
+              "Brouwerij Witte anker.jpeg"
+            ]
+          },
+          {
+            "name": "Melman Brouwerij",
+            "caps": [
+              "Melman Brouwerij.jpg"
+            ]
+          },
+          {
+            "name": "Naastbos Brouwerij",
+            "caps": [
+              "Naastbos brouwerij.jpeg"
+            ]
+          },
+          {
+            "name": "Speciaalbierbrouwerij St. Christoffel",
+            "caps": [
+              "St. Christoffel.jpeg"
+            ]
+          },
+          {
+            "name": "United Dutch Breweries",
+            "caps": [
+              "Trio stout.jpeg",
+              "X-Mark Vodka Beer.jpeg"
+            ]
+          }
+        ]
+      },
+      "Groenlo": {
+        "lat": 52.0425903,
+        "lon": 6.6170412,
+        "breweries": [
+          {
+            "name": "Brouwersnös",
+            "caps": [
+              "Brouwersnös.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ermelo": {
+        "lat": 52.2858356,
+        "lon": 5.6549386,
+        "breweries": [
+          {
+            "name": "Burg Bier Brouwerij",
+            "caps": [
+              "Burg bier brouwerij.jpg"
+            ]
+          }
+        ]
+      },
+      "Apeldoorn": {
+        "lat": 52.1795738,
+        "lon": 5.9300775,
+        "breweries": [
+          {
+            "name": "Brouwerij de Buurmannen",
+            "caps": [
+              "Buurmannen Bier.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij & Proeflokaal Puik Bieren",
+            "caps": [
+              "Puik bieren.jpeg"
+            ]
+          }
+        ]
+      },
+      "Arnhem": {
+        "lat": 52.0056642,
+        "lon": 5.8762345,
+        "breweries": [
+          {
+            "name": "Brouwerij CC",
+            "caps": [
+              "CC American wheat ale.jpeg"
+            ]
+          }
+        ]
+      },
+      "Deventer": {
+        "lat": 52.2694896,
+        "lon": 6.2364886,
+        "breweries": [
+          {
+            "name": "DAVO",
+            "caps": [
+              "Davo.jpeg"
+            ]
+          }
+        ]
+      },
+      "Heemstede": {
+        "lat": 52.3528406,
+        "lon": 4.6217323,
+        "breweries": [
+          {
+            "name": "De Gekroonde Merlet",
+            "caps": [
+              "De gekroonde merlet.jpg"
+            ]
+          }
+        ]
+      },
+      "Delft": {
+        "lat": 52.0114017,
+        "lon": 4.35839,
+        "breweries": [
+          {
+            "name": "Stadsbrouwerij De Koperen Kat",
+            "caps": [
+              "De koperen kat.jpeg"
+            ]
+          }
+        ]
+      },
+      "Almkerk": {
+        "lat": 51.7705707,
+        "lon": 4.9606525,
+        "breweries": [
+          {
+            "name": "Bierbrouwerij De Magistraat",
+            "caps": [
+              "De magistraat 1.jpeg",
+              "De magistraat 2.jpeg",
+              "De magistraat 3.jpeg",
+              "De magistraat 4.jpeg",
+              "De magistraat 5.jpeg",
+              "De magistraat 6.jpg"
+            ]
+          }
+        ]
+      },
+      "Losser": {
+        "lat": 52.300289,
+        "lon": 6.9881043,
+        "breweries": [
+          {
+            "name": "Dinkelbieren",
+            "caps": [
+              "Dinkelbier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Dommelen": {
+        "lat": 51.3564742,
+        "lon": 5.4299741,
+        "breweries": [
+          {
+            "name": "Dommelsche Bierbrouwerij",
+            "caps": [
+              "Dommelsch pilsener.jpeg",
+              "Dommelsch pilsener 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Veghel": {
+        "lat": 51.6134636,
+        "lon": 5.5446455,
+        "breweries": [
+          {
+            "name": "Jumbo Supermarkten / Dors",
+            "caps": [
+              "Dors alcoholvrij.jpg",
+              "Dors cerveza.jpeg",
+              "Dors Cerveza 2.jpeg",
+              "Dors pilsener.jpeg",
+              "Dors pilsener 2.jpeg",
+              "Dors radler.jpeg",
+              "Dors radler 2.jpeg",
+              "Dors speciaalbieren.jpeg",
+              "Dors speciaalbieren 2.jpg",
+              "Dors tequila.jpeg",
+              "Dors Tequila 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Elburg": {
+        "lat": 52.4156591,
+        "lon": 5.8413217,
+        "breweries": [
+          {
+            "name": "Brouwerij EemBier",
+            "caps": [
+              "Eem bier.jpeg"
+            ]
+          },
+          {
+            "name": "Stadsbrouwerij Vos - Elburg",
+            "caps": [
+              "Vos stadsbrouwerij.jpeg"
+            ]
+          }
+        ]
+      },
+      "Goes": {
+        "lat": 51.5031033,
+        "lon": 3.8897596,
+        "breweries": [
+          {
+            "name": "Brouwerij Emelisse",
+            "caps": [
+              "Emelisse.jpeg"
+            ]
+          },
+          {
+            "name": "Schelde",
+            "caps": [
+              "Slot Oostende.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ulft": {
+        "lat": 51.898124,
+        "lon": 6.3784647,
+        "breweries": [
+          {
+            "name": "Fightstreet Brewery",
+            "caps": [
+              "Fightstreet Brewery 'n Diquen.jpeg"
+            ]
+          }
+        ]
+      },
+      "Oost-Vlieland": {
+        "lat": 53.2954847,
+        "lon": 5.0648962,
+        "breweries": [
+          {
+            "name": "Fortuna Vlieland",
+            "caps": [
+              "Fortuna vlieland.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hengelo": {
+        "lat": 52.2658726,
+        "lon": 6.7924049,
+        "breweries": [
+          {
+            "name": "Gallivant",
+            "caps": [
+              "Gallivant 2.jpeg",
+              "Gallivant bock.jpeg",
+              "Gallivant wit.jpeg"
+            ]
+          },
+          {
+            "name": "Twentse Bierbrouwerij",
+            "caps": [
+              "Twents.jpeg"
+            ]
+          }
+        ]
+      },
+      "Gulpen": {
+        "lat": 50.8139879,
+        "lon": 5.8899585,
+        "breweries": [
+          {
+            "name": "Gulpener Bierbrouwerij",
+            "caps": [
+              "Gerardus wit.jpeg",
+              "Gulpener.jpeg",
+              "Gulpener 2.jpeg",
+              "Gulpener 3.jpg",
+              "Gulpener Chateau Neubourg.jpeg",
+              "Gulpener de kroon op ons werk.jpg",
+              "Gulpener korenwolf.jpg",
+              "Zwarte ruiter.jpeg"
+            ]
+          }
+        ]
+      },
+      "Roelofarendsveen": {
+        "lat": 52.2027173,
+        "lon": 4.6312402,
+        "breweries": [
+          {
+            "name": "Goed Excuus",
+            "caps": [
+              "Goed excuus.jpeg"
+            ]
+          },
+          {
+            "name": "Dorpsbrouwerij Uzzewuzze",
+            "caps": [
+              "Uzzewuzze fietsie.jpg",
+              "Uzzewuzze purrie.jpg"
+            ]
+          }
+        ]
+      },
+      "Hilversum": {
+        "lat": 52.2241375,
+        "lon": 5.1719396,
+        "breweries": [
+          {
+            "name": "Gooische Bierbrouwerij",
+            "caps": [
+              "Gooische bierbrouwerij.jpeg"
+            ]
+          }
+        ]
+      },
+      "Neer": {
+        "lat": 51.2620493,
+        "lon": 5.9883704,
+        "breweries": [
+          {
+            "name": "Lindeboom",
+            "caps": [
+              "Gouverneur blond.jpg",
+              "Gouverneur speciale 140.jpeg",
+              "Lindeboom 0.5.jpeg",
+              "Lindeboom 150 jaar.jpeg",
+              "Lindeboom citroen radler.jpeg",
+              "Lindeboom herfstbok.jpeg",
+              "Lindeboom kersen radler.jpeg",
+              "Lindeboom kersen Radler 0.0.jpg",
+              "Lindeboom oud bruin.jpeg",
+              "Lindeboom saison.jpeg",
+              "Venloosch alt.jpeg",
+              "Venloosch wit.jpeg",
+              "Venloosch wit 0.0.jpg"
+            ]
+          }
+        ]
+      },
+      "Bartlehiem": {
+        "lat": 53.2753429,
+        "lon": 5.8394828,
+        "breweries": [
+          {
+            "name": "Grutte Pier Brouwerij",
+            "caps": [
+              "Grutte pier brouwerij.jpeg",
+              "Grutte pier brouwerij 2.jpeg",
+              "Grutte pier brouwerij 3.jpeg"
+            ]
+          }
+        ]
+      },
+      "Goingarijp": {
+        "lat": 53.0110656,
+        "lon": 5.7717539,
+        "breweries": [
+          {
+            "name": "Gudzekop",
+            "caps": [
+              "Gudzekop.jpeg"
+            ]
+          }
+        ]
+      },
+      "Putten": {
+        "lat": 52.2477301,
+        "lon": 5.5782739,
+        "breweries": [
+          {
+            "name": "Hert Bier",
+            "caps": [
+              "Hert bier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Arcen": {
+        "lat": 51.476261,
+        "lon": 6.1785077,
+        "breweries": [
+          {
+            "name": "Hertog Jan",
+            "caps": [
+              "Hertog Jan 0.0.jpeg",
+              "Hertog Jan arcener tripel.jpeg",
+              "Hertog Jan arcener tripel 2.jpeg",
+              "Hertog Jan bastaard citroen.jpeg",
+              "Hertog Jan bockbier.jpeg",
+              "Hertog Jan draaidop.jpeg",
+              "Hertog Jan dubbel.jpeg",
+              "Hertog Jan enkel.jpeg",
+              "Hertog jan grand pilsener.jpg",
+              "Hertog Jan grand prestige.jpeg",
+              "Hertog Jan karakter.jpeg",
+              "Hertog Jan lentebock.jpeg",
+              "Hertog Jan Natuurzuiver.jpeg",
+              "Hertog Jan pilsener 2014.jpg",
+              "Hertog Jan weizener.jpeg",
+              "Hertog Jan winterbier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Barneveld": {
+        "lat": 52.1715066,
+        "lon": 5.6454392,
+        "breweries": [
+          {
+            "name": "Brouwerij Het Platte Harnas",
+            "caps": [
+              "Het platte harnas.jpeg"
+            ]
+          }
+        ]
+      },
+      "Holten": {
+        "lat": 52.2819676,
+        "lon": 6.4216444,
+        "breweries": [
+          {
+            "name": "HOEK BIER",
+            "caps": [
+              "Hoek bier Hoolter blond.jpeg",
+              "Hoek bier Hoolter dunkelweizen.jpeg",
+              "Hoek bier Hoolter ipa.jpeg"
+            ]
+          }
+        ]
+      },
+      "Aarle-Rixtel": {
+        "lat": 51.5093107,
+        "lon": 5.6375541,
+        "breweries": [
+          {
+            "name": "Hooglander Bier",
+            "caps": [
+              "Hooglander wit.jpeg"
+            ]
+          }
+        ]
+      },
+      "'s-Hertogenbosch": {
+        "lat": 51.6889387,
+        "lon": 5.303116,
+        "breweries": [
+          {
+            "name": "IKi beer",
+            "caps": [
+              "Iki ginger.jpeg",
+              "Iki yuzu.jpeg"
+            ]
+          }
+        ]
+      },
+      "Oldebroek": {
+        "lat": 52.4567363,
+        "lon": 5.9518644,
+        "breweries": [
+          {
+            "name": "Jokkebrok Brouwerij",
+            "caps": [
+              "Jokkebrok brouwerij.jpg"
+            ]
+          }
+        ]
+      },
+      "Haarlem": {
+        "lat": 52.3837058,
+        "lon": 4.6435597,
+        "breweries": [
+          {
+            "name": "Jopen",
+            "caps": [
+              "Jopen.jpeg",
+              "Jopen 2.jpeg",
+              "Jopen oud.jpeg"
+            ]
+          },
+          {
+            "name": "Uiltje Brewing Company",
+            "caps": [
+              "Uiltje.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hillegom": {
+        "lat": 52.294826,
+        "lon": 4.5729713,
+        "breweries": [
+          {
+            "name": "Brouwerij Klein Duimpje",
+            "caps": [
+              "Klein duimpje brouwerij (de blauwe tram).jpeg",
+              "Klein duimpje brouwerij (de blauwe tram) 2.jpeg",
+              "Klein duimpje brouwerij 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Den Haag": {
+        "lat": 52.0799838,
+        "lon": 4.3113461,
+        "breweries": [
+          {
+            "name": "KOMPAAN Dutch Craft Beer Company",
+            "caps": [
+              "Kompaan badgast.jpeg"
+            ]
+          }
+        ]
+      },
+      "Huizen": {
+        "lat": 52.2964844,
+        "lon": 5.240582,
+        "breweries": [
+          {
+            "name": "Lidl Nederland",
+            "caps": [
+              "Kordaat.jpeg"
+            ]
+          }
+        ]
+      },
+      "Berkel-Enschot": {
+        "lat": 51.5854521,
+        "lon": 5.1422542,
+        "breweries": [
+          {
+            "name": "Bierbrouwerij De Koningshoeven",
+            "caps": [
+              "La trappe blond.jpeg",
+              "La trappe bok.jpeg",
+              "La trappe dubbel.jpeg",
+              "La trappe dubbel 1990.jpeg",
+              "La Trappe Epos.jpg",
+              "La trappe Isid'or.jpeg",
+              "La Trappe Nillis.jpeg",
+              "La trappe puur.jpeg",
+              "La Trappe puur 2.jpeg",
+              "La Trappe quadruple.jpeg",
+              "La trappe tripel.jpeg",
+              "La trappe Tripel 1987.jpeg",
+              "La trappe witte trappist.jpeg",
+              "La Trappe Witte Trappist 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Veenhuizen": {
+        "lat": 53.0332173,
+        "lon": 6.3963672,
+        "breweries": [
+          {
+            "name": "Brouwerij Maallust",
+            "caps": [
+              "Maallust.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ureterp": {
+        "lat": 53.0956508,
+        "lon": 6.1683085,
+        "breweries": [
+          {
+            "name": "Mahabier Bierbrouwerij",
+            "caps": [
+              "Mahabier.jpeg",
+              "Mahabier 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ambt Delden": {
+        "lat": 52.2615545,
+        "lon": 6.6386976,
+        "breweries": [
+          {
+            "name": "Möllinkwoner Streekbier",
+            "caps": [
+              "Möllinkwoner.jpeg"
+            ]
+          }
+        ]
+      },
+      "Gramsbergen": {
+        "lat": 52.6096404,
+        "lon": 6.6687883,
+        "breweries": [
+          {
+            "name": "Mommeriete",
+            "caps": [
+              "Mommerieke.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hilvarenbeek": {
+        "lat": 51.486984,
+        "lon": 5.1469728,
+        "breweries": [
+          {
+            "name": "Bierbrouwerij De Roos",
+            "caps": [
+              "Museumbrouwerij de roos.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ootmarsum": {
+        "lat": 52.4075801,
+        "lon": 6.8968922,
+        "breweries": [
+          {
+            "name": "Othmar",
+            "caps": [
+              "Othmar.jpeg"
+            ]
+          }
+        ]
+      },
+      "Kerkwerve": {
+        "lat": 51.6863988,
+        "lon": 3.8994996,
+        "breweries": [
+          {
+            "name": "Peelander bieren",
+            "caps": [
+              "Peelander wit.jpeg"
+            ]
+          }
+        ]
+      },
+      "Leiden": {
+        "lat": 52.1594747,
+        "lon": 4.4908843,
+        "breweries": [
+          {
+            "name": "Brouwerij Pronck",
+            "caps": [
+              "Pronck.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hooge Zwaluwe": {
+        "lat": 51.6841483,
+        "lon": 4.7492114,
+        "breweries": [
+          {
+            "name": "Ramses Bier",
+            "caps": [
+              "Ramses bier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Zoetermeer": {
+        "lat": 52.0622892,
+        "lon": 4.4877545,
+        "breweries": [
+          {
+            "name": "De Zoetermeerse Brouwerij",
+            "caps": [
+              "Roem.jpg"
+            ]
+          }
+        ]
+      },
+      "Raalte": {
+        "lat": 52.3874327,
+        "lon": 6.3078482,
+        "breweries": [
+          {
+            "name": "Sallands Landbier Brouwerij",
+            "caps": [
+              "Sallands landbier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Schagen": {
+        "lat": 52.7882212,
+        "lon": 4.7413568,
+        "breweries": [
+          {
+            "name": "Schaagse Brouwerij De Roode Leeuw",
+            "caps": [
+              "Schaagse brouwerij De Roode Leeuw.jpeg",
+              "Schaagse brouwerij De Roode Leeuw 2.jpeg",
+              "Schaagse brouwerij De Roode Leeuw 3.jpeg",
+              "Schaagse brouwerij De Roode Leeuw 4.jpeg"
+            ]
+          }
+        ]
+      },
+      "Purmerend": {
+        "lat": 52.5024789,
+        "lon": 4.9614827,
+        "breweries": [
+          {
+            "name": "SNAB Bierbrouwers",
+            "caps": [
+              "Snab.jpeg",
+              "Snab groot.jpeg"
+            ]
+          }
+        ]
+      },
+      "Scherpenzeel": {
+        "lat": 52.0795901,
+        "lon": 5.4904134,
+        "breweries": [
+          {
+            "name": "Speciaalbier Brouwerij Gelre",
+            "caps": [
+              "Speciaalbier brouwerij Gelre.jpg"
+            ]
+          }
+        ]
+      },
+      "Mijdrecht": {
+        "lat": 52.2060181,
+        "lon": 4.8648168,
+        "breweries": [
+          {
+            "name": "SpierBier Brouwerij",
+            "caps": [
+              "Spier bier.jpeg"
+            ]
+          }
+        ]
+      },
+      "Tilburg": {
+        "lat": 51.5856184,
+        "lon": 5.0660616,
+        "breweries": [
+          {
+            "name": "Stadsbrouwerij 013",
+            "caps": [
+              "Stadsbrouwerij 013.jpeg"
+            ]
+          }
+        ]
+      },
+      "Zevenaar": {
+        "lat": 51.9279081,
+        "lon": 6.0775263,
+        "breweries": [
+          {
+            "name": "Stadsbrouwerij Wittenburg",
+            "caps": [
+              "Stadsbrouwerij Wittenburg.jpeg"
+            ]
+          }
+        ]
+      },
+      "Mill": {
+        "lat": 51.6863207,
+        "lon": 5.7841148,
+        "breweries": [
+          {
+            "name": "Streekbrouwerij De Stramme Kabouter",
+            "caps": [
+              "Stramme kabouter.jpg"
+            ]
+          }
+        ]
+      },
+      "Valkenswaard": {
+        "lat": 51.3202409,
+        "lon": 5.4581819,
+        "breweries": [
+          {
+            "name": "Strieper Craft Beer Company",
+            "caps": [
+              "Strieper craft beer.jpg"
+            ]
+          }
+        ]
+      },
+      "Den Burg": {
+        "lat": 53.055232,
+        "lon": 4.7967379,
+        "breweries": [
+          {
+            "name": "Tesselaar Familiebrouwerij Diks",
+            "caps": [
+              "Tesselaar.jpeg"
+            ]
+          }
+        ]
+      },
+      "Oudeschild": {
+        "lat": 53.0383886,
+        "lon": 4.8456912,
+        "breweries": [
+          {
+            "name": "Texelse Bierbrouwerij",
+            "caps": [
+              "Texels.jpeg",
+              "Texels 0.0.jpg",
+              "Texels 2.jpeg",
+              "Texels 20 jaar.jpeg",
+              "Texels 3.jpg"
+            ]
+          }
+        ]
+      },
+      "Laren": {
+        "lat": 52.2565894,
+        "lon": 5.2251925,
+        "breweries": [
+          {
+            "name": "Veltkamper Bier",
+            "caps": [
+              "Veltkamper bier.jpg"
+            ]
+          }
+        ]
+      },
+      "Hoofddorp": {
+        "lat": 52.305554,
+        "lon": 4.6926644,
+        "breweries": [
+          {
+            "name": "Bierbrouwerij Vijfhuizen",
+            "caps": [
+              "Vijfhuizen brouwerij Le Grand Crue.jpg"
+            ]
+          }
+        ]
+      },
+      "Winterswijk": {
+        "lat": 51.9680214,
+        "lon": 6.7378723,
+        "breweries": [
+          {
+            "name": "Wentersch",
+            "caps": [
+              "Wentersch.jpeg"
+            ]
+          }
+        ]
+      },
+      "Maastricht": {
+        "lat": 50.8579855,
+        "lon": 5.6969882,
+        "breweries": [
+          {
+            "name": "Wieckse",
+            "caps": [
+              "Wieckse 0.0.jpeg",
+              "Wieckse 0.0 radler.jpeg",
+              "Wieckse radler.jpeg",
+              "Wieckse rosé.jpeg",
+              "Wieckse witte.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ravenstein": {
+        "lat": 51.797005,
+        "lon": 5.6515519,
+        "breweries": [
+          {
+            "name": "Wilskracht Stadsbrouwerij Ravenstein",
+            "caps": [
+              "Wilskracht.jpeg"
+            ]
+          }
+        ]
+      },
+      "Katwijk": {
+        "lat": 52.1898549,
+        "lon": 4.4145583,
+        "breweries": [
+          {
+            "name": "X-brewing",
+            "caps": [
+              "X-Brewing.jpeg"
+            ]
+          }
+        ]
+      },
+      "Klein Zundert": {
+        "lat": 51.4793859,
+        "lon": 4.656172,
+        "breweries": [
+          {
+            "name": "Trappistenbrouwerij de Kievit",
+            "caps": [
+              "Zundert 10.jpeg",
+              "Zundert 10 2.jpeg",
+              "Zundert trappist.jpeg"
             ]
           }
         ]
@@ -3593,8 +5321,8 @@
           {
             "name": "Brasserie Goudale",
             "caps": [
-              "La goudale.jpeg",
-              "La goudale grand cru.jpeg"
+              "La Goudale.jpeg",
+              "La Goudale grand cru.jpeg"
             ]
           }
         ]
@@ -3829,7 +5557,7 @@
     }
   },
   "United Kingdom": {
-    "count": 2,
+    "count": 3,
     "cities": {
       "Burton-on-Trent": {
         "lat": 52.802742,
@@ -3840,6 +5568,18 @@
             "caps": [
               "Cobra.jpeg",
               "Cobra 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Tadcaster": {
+        "lat": 53.8852975,
+        "lon": -1.2595975,
+        "breweries": [
+          {
+            "name": "John Smith’s",
+            "caps": [
+              "Newcastle brown ale.jpeg"
             ]
           }
         ]
