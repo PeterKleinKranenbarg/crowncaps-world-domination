@@ -79,7 +79,7 @@
     }
   },
   "Belgium": {
-    "count": 384,
+    "count": 554,
     "cities": {
       "Thuin": {
         "lat": 50.3397445,
@@ -122,7 +122,11 @@
           {
             "name": "Leroy Breweries",
             "caps": [
-              "Kapittel pater.jpeg"
+              "Kapittel pater.jpeg",
+              "Poperings hommelbier.jpeg",
+              "Poperings hommelbier 2.jpg",
+              "Watou kapittel prior 9.jpeg",
+              "Watou tripel.jpeg"
             ]
           },
           {
@@ -143,7 +147,9 @@
               "Affligem 0.0.jpeg",
               "Affligem blond.jpeg",
               "Affligem fris blond.jpeg",
-              "Affligem tripel.jpeg"
+              "Affligem tripel.jpeg",
+              "Postel.jpeg",
+              "Primus.jpeg"
             ]
           }
         ]
@@ -156,7 +162,10 @@
             "name": "Brouwerij The Musketeers",
             "caps": [
               "Antigoon.jpeg",
-              "Brouwerij the musketeers.jpeg"
+              "Brouwerij the musketeers.jpeg",
+              "Troubadour magma.jpeg",
+              "Troubadour spéciale.jpeg",
+              "Troubadour zestra.jpg"
             ]
           }
         ]
@@ -237,7 +246,11 @@
               "Gulden draak wit.jpeg",
               "Gulden draak wit 2.jpeg",
               "Gulden draak zwart (9000).jpeg",
-              "Gulden draak zwart 2.jpeg"
+              "Gulden draak zwart 2.jpeg",
+              "Piraat.jpeg",
+              "Piraat red.jpg",
+              "Piraat tripel hop.jpeg",
+              "Steenberge.jpeg"
             ]
           }
         ]
@@ -264,7 +277,14 @@
             "caps": [
               "Bavik pony-stout.jpeg",
               "Kwaremont.jpeg",
-              "Kwaremont alcohol free blonde.jpeg"
+              "Kwaremont alcohol free blonde.jpeg",
+              "Petrus Aged Pale.jpeg",
+              "Petrus blond.jpeg",
+              "Petrus dubbel.jpeg",
+              "Petrus red.jpeg",
+              "Petrus speciale.jpeg",
+              "Petrus tripel.jpeg",
+              "Wittekerke.jpeg"
             ]
           }
         ]
@@ -364,7 +384,9 @@
               "Brasserie du bocq Gauloise rode vruchten.jpeg",
               "Brasserie du bocq Gauloise tripel blonde.jpeg",
               "Brasserie du bocq saison 1858.jpeg",
-              "Deugniet.jpeg"
+              "Deugniet.jpeg",
+              "Tête de mort red.jpg",
+              "Tête de mort triple.jpeg"
             ]
           }
         ]
@@ -379,7 +401,9 @@
               "Blauw export.jpeg",
               "Le Fort donker.jpeg",
               "Le Fort tripel.jpeg",
-              "Omer.jpeg"
+              "Omer.jpeg",
+              "Vanderghinste.jpeg",
+              "Ypra.jpg"
             ]
           },
           {
@@ -407,7 +431,8 @@
           {
             "name": "Antwerpse Brouw Compagnie",
             "caps": [
-              "Bootjes bier.jpeg"
+              "Bootjes bier.jpeg",
+              "Seef.jpeg"
             ]
           },
           {
@@ -440,7 +465,10 @@
               "Gordon finest scotch.jpeg",
               "Maredret Altus.jpg",
               "Martin's IPA.jpeg",
-              "Martin's pale ale.jpeg"
+              "Martin's pale ale.jpeg",
+              "Timmermans blanche lambicus.jpg",
+              "Timmermans kriek.jpeg",
+              "Timmermans peche lambicus.jpeg"
             ]
           }
         ]
@@ -464,6 +492,12 @@
               "Jupiler 33cl.jpeg",
               "Jupiler blue.jpeg",
               "Jupiler pure blonde.jpeg"
+            ]
+          },
+          {
+            "name": "Tripick",
+            "caps": [
+              "Tripick.jpeg"
             ]
           }
         ]
@@ -567,7 +601,12 @@
               "Kasteel rubus framboise.jpg",
               "Kasteel tripel.jpeg",
               "Kasteel tripel 2.jpeg",
-              "Kasteel xtra.jpeg"
+              "Kasteel xtra.jpeg",
+              "Passchendaele ginger white.jpeg",
+              "Passchendaele Porter.jpeg",
+              "Slurfke blond.jpeg",
+              "St-Louis Premium Kriek.jpeg",
+              "St-Louis Premium Peche.jpeg"
             ]
           },
           {
@@ -663,7 +702,10 @@
               "Brugs tarwebier.jpeg",
               "Brugse sport zot.jpeg",
               "Brugse zot blond.jpeg",
-              "Brugse zot dubbel.jpeg"
+              "Brugse zot dubbel.jpeg",
+              "Straffe hendrik quadrupel.jpeg",
+              "Straffe Hendrik tripel.jpeg",
+              "Straffe Hendrik wild.jpeg"
             ]
           },
           {
@@ -725,7 +767,11 @@
               "Palm hop select.jpeg",
               "Palm royale.jpeg",
               "Palm royale 2.jpeg",
-              "Palm session ipa.jpeg"
+              "Palm session ipa.jpeg",
+              "Ramée blonde.jpeg",
+              "St. Pierre.jpeg",
+              "Steenbrugge.jpeg",
+              "Steenbrugge dubbel bruin.jpeg"
             ]
           },
           {
@@ -862,7 +908,8 @@
               "Corsendonk agnus.jpeg",
               "Corsendonk blond.jpeg",
               "Corsendonk bruin.jpeg",
-              "Corsendonk Pater.jpeg"
+              "Corsendonk Pater.jpeg",
+              "Tempelier.jpeg"
             ]
           },
           {
@@ -1000,7 +1047,14 @@
               "Duvel groot.jpeg",
               "Duvel tripel hop.jpeg",
               "Duvel tripel hop cashmere.jpeg",
-              "Duvel tripel hop citra.jpeg"
+              "Duvel tripel hop citra.jpeg",
+              "Vedett extra blond.jpeg",
+              "Vedett extra IPA 2.jpeg",
+              "Vedett extra ordinary IPA.jpeg",
+              "Vedett extra pilsner.jpeg",
+              "Vedett extra session ipa.jpeg",
+              "Vedett extra white.jpeg",
+              "Vedett extra white 2.jpeg"
             ]
           },
           {
@@ -1038,7 +1092,8 @@
               "Ename rouge.jpeg",
               "Ename tripel.jpeg",
               "Gentse strop.jpeg",
-              "Gentse strop 2.jpeg"
+              "Gentse strop 2.jpeg",
+              "Sloeber.jpeg"
             ]
           },
           {
@@ -1047,6 +1102,12 @@
               "Liefmans fruitesse.jpeg",
               "Liefmans fruitesse alcohol free.jpeg",
               "Liefmans yell'oh on the rocks.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwcompagnie Rolling Hills",
+            "caps": [
+              "Rolling Hills.jpg"
             ]
           }
         ]
@@ -1111,7 +1172,15 @@
             "caps": [
               "Grisette fruits des bois.jpeg",
               "Grisette glutenfree blond.jpeg",
-              "Grisette tripel bio.jpeg"
+              "Grisette tripel bio.jpeg",
+              "St Feuillien Belgian coast IPA.jpeg",
+              "St Feuillien blonde.jpeg",
+              "St Feuillien brune.jpeg",
+              "St Feuillien Five.jpeg",
+              "St Feuillien grand cru.jpeg",
+              "St Feuillien Quadruple.jpeg",
+              "St Feuillien saison.jpeg",
+              "St Feuillien triple.jpeg"
             ]
           }
         ]
@@ -1218,7 +1287,16 @@
               "Keizer karel ommegang.jpeg",
               "Keizer karel robijn rood.jpeg",
               "Leeuw pilsener.jpeg",
-              "Mystic.jpeg"
+              "Mystic.jpeg",
+              "Super 8 blanche.jpeg",
+              "Super 8 export.jpeg",
+              "Super 8 IPA.jpeg",
+              "Tongerlo blond.jpeg",
+              "Tongerlo brune.jpeg",
+              "Tongerlo brune 2.jpeg",
+              "Tongerlo christmas.jpeg",
+              "Tongerlo tripel.jpeg",
+              "Tongerlo tripel 2.jpeg"
             ]
           }
         ]
@@ -1244,7 +1322,8 @@
             "caps": [
               "King mule.jpeg",
               "Limburgse witte 25cl.jpeg",
-              "Limburgse witte 33cl.jpeg"
+              "Limburgse witte 33cl.jpeg",
+              "Pax pils.jpeg"
             ]
           }
         ]
@@ -1290,7 +1369,8 @@
               "Kwak blond.jpeg",
               "Kwak groot.jpeg",
               "Kwak rouge.jpg",
-              "Monte Cristo.jpeg"
+              "Monte Cristo.jpeg",
+              "Tripel karmeliet.jpeg"
             ]
           },
           {
@@ -1327,6 +1407,18 @@
               "Leffe royale cascade IPA.jpeg",
               "Leffe tripel.jpeg",
               "Leffe tripel 2.jpeg"
+            ]
+          },
+          {
+            "name": "Stella Artois",
+            "caps": [
+              "Stella Artois.jpeg"
+            ]
+          },
+          {
+            "name": "AB InBev Belgium",
+            "caps": [
+              "Victoria.jpeg"
             ]
           }
         ]
@@ -1410,6 +1502,340 @@
             ]
           }
         ]
+      },
+      "Silly": {
+        "lat": 50.642839,
+        "lon": 3.9423486,
+        "breweries": [
+          {
+            "name": "Brasserie de Silly",
+            "caps": [
+              "Pink Killer.jpeg",
+              "Silly blanche.jpeg",
+              "Silly brune.jpeg",
+              "Silly saison.jpeg"
+            ]
+          }
+        ]
+      },
+      "Comines-Warneton": {
+        "lat": 50.7687443,
+        "lon": 2.9997568,
+        "breweries": [
+          {
+            "name": "Brouwerij Vanuxeem",
+            "caps": [
+              "Queue de Charrue Ploegsteert ambrée.jpeg",
+              "Queue de Charrue Ploegsteert blonde.jpeg",
+              "Queue de Charrue Ploegsteert tripel.jpeg",
+              "Queue de Charrue Ploegsteert vieille brune.jpeg"
+            ]
+          }
+        ]
+      },
+      "Rochefort": {
+        "lat": 50.15542,
+        "lon": 5.1752822,
+        "breweries": [
+          {
+            "name": "Abbaye Notre-Dame de Saint-Rémy",
+            "caps": [
+              "Rochefort 10.jpeg",
+              "Rochefort 6.jpeg",
+              "Rochefort 8.jpeg",
+              "Rochefort Triple Extra.jpeg"
+            ]
+          }
+        ]
+      },
+      "Roeselare": {
+        "lat": 50.9444948,
+        "lon": 3.124765,
+        "breweries": [
+          {
+            "name": "Brouwerij Rodenbach",
+            "caps": [
+              "Rodenbach alexander.jpeg",
+              "Rodenbach classic.jpeg",
+              "Rodenbach fruitage.jpeg",
+              "Rodenbach grand cru.jpeg",
+              "Rodenbach grand cru 2.jpeg"
+            ]
+          },
+          {
+            "name": "BOMBrewery",
+            "caps": [
+              "Triporteur from heaven.jpeg",
+              "Triporteur from hell.jpeg"
+            ]
+          }
+        ]
+      },
+      "Merchtem": {
+        "lat": 50.9593636,
+        "lon": 4.2335677,
+        "breweries": [
+          {
+            "name": "Brouwerij De Block",
+            "caps": [
+              "Satan's gold.jpeg"
+            ]
+          }
+        ]
+      },
+      "Bocholt": {
+        "lat": 51.1767308,
+        "lon": 5.5609272,
+        "breweries": [
+          {
+            "name": "Brouwerij Martens",
+            "caps": [
+              "Schutters.jpeg"
+            ]
+          }
+        ]
+      },
+      "Poperinge": {
+        "lat": 50.8556646,
+        "lon": 2.7264961,
+        "breweries": [
+          {
+            "name": "Brouwerij St.Bernardus",
+            "caps": [
+              "St. Bernardus abt 12.jpeg",
+              "St. Bernardus Abt 12 2.jpg",
+              "St. Bernardus Christmas ale.jpeg",
+              "St. Bernardus christmas ale 2.jpeg",
+              "St. Bernardus extra 4.jpeg",
+              "St. Bernardus extra 4 2.jpg",
+              "St. Bernardus Kombine.jpg",
+              "St. Bernardus pater 6.jpeg",
+              "St. Bernardus pater 6 2.jpg",
+              "St. Bernardus prior 8.jpeg",
+              "St. Bernardus prior 8 2.jpg",
+              "St. Bernardus tripel.jpeg",
+              "St. Bernardus tripel 2.jpg",
+              "St. Bernardus wit.jpeg",
+              "St. Bernardus wit 2.jpg"
+            ]
+          }
+        ]
+      },
+      "Houthalen-Helchteren": {
+        "lat": 51.0467933,
+        "lon": 5.3780416,
+        "breweries": [
+          {
+            "name": "Ter Dolen",
+            "caps": [
+              "Ter Dolen 25.jpeg",
+              "ter Dolen Armand.jpeg",
+              "Ter dolen Armand 2.jpeg",
+              "Ter Dolen blond.jpeg",
+              "Ter Dolen donker.jpeg",
+              "Ter Dolen kriek.jpeg",
+              "Ter dolen tripel.jpeg",
+              "Ter Dolen Winter.jpeg",
+              "Ter Dolen Wit.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ruiselede": {
+        "lat": 51.04123,
+        "lon": 3.3972673,
+        "breweries": [
+          {
+            "name": "Microbrouwerij Urthel",
+            "caps": [
+              "Urthel saisonniere.jpeg"
+            ]
+          }
+        ]
+      },
+      "Aubel": {
+        "lat": 50.7041498,
+        "lon": 5.8585553,
+        "breweries": [
+          {
+            "name": "Brasserie de l'Abbaye du Val-Dieu",
+            "caps": [
+              "Val Dieu Cuvée 800.jpeg",
+              "Val Dieu Cuvée 800 2.jpeg",
+              "Val-Dieu blonde.jpeg",
+              "Val-Dieu blonde 2.jpeg",
+              "Val-Dieu brune.jpeg",
+              "Val-Dieu Brune 2.jpeg",
+              "Val-Dieu Fruitée.jpg",
+              "Val-dieu grand cru.jpeg",
+              "Val-Dieu grand cru 2.jpeg",
+              "Val-dieu grand cru 3.jpeg",
+              "Val-Dieu Noël.jpeg",
+              "Val-Dieu triple.jpeg",
+              "Val-Dieu triple 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Orp-Jauche": {
+        "lat": 50.7000697,
+        "lon": 4.9892189,
+        "breweries": [
+          {
+            "name": "Brasserie de Jandrain-Jandrenouille",
+            "caps": [
+              "Vcense.jpeg"
+            ]
+          }
+        ]
+      },
+      "Anzegem": {
+        "lat": 50.829324,
+        "lon": 3.4491006,
+        "breweries": [
+          {
+            "name": "Brouwerij Verhaeghe",
+            "caps": [
+              "Verhaeghe (Duchesse de bourgogne).jpeg",
+              "Verhaeghe 2.jpeg",
+              "Verhaeghe Cherry.jpeg",
+              "Verhaeghe ruby.jpg"
+            ]
+          }
+        ]
+      },
+      "Dendermonde": {
+        "lat": 51.0312293,
+        "lon": 4.098112,
+        "breweries": [
+          {
+            "name": "Brouwerij Dilewyns",
+            "caps": [
+              "Vicaris general.jpeg",
+              "Vicaris quinto.jpeg",
+              "Vicaris tripel.jpeg"
+            ]
+          }
+        ]
+      },
+      "Schilde": {
+        "lat": 51.2388703,
+        "lon": 4.5814855,
+        "breweries": [
+          {
+            "name": "De Brouwerij van Vlaanderen",
+            "caps": [
+              "Vlaamsche leeuw blond.jpeg"
+            ]
+          }
+        ]
+      },
+      "Waterloo": {
+        "lat": 50.7032863,
+        "lon": 4.4084276,
+        "breweries": [
+          {
+            "name": "Waterloo Brewery Mont-St-Jean",
+            "caps": [
+              "Waterloo Double Dark.jpeg",
+              "Waterloo Recolte.jpeg",
+              "Waterloo red cherry.jpg",
+              "Waterloo triple blonde.jpeg"
+            ]
+          }
+        ]
+      },
+      "Malle": {
+        "lat": 51.2970123,
+        "lon": 4.6933094,
+        "breweries": [
+          {
+            "name": "Brouwerij der Trappisten van Westmalle",
+            "caps": [
+              "Westmalle dubbel.jpeg",
+              "Westmalle dubbel 2.jpeg",
+              "Westmalle dubbel groot.jpg",
+              "Westmalle extra.jpeg",
+              "Westmalle extra 2.jpeg",
+              "Westmalle tripel.jpeg",
+              "Westmalle tripel 2.jpeg"
+            ]
+          }
+        ]
+      },
+      "Vleteren": {
+        "lat": 50.930143,
+        "lon": 2.7289867,
+        "breweries": [
+          {
+            "name": "Brouwerij De Sint-Sixtusabdij van Westvleteren",
+            "caps": [
+              "Westvleteren 12.jpeg",
+              "Westvleteren 8.jpeg",
+              "Westvleteren blond.jpeg"
+            ]
+          }
+        ]
+      },
+      "Lebbeke": {
+        "lat": 51.0004013,
+        "lon": 4.1307711,
+        "breweries": [
+          {
+            "name": "Brouwerij Wieze",
+            "caps": [
+              "Wieze oktoberfeesten.jpeg",
+              "Wieze royal-blond.jpeg"
+            ]
+          }
+        ]
+      },
+      "Sint-Truiden": {
+        "lat": 50.8152784,
+        "lon": 5.1858896,
+        "breweries": [
+          {
+            "name": "Brouwerij Wilderen",
+            "caps": [
+              "Wilderen.jpeg",
+              "Wilderen Cuvee Clarisse Rum Infused.jpg",
+              "Wilderen Cuvee Clarisse whiskey infused.jpeg",
+              "Wilderen kriek.jpeg",
+              "Wilderen Tripel Kanunnik.jpeg"
+            ]
+          }
+        ]
+      },
+      "Ninove": {
+        "lat": 50.8214549,
+        "lon": 4.0037422,
+        "breweries": [
+          {
+            "name": "Brouwerij Slaghmuylder",
+            "caps": [
+              "Witkap-Pater amber.jpeg",
+              "Witkap-Pater dubbel.jpeg",
+              "Witkap-Pater stimulo.jpeg",
+              "Witkap-Pater tripel.jpeg"
+            ]
+          }
+        ]
+      },
+      "Begijnendijk": {
+        "lat": 51.0194098,
+        "lon": 4.782145,
+        "breweries": [
+          {
+            "name": "Brouwerij Wolf",
+            "caps": [
+              "Wolf 6.jpeg",
+              "Wolf 7.jpeg",
+              "Wolf 8.jpeg",
+              "Wolf 9.jpeg",
+              "Wolf carte blanche.jpeg"
+            ]
+          }
+        ]
       }
     }
   },
@@ -1424,6 +1850,137 @@
             "name": "Budelse Brouwerij",
             "caps": [
               "Batavier.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Brazilië": {
+    "count": 1,
+    "cities": {
+      "Fortaleza": {
+        "lat": -3.7304512,
+        "lon": -38.5217989,
+        "breweries": [
+          {
+            "name": "5Elementos Cervejaria Artesanal",
+            "caps": [
+              "5 Elementos Cervejaria Artesanal.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Brazil": {
+    "count": 1,
+    "cities": {
+      "São Paulo": {
+        "lat": -23.5506507,
+        "lon": -46.6333824,
+        "breweries": [
+          {
+            "name": "AmBev",
+            "caps": [
+              "Brahma.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Cambodia": {
+    "count": 1,
+    "cities": {
+      "Preah Sihanouk": {
+        "lat": 10.6220485,
+        "lon": 103.5223365,
+        "breweries": [
+          {
+            "name": "Cambrew",
+            "caps": [
+              "Angkor.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Canada": {
+    "count": 2,
+    "cities": {
+      "Chambly": {
+        "lat": 45.4483467,
+        "lon": -73.2936944,
+        "breweries": [
+          {
+            "name": "Unibroue",
+            "caps": [
+              "A tout le monde.jpeg"
+            ]
+          }
+        ]
+      },
+      "Montreal": {
+        "lat": 45.5031824,
+        "lon": -73.5698065,
+        "breweries": [
+          {
+            "name": "Brasserie McAuslan (St-Ambroise)",
+            "caps": [
+              "Brasserie McAuslan (St.Ambroise).jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Chili": {
+    "count": 1,
+    "cities": {
+      "Valdivia": {
+        "lat": -39.8141262,
+        "lon": -73.2459859,
+        "breweries": [
+          {
+            "name": "Compañia Cervecera Kunstmann",
+            "caps": [
+              "kunstmann.jpg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "China": {
+    "count": 1,
+    "cities": {
+      "Qing Dao Shi, Shan Dong Sheng": {
+        "lat": 40.0626285,
+        "lon": 113.2566259,
+        "breweries": [
+          {
+            "name": "Tsingtao (青岛啤酒) Brewery",
+            "caps": [
+              "Tsingtao.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Colombia": {
+    "count": 1,
+    "cities": {
+      "Bogotá": {
+        "lat": 4.6533817,
+        "lon": -74.0836331,
+        "breweries": [
+          {
+            "name": "Cervecería Bavaria",
+            "caps": [
+              "Club colombia.jpeg"
             ]
           }
         ]
