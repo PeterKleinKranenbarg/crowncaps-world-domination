@@ -37,7 +37,7 @@ Promise.all([
 let cityLayer = null;
 let currentCountryLayer = null;
 function zoomToCountry(layer, name, capsData) {
-  map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+  // map.fitBounds(layer.getBounds(), { padding: [20, 20] });
 
   // Remove previous city layer if exists
   if (cityLayer) {
