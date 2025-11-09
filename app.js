@@ -36,7 +36,6 @@ Promise.all([
 
 let cityLayer = null;
 let currentCountryLayer = null;
-
 function zoomToCountry(layer, name, capsData) {
   map.fitBounds(layer.getBounds(), { padding: [20, 20] });
 
@@ -49,7 +48,12 @@ function zoomToCountry(layer, name, capsData) {
   const cities = capsData[name]?.cities;
   if (!cities) return;
 
+  // Build markers for cities as before
   const markers = [];
+  const capsCounts = Object.values(cities).map(city =>
+    city.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0)
+  );
+  if (capsCounts.length === 0) return;
 
   let totalCapsInCountry = 0;
 
@@ -60,12 +64,7 @@ function zoomToCountry(layer, name, capsData) {
 
   for (const cityName in cities) {
     const c = cities[cityName];
-
-    // Total caps count in city
     const totalCaps = c.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0);
-
-    // Radius in meters - scale it as you want
-    // For example, base radius 5000m + 1000m per cap (adjust!)
     const radiusMeters = 1000 + (totalCaps / totalCapsInCountry) * 100000;
 
     const circle = L.circle([c.lat, c.lon], {
@@ -84,28 +83,61 @@ function zoomToCountry(layer, name, capsData) {
 
   cityLayer = L.layerGroup(markers).addTo(map);
   currentCountryLayer = layer;
+
+  // --- NEW: List ALL breweries in the country, alphabetically, in the sidebar ---
+
+  const sidebar = document.getElementById('sidebar');
+  sidebar.style.display = 'block';
+
+  // Collect all breweries from all cities in this country
+  let allBreweries = [];
+  for (const cityName in cities) {
+    const cityBreweries = cities[cityName].breweries.map(brewery => ({
+      name: brewery.name,
+      city: cityName,
+      caps: brewery.caps
+    }));
+    allBreweries = allBreweries.concat(cityBreweries);
+  }
+
+  // Sort breweries alphabetically by name
+  allBreweries.sort((a, b) => a.name.localeCompare(b.name));
+
+  let html = `<h2>Breweries in ${name}</h2><ul style="list-style:none; padding-left:0;">`;
+
+  allBreweries.forEach((brewery, index) => {
+    html += `
+      <li style="margin-bottom:8px;">
+        <button class="brewery-btn" data-index="${index}" style="background:none; border:none; color:blue; cursor:pointer; text-decoration:underline; font-size:16px;">
+          ${brewery.name} <small style="color:#555;">(${brewery.city})</small>
+        </button>
+        <div class="caps" id="caps-${index}" style="display:none; margin-top:5px;"></div>
+      </li>
+    `;
+  });
+
+  html += '</ul>';
+
+  sidebar.innerHTML = html;
+
+  // Add click event listeners to brewery buttons
+  document.querySelectorAll('.brewery-btn').forEach(button => {
+    button.addEventListener('click', (e) => {
+      const idx = e.target.dataset.index;
+      toggleCaps(allBreweries[idx], idx);
+    });
+  });
 }
 
-// Remove city circles when clicking outside countries
-map.on('click', (e) => {
-  // If click target is NOT inside the current country polygon, remove cityLayer
-  if (!currentCountryLayer) return;
-
-  if (!currentCountryLayer.getBounds().contains(e.latlng)) {
-    if (cityLayer) {
-      cityLayer.remove();
-      cityLayer = null;
-    }
-    const sidebar = document.getElementById('sidebar');
-    sidebar.style.display = 'none';
-  }
-});
 
 
 
 function showCityBreweries(cityName, cityData) {
   const sidebar = document.getElementById('sidebar');
   sidebar.style.display = 'block'; // show sidebar
+
+  // Sort breweries alphabetically by name
+  const sortedBreweries = cityData.breweries.slice().sort((a, b) => a.name.localeCompare(b.name));
 
   // Sidebar content with close button
   let html = `
@@ -114,7 +146,7 @@ function showCityBreweries(cityName, cityData) {
     <ul style="list-style:none; padding-left:0;">
   `;
 
-  cityData.breweries.forEach((brewery, index) => {
+  sortedBreweries.forEach((brewery, index) => {
     html += `
       <li style="margin-bottom:8px;">
         <button class="brewery-btn" data-index="${index}" style="background:none; border:none; color:blue; cursor:pointer; text-decoration:underline; font-size:16px;">
@@ -143,10 +175,11 @@ function showCityBreweries(cityName, cityData) {
   document.querySelectorAll('.brewery-btn').forEach(button => {
     button.addEventListener('click', (e) => {
       const idx = e.target.dataset.index;
-      toggleCaps(cityData.breweries[idx], idx);
+      toggleCaps(sortedBreweries[idx], idx);  // <-- Use sortedBreweries here
     });
   });
 }
+
 
 function toggleCaps(brewery, index) {
   const capsDiv = document.getElementById(`caps-${index}`);
