@@ -65,7 +65,7 @@ function zoomToCountry(layer, name, capsData) {
   for (const cityName in cities) {
     const c = cities[cityName];
     const totalCaps = c.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0);
-    const radiusMeters = Math.max(3, totalCaps);
+    const radiusMeters = Math.max(5, totalCaps);
 
     const circle = L.circleMarker([c.lat, c.lon], {
       radius: radiusMeters,
