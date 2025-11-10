@@ -56,16 +56,18 @@ function zoomToCountry(layer, name, capsData) {
   if (capsCounts.length === 0) return;
 
   let totalCapsInCountry = 0;
+  let maxCapsInCountry = 0;
 
   for (const cityName in cities) {
     const c = cities[cityName];
     totalCapsInCountry += c.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0);
+    maxCapsInCountry = Math.max(c.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0), maxCapsInCountry);
   }
 
   for (const cityName in cities) {
     const c = cities[cityName];
     const totalCaps = c.breweries.reduce((sum, brewery) => sum + brewery.caps.length, 0);
-    const radiusMeters = Math.max(5, totalCaps);
+    const radiusMeters = 6 + (totalCaps / maxCapsInCountry) * 14;
 
     const circle = L.circleMarker([c.lat, c.lon], {
       radius: radiusMeters,
