@@ -79,7 +79,7 @@
     }
   },
   "Belgium": {
-    "count": 565,
+    "count": 568,
     "cities": {
       "Thuin": {
         "lat": 50.3397445,
@@ -103,7 +103,9 @@
             "name": "Achelse Kluis",
             "caps": [
               "Achel singel blond.jpeg",
-              "Achel tripel.jpeg"
+              "Achel tripel.jpeg",
+              "Achel dubbel.jpg",
+              "Achel Rouge Légère.jpg"
             ]
           }
         ]
@@ -612,7 +614,8 @@
               "Passchendaele porter.jpeg",
               "Slurfke blond.jpeg",
               "St-Louis Premium Kriek.jpeg",
-              "St-Louis Premium Peche.jpeg"
+              "St-Louis Premium Peche.jpeg",
+              "Kasteel donker 3.jpg"
             ]
           },
           {
@@ -5121,7 +5124,7 @@
     }
   },
   "France": {
-    "count": 38,
+    "count": 39,
     "cities": {
       "Rueil-Malmaison": {
         "lat": 48.87778,
@@ -5420,6 +5423,18 @@
             "name": "Brasserie Artésienne",
             "caps": [
               "Brasserie Artésienne.jpeg"
+            ]
+          }
+        ]
+      },
+      "Jenlain": {
+        "lat": 50.3127734,
+        "lon": 3.6288613,
+        "breweries": [
+          {
+            "name": "Brasserie Duyck",
+            "caps": [
+              "Jenlain blonde.jpg"
             ]
           }
         ]
@@ -6631,7 +6646,7 @@
     }
   },
   "Czechia": {
-    "count": 19,
+    "count": 20,
     "cities": {
       "Velké Březno": {
         "lat": 50.662703,
@@ -6741,6 +6756,18 @@
             "name": "Rodinný pivovar Zichovec",
             "caps": [
               "Zichovec.jpg"
+            ]
+          }
+        ]
+      },
+      "Krnov": {
+        "lat": 50.089894,
+        "lon": 17.7040842,
+        "breweries": [
+          {
+            "name": "Nachmelená Opice",
+            "caps": [
+              "Nachmelená Opice (groot).jpg"
             ]
           }
         ]
