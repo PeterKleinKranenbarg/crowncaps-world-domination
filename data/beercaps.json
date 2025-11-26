@@ -79,7 +79,7 @@
     }
   },
   "Belgium": {
-    "count": 568,
+    "count": 571,
     "cities": {
       "Thuin": {
         "lat": 50.3397445,
@@ -199,7 +199,8 @@
           {
             "name": "Brouwerij Van Den Bossche",
             "caps": [
-              "Buffalo bitter.jpg"
+              "Buffalo bitter.jpg",
+              "Buffalo Belgian Stout.jpg"
             ]
           }
         ]
@@ -449,7 +450,8 @@
               "De koninck apa.jpeg",
               "De Koninck bolleke.jpeg",
               "De koninck tripel d'anvers.jpeg",
-              "De koninck wild jo.jpeg"
+              "De koninck wild jo.jpeg",
+              "De Koninck tripel d'anvers 2.jpg"
             ]
           },
           {
@@ -1016,7 +1018,8 @@
               "Dubuisson Cuvée des Trolls.jpeg",
               "Dubuisson pêche mel.jpeg",
               "Dubuisson Rasta trolls.jpeg",
-              "Dubuisson Surfine.jpeg"
+              "Dubuisson Surfine.jpeg",
+              "Dubuisson.jpg"
             ]
           },
           {
@@ -5124,7 +5127,7 @@
     }
   },
   "France": {
-    "count": 39,
+    "count": 40,
     "cities": {
       "Rueil-Malmaison": {
         "lat": 48.87778,
@@ -5435,6 +5438,18 @@
             "name": "Brasserie Duyck",
             "caps": [
               "Jenlain blonde.jpg"
+            ]
+          }
+        ]
+      },
+      "Hordain": {
+        "lat": 50.2622985,
+        "lon": 3.3129777,
+        "breweries": [
+          {
+            "name": "Brasserie La Choulette",
+            "caps": [
+              "Brasserie La Choulette.jpg"
             ]
           }
         ]
