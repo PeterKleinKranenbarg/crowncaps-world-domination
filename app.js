@@ -505,8 +505,10 @@ function renderSidebar(options) {
           </div>
         </button>
         <div class="caps-container">
-          <div class="caps-grid">
-            ${isExpanded ? renderCapsGrid(brewery, highlightCap) : ''}
+          <div class="caps-container-inner">
+            <div class="caps-grid">
+              ${isExpanded ? renderCapsGrid(brewery, highlightCap) : ''}
+            </div>
           </div>
         </div>
       </li>
