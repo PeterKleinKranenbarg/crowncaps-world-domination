@@ -636,10 +636,12 @@ function closeSidebar() {
   currentSidebarContext = null;
   updateUrlState({});
   
-  // Show dashboard after a brief delay
-  setTimeout(() => {
-    renderDashboard();
-  }, 300);
+  // Show dashboard after a brief delay (desktop only)
+  if (!isMobile()) {
+    setTimeout(() => {
+      renderDashboard();
+    }, 300);
+  }
 }
 
 function renderCapsGrid(brewery, highlightCap = null) {
