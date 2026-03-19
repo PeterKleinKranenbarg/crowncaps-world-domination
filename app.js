@@ -16,6 +16,7 @@ let currentCountryLayer = null;
 // Navigation state
 let navigationStack = [];
 let currentSort = localStorage.getItem('capSort') || 'name';
+let currentSidebarContext = null; // { type: 'country'|'city', country: string, city?: string }
 
 // Lightbox state
 let lightboxCaps = [];
@@ -310,6 +311,7 @@ function updateSelectedItem(items, index) {
 function renderDashboard() {
   const sidebar = document.getElementById('sidebar');
   sidebar.classList.add('active');
+  currentSidebarContext = null; // Clear context when showing dashboard
   
   // Calculate stats
   let totalCaps = 0;
@@ -399,7 +401,20 @@ function showRandomCap() {
   if (searchIndex.length === 0) return;
   
   // Filter to only beers (not breweries)
-  const beers = searchIndex.filter(item => item.type === 'beer');
+  let beers = searchIndex.filter(item => item.type === 'beer');
+  
+  // Apply context filter if sidebar is showing a country/city
+  if (currentSidebarContext) {
+    if (currentSidebarContext.type === 'country') {
+      beers = beers.filter(item => item.country === currentSidebarContext.country);
+    } else if (currentSidebarContext.type === 'city') {
+      beers = beers.filter(item => 
+        item.country === currentSidebarContext.country && 
+        item.city === currentSidebarContext.city
+      );
+    }
+  }
+  
   if (beers.length === 0) return;
   
   const randomBeer = beers[Math.floor(Math.random() * beers.length)];
@@ -441,6 +456,15 @@ function renderSidebar(options) {
   
   const sidebar = document.getElementById('sidebar');
   sidebar.classList.add('active');
+  
+  // Set sidebar context for context-aware random cap
+  if (navigationStack.length === 0) {
+    // Viewing a country
+    currentSidebarContext = { type: 'country', country: title };
+  } else {
+    // Viewing a city (navigationStack[0] is the country)
+    currentSidebarContext = { type: 'city', country: navigationStack[0].name, city: title };
+  }
   
   // Sort breweries
   const sortedBreweries = sortBreweries(breweries, currentSort);
@@ -609,6 +633,7 @@ function closeSidebar() {
   const sidebar = document.getElementById('sidebar');
   sidebar.classList.remove('active');
   navigationStack = [];
+  currentSidebarContext = null;
   updateUrlState({});
   
   // Show dashboard after a brief delay
