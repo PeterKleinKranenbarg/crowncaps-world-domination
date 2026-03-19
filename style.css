@@ -6,39 +6,348 @@ html, body {
 
 #map {
   /* Shrink map width to leave room for sidebar */
-  width: calc(100% - 300px);
+  width: calc(100% - 340px);
   height: 100%;
   float: left;
 }
 
+/* ==================== SIDEBAR ==================== */
 #sidebar {
   position: absolute;
   top: 0;
   right: 0;
-  width: 300px;
+  width: 340px;
   height: 100%;
-  padding: 15px;
-  background: white;
+  background: #f8f9fa;
   overflow-y: auto;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #ddd;
   box-sizing: border-box;
-  display: none; /* hidden initially */
+  display: none;
   z-index: 1000;
   pointer-events: auto;
 }
 
-/* Style the close button */
+#sidebar.active {
+  display: block;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.sidebar-header h2 {
+  margin: 0 0 4px 0;
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
+.sidebar-header .location-subtitle {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 12px;
+}
+
+.sidebar-stats {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.sidebar-stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sidebar-stat-icon {
+  font-size: 16px;
+}
+
+/* Close button */
 #close-sidebar {
-  float: right;
-  font-size: 18px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
   cursor: pointer;
   border: none;
   background: none;
-  margin-bottom: 10px;
-  color: #888;
+  color: rgba(255, 255, 255, 0.8);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
 }
+
 #close-sidebar:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Sidebar Content */
+.sidebar-content {
+  padding: 15px;
+}
+
+/* Brewery Cards */
+.brewery-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brewery-card {
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.brewery-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.brewery-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+  transition: background-color 0.15s;
+}
+
+.brewery-header:hover {
+  background-color: #f8f9fa;
+}
+
+.brewery-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.brewery-name {
+  font-size: 15px;
+  font-weight: 600;
   color: #333;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.brewery-city {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.brewery-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.cap-count-badge {
+  background: #e8f4fd;
+  color: #0066cc;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.brewery-chevron {
+  font-size: 12px;
+  color: #999;
+  transition: transform 0.2s;
+}
+
+.brewery-card.expanded .brewery-chevron {
+  transform: rotate(180deg);
+}
+
+/* Crown Caps Grid */
+.caps-container {
+  display: none;
+  padding: 12px 16px 16px;
+  background: #fafbfc;
+  border-top: 1px solid #eee;
+}
+
+.brewery-card.expanded .caps-container {
+  display: block;
+}
+
+.caps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+  gap: 10px;
+}
+
+.cap-item {
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 1;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cap-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cap-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cap-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+  font-size: 10px;
+  padding: 20px 6px 6px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  text-align: center;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.cap-item:hover .cap-label {
+  opacity: 1;
+}
+
+.cap-item.highlighted {
+  box-shadow: 0 0 0 3px #ffcc00, 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ==================== LIGHTBOX MODAL ==================== */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.lightbox-overlay.active {
+  display: flex;
+}
+
+.lightbox-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  text-align: center;
+  position: relative;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.lightbox-info {
+  color: white;
+  margin-top: 20px;
+}
+
+.lightbox-beer-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.lightbox-brewery-name {
+  font-size: 16px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 36px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-close:hover {
+  opacity: 1;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.lightbox-nav:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.lightbox-nav.prev {
+  left: -70px;
+}
+
+.lightbox-nav.next {
+  right: -70px;
 }
 
 /* Search container */
