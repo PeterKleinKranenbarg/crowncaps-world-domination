@@ -1,9 +1,15 @@
+// App version
+const APP_VERSION = '2026.03.19.1';
+
 const map = L.map('map').setView([20, 0], 2);
 
 // Basemap
 L.tileLayer('https://api.maptiler.com/maps/base-v4/{z}/{x}/{y}.png?key=IAPFK9sWNdeiCqW4Dnj4#1.0/0.00000/0.00000', {
   attribution: '&copy; OpenStreetMap contributors &copy; MapTiler'
 }).addTo(map);
+
+// Add version to map attribution
+map.attributionControl.addAttribution(`v${APP_VERSION}`);
 
 // ==================== GLOBAL STATE ====================
 let searchIndex = [];
