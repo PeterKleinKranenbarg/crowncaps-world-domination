@@ -1,14 +1,15 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  overflow: hidden;
 }
 
 #map {
-  /* Shrink map width to leave room for sidebar */
   width: calc(100% - 340px);
   height: 100%;
   float: left;
+  transition: width 0.3s ease;
 }
 
 /* ==================== SIDEBAR ==================== */
@@ -19,16 +20,34 @@ html, body {
   width: 340px;
   height: 100%;
   background: #f8f9fa;
-  overflow-y: auto;
+  overflow: hidden;
   border-left: 1px solid #ddd;
   box-sizing: border-box;
   display: none;
   z-index: 1000;
   pointer-events: auto;
+  transition: transform 0.3s ease;
 }
 
 #sidebar.active {
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Drag handle for mobile */
+.sidebar-drag-handle {
+  display: none;
+  justify-content: center;
+  padding: 12px 0 8px;
+  cursor: grab;
+  touch-action: none;
+}
+
+.sidebar-drag-handle span {
+  width: 40px;
+  height: 4px;
+  background: #ccc;
+  border-radius: 2px;
 }
 
 /* Sidebar Header */
@@ -37,6 +56,13 @@ html, body {
   color: white;
   padding: 20px;
   position: relative;
+  flex-shrink: 0;
+}
+
+.sidebar-header.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .sidebar-header h2 {
@@ -44,6 +70,32 @@ html, body {
   font-size: 22px;
   font-weight: 600;
   padding-right: 30px;
+}
+
+/* Breadcrumb navigation */
+.sidebar-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.sidebar-breadcrumb a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.sidebar-breadcrumb a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.sidebar-breadcrumb .separator {
+  opacity: 0.6;
 }
 
 .sidebar-header .location-subtitle {
@@ -67,6 +119,45 @@ html, body {
 
 .sidebar-stat-icon {
   font-size: 16px;
+}
+
+/* Sort controls */
+.sidebar-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sort-select {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.sort-select option {
+  color: #333;
+}
+
+.btn-random {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-random:hover {
+  background: rgba(255, 255, 255, 0.25);
 }
 
 /* Close button */
@@ -96,9 +187,97 @@ html, body {
 /* Sidebar Content */
 .sidebar-content {
   padding: 15px;
+  overflow-y: auto;
+  flex: 1;
 }
 
-/* Brewery Cards */
+/* ==================== DASHBOARD ==================== */
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h2 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.dashboard-stat-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.dashboard-stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0066cc;
+  margin-bottom: 4px;
+}
+
+.dashboard-stat-label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.dashboard-section {
+  margin-top: 20px;
+}
+
+.dashboard-section h3 {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.top-countries-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-country-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.top-country-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-country-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.top-country-count {
+  font-size: 13px;
+  color: #0066cc;
+  font-weight: 600;
+}
+
+/* ==================== BREWERY CARDS ==================== */
 .brewery-list {
   list-style: none;
   padding: 0;
@@ -176,23 +355,26 @@ html, body {
 .brewery-chevron {
   font-size: 12px;
   color: #999;
-  transition: transform 0.2s;
+  transition: transform 0.3s ease;
 }
 
 .brewery-card.expanded .brewery-chevron {
   transform: rotate(180deg);
 }
 
-/* Crown Caps Grid */
+/* ==================== CROWN CAPS GRID ==================== */
 .caps-container {
-  display: none;
-  padding: 12px 16px 16px;
+  max-height: 0;
+  overflow: hidden;
   background: #fafbfc;
-  border-top: 1px solid #eee;
+  border-top: 0 solid #eee;
+  transition: max-height 0.3s ease, padding 0.3s ease, border-top-width 0.3s ease;
 }
 
 .brewery-card.expanded .caps-container {
-  display: block;
+  max-height: 1000px;
+  padding: 12px 16px 16px;
+  border-top-width: 1px;
 }
 
 .caps-grid {
@@ -207,7 +389,7 @@ html, body {
   border-radius: 8px;
   overflow: hidden;
   aspect-ratio: 1;
-  background: white;
+  background: #eee;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -222,6 +404,12 @@ html, body {
   height: 100%;
   object-fit: cover;
   display: block;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cap-item img.loaded {
+  opacity: 1;
 }
 
 .cap-label {
@@ -255,16 +443,19 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.95);
   z-index: 2000;
   display: none;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .lightbox-overlay.active {
   display: flex;
+  opacity: 1;
 }
 
 .lightbox-content {
@@ -272,6 +463,12 @@ html, body {
   max-height: 90vh;
   text-align: center;
   position: relative;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.lightbox-overlay.active .lightbox-content {
+  transform: scale(1);
 }
 
 .lightbox-image {
@@ -279,6 +476,8 @@ html, body {
   max-height: 70vh;
   border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .lightbox-info {
@@ -296,6 +495,12 @@ html, body {
   font-size: 16px;
   opacity: 0.8;
   margin: 0;
+}
+
+.lightbox-counter {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 8px;
 }
 
 .lightbox-close {
@@ -335,11 +540,13 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, opacity 0.2s;
+  opacity: 0.8;
 }
 
 .lightbox-nav:hover {
   background: rgba(255, 255, 255, 0.25);
+  opacity: 1;
 }
 
 .lightbox-nav.prev {
@@ -350,13 +557,14 @@ html, body {
   right: -70px;
 }
 
-/* Search container */
+/* ==================== SEARCH ==================== */
 #search-container {
   position: absolute;
   top: 15px;
   left: 15px;
   z-index: 1001;
   width: 320px;
+  max-width: calc(100% - 30px);
 }
 
 #search-input {
@@ -401,12 +609,9 @@ html, body {
   border-bottom: none;
 }
 
-.search-result-item:hover {
-  background-color: #f0f7ff;
-}
-
+.search-result-item:hover,
 .search-result-item.selected {
-  background-color: #e0efff;
+  background-color: #f0f7ff;
 }
 
 .search-result-type {
@@ -444,4 +649,210 @@ html, body {
   text-align: center;
   color: #666;
   font-style: italic;
+}
+
+/* ==================== MOBILE STYLES ==================== */
+@media (max-width: 768px) {
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+  #sidebar {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 75vh;
+    max-height: 75vh;
+    border-left: none;
+    border-top: 1px solid #ddd;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+
+  #sidebar.active {
+    transform: translateY(0);
+  }
+
+  #sidebar.dragging {
+    transition: none;
+  }
+
+  .sidebar-drag-handle {
+    display: flex;
+    background: #f8f9fa;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .sidebar-header {
+    border-radius: 0;
+  }
+
+  .sidebar-header h2 {
+    font-size: 18px;
+  }
+
+  .sidebar-stats {
+    gap: 15px;
+    font-size: 12px;
+  }
+
+  /* Always show cap labels on mobile (no hover) */
+  .cap-item .cap-label {
+    opacity: 1;
+    font-size: 9px;
+    padding: 15px 4px 4px;
+  }
+
+  .caps-grid {
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+    gap: 8px;
+  }
+
+  /* Lightbox mobile adjustments */
+  .lightbox-overlay {
+    padding: 10px;
+  }
+
+  .lightbox-content {
+    max-width: 100%;
+  }
+
+  .lightbox-image {
+    max-height: 50vh;
+    border-radius: 8px;
+  }
+
+  .lightbox-close {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+
+  .lightbox-nav {
+    position: fixed;
+    top: auto;
+    bottom: 100px;
+    transform: none;
+    width: 44px;
+    height: 44px;
+    font-size: 24px;
+  }
+
+  .lightbox-nav.prev {
+    left: 20px;
+  }
+
+  .lightbox-nav.next {
+    right: 20px;
+  }
+
+  .lightbox-info {
+    margin-top: 15px;
+  }
+
+  .lightbox-beer-name {
+    font-size: 18px;
+  }
+
+  .lightbox-brewery-name {
+    font-size: 14px;
+  }
+
+  /* Search mobile */
+  #search-container {
+    width: calc(100% - 30px);
+    max-width: 400px;
+  }
+
+  #search-input {
+    padding: 10px 12px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+
+  #search-results {
+    max-height: 300px;
+  }
+
+  /* Dashboard mobile */
+  .dashboard-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .dashboard-stat-card {
+    padding: 12px;
+  }
+
+  .dashboard-stat-value {
+    font-size: 24px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 380px) {
+  .caps-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sidebar-stats {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .sidebar-controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .sort-select, .btn-random {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #map {
+    width: calc(100% - 300px);
+  }
+
+  #sidebar {
+    width: 300px;
+  }
+}
+
+/* ==================== ANIMATIONS ==================== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.brewery-card {
+  animation: slideUp 0.3s ease forwards;
+}
+
+.brewery-card:nth-child(1) { animation-delay: 0.02s; }
+.brewery-card:nth-child(2) { animation-delay: 0.04s; }
+.brewery-card:nth-child(3) { animation-delay: 0.06s; }
+.brewery-card:nth-child(4) { animation-delay: 0.08s; }
+.brewery-card:nth-child(5) { animation-delay: 0.10s; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
