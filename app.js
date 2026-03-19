@@ -27,6 +27,7 @@ let touchStartY = 0;
 let touchStartX = 0;
 let sidebarStartY = 0;
 let isDraggingSidebar = false;
+let touchStartTime = 0;
 
 // ==================== UTILITY FUNCTIONS ====================
 
@@ -675,6 +676,7 @@ function handleSidebarTouchStart(e) {
   const sidebar = document.getElementById('sidebar');
   touchStartY = e.touches[0].clientY;
   sidebarStartY = sidebar.getBoundingClientRect().top;
+  touchStartTime = Date.now();
   isDraggingSidebar = true;
   sidebar.classList.add('dragging');
 }
@@ -706,6 +708,13 @@ function handleSidebarTouchEnd(e) {
   const translateY = match ? parseInt(match[1]) : 0;
   
   sidebar.style.transform = '';
+  
+  // Tap detection: quick touch with minimal movement
+  const touchDuration = Date.now() - touchStartTime;
+  if (touchDuration < 200 && translateY < 10) {
+    closeSidebar();
+    return;
+  }
   
   // If dragged more than 100px, close sidebar
   if (translateY > 100) {
