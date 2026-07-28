@@ -769,7 +769,7 @@ Rolinck pilsener;Germany;Steinfurt;Privatbrauerei A. Rolinck
 Scheyern;Germany;Scheyern;Kloster-Brauerei Scheyern
 Schneider's helles landbier;Germany;Kelheim;Schneider's Landbrauerei
 Schneiderweisse 150 jahre;Germany;Kelheim;Schneider Weisse G. Schneider & Sohn
-Schneiderweisse aventinus eisbock;Germany;Kelheim;Schneider Weisse G. Schneider & Sohn
+Schneiderweisse tap 9 aventinus eisbock;Germany;Kelheim;Schneider Weisse G. Schneider & Sohn
 Schneiderweisse tap 1 mein helle weisse 4;Germany;Kelheim;Schneider Weisse G. Schneider & Sohn
 Schneiderweisse tap 1 meine helle weisse;Germany;Kelheim;Schneider Weisse G. Schneider & Sohn
 Schneiderweisse tap 1 meine helle weisse 2;Germany;Kelheim;Schneider Weisse G. Schneider & Sohn
@@ -1069,7 +1069,7 @@ Bronckhorster;Netherlands;Rha;Bronckhorster Brewing Company
 Bronckhorster 2;Netherlands;Rha;Bronckhorster Brewing Company
 Brothers in law;Netherlands;Utrecht;Brothers In Law Brewing
 Brouwerij 't IJ;Netherlands;Amsterdam;Brouwerij 't IJ
-Brouwerij 't Meuleneind;Netherlands;Hoeven;Brouwerij 't Meuleneind
+Brouwerij 't Meuleneind;Netherlands;Hoeven;Brouwerij 't Meuleneind|
 Brouwerij Artemis;Netherlands;Dronten;Brouwerij Artemis
 Brouwerij Avereest;Netherlands;Dedemsvaart;Brouwerij Avereest
 Brouwerij bierverbond;Netherlands;Amsterdam;Bierverbond
@@ -1655,3 +1655,64 @@ Brasserie La Choulette;France;Hordain;Brasserie La Choulette
 Dubuisson;Belgium;Leuze-en-Hainaut;Brasserie Dubuisson
 De Koninck tripel d'anvers 2;Belgium;Antwerpen;Brouwerij De Koninck
 Buffalo Belgian Stout;Belgium;Herzele;Brouwerij Van Den Bossche
+Affligem 0.0 2;Belgium;Opwijk;Affligem Brouwerij
+Affligem VI brut;Belgium;Opwijk;Affligem Brouwerij
+Amstel pilsner 6;Netherlands;Zoeterwoude;Amstel Bier
+Black beer society;Netherlands;Hoogeveen;Black Beer Society
+Blanche des Neiges;Belgium;Melle;Delirium - Huyghe Brouwerij
+Brasserie Artisanale MilleVertus;Belgium;Tintigny;Brasserie Artisanale MilleVertus
+Brewery de Meester;Belgium;Lendelede;Brewery De Meester
+Brouwerij de Molen 4;Netherlands;Bodegraven;Brouwerij de Molen
+Brouwerij de Toekomst;Netherlands;Fijnaart;Brouwerij de Toekomst
+Brouwerij 't IJ 2;Netherlands;Amsterdam;Brouwerij 't IJ
+Brouwerij 't Meuleneind 2;Netherlands;Hoeven;Brouwerij 't Meuleneind|
+Cass Fresh;South Korea;Seoul;Oriental Brewery
+Chouffe Lite 2;Belgium;Houffalize;Brasserie d'Achouffe
+Chouffe McChouffe 3;Belgium;Houffalize;Brasserie d'Achouffe
+Chouffe Sans alcool;Belgium;Houffalize;Brasserie d'Achouffe
+Coopers best extra stout;Australia;Adelaide;Coopers
+Coopers sparkling ale;Australia;Adelaide;Coopers
+Diebels alt;Germany;Issum;Brauerei Diebels
+Fagnes triple;Belgium;Couvin;Brasserie des Fagnes
+Grolsch 0.0 4;Netherlands;Enschede;Koninklijke Grolsch
+Guineu;Spain;Valls de Torroella;Cervesa Guineu
+Gulpener 4;Netherlands;Gulpen;Gulpener Bierbrouwerij
+Gulpener de kroon op ons werk 2;Netherlands;Gulpen;Gulpener Bierbrouwerij
+Ichnusa;Italy;Cagliari;Ichnusa
+Jakobator;Germany;Bodenwöhr;Familienbrauerei Jacob
+Kasteel tripel 3;Belgium;Izegem;Kasteel Brouwerij Vanhonsebrouck
+Kasteel tropical;Belgium;Izegem;Kasteel Brouwerij Vanhonsebrouck
+Kasteel tropical 0.0;Belgium;Izegem;Kasteel Brouwerij Vanhonsebrouck
+Kingfisher;India;Dharuhera;United Breweries
+Kompel Het Ketelhuis;Belgium;Maasmechelen;Brouwerij Kompel
+Kosmonaut helles;Germany;Cologne;REWE
+Kosmonaut radler;Germany;Cologne;REWE
+Kozel premium lager;Czechia;Velké Popovice;Pivovar Velké Popovice
+Lowlander non-alc;Netherlands;Amsterdam;Lowlander Botanical Beer
+Lupulus pils;Belgium;Gouvy;Brasserie Lupulus
+Mongy Noël;France;Croix;Brasserie Cambier
+Othmar 2;Netherlands;Ootmarsum;Othmar
+Paljas self infused brandy;Belgium;Oostkamp;Brouwerij De Leite
+Petrus tripel 2;Belgium;Harelbeke;Brouwerij De Brabandere
+Primator 11;Czechia;Náchod 1;Primátor
+Primator 13;Czechia;Náchod 1;Primátor
+Primator 16;Czechia;Náchod 1;Primátor
+Primator Antonin;Czechia;Náchod 1;Primátor
+Primator Dark;Czechia;Náchod 1;Primátor
+Primator EPA;Czechia;Náchod 1;Primátor
+Primator Premium;Czechia;Náchod 1;Primátor
+Primator Weizen;Czechia;Náchod 1;Primátor
+Schelde brouwerij pats boem;Belgium;Hoogstraten;Scheldebrouwerij
+Schneiderweisse tap 9 aventinus eisbock 3;Germany;Kelheim;Schneider Weisse G. Schneider & Sohn
+Sierra Nevada Bigfoot 2023;United States of America;Chico;Sierra Nevada Brewing Co.
+Smash original;Belgium;Liège;Brasserie {C}
+Steenberge 2;Belgium;Evergem;Brouwerij Van Steenberge
+Swinckels 0.0 2;Netherlands;Lieshout;Royal Swinkels
+Ter Dolen blond 2;Belgium;Houthalen-Helchteren;Ter Dolen
+Tripel karmeliet sans alcool;Belgium;Buggenhout;Brouwerij Bosteels
+Valduc-Thor Rio;Belgium;Perwez;Brasserie Valduc-Thor
+Westvleteren blond 2;Belgium;Vleteren;Brouwerij De Sint-Sixtusabdij van Westvleteren
+Ypra hoppy tripel groot;Belgium;Kortrijk;Omer Vander Ghinste
+Zlatý Bazant 12;Slovakia;Hurbanovo;Heineken Slovensko
+Smädny Mních;Slovakia;Prešov;Plzenský Prazdroj Slovensko
+Szent András Sörfozde;Hungary;Békesszentandrás;Szent András Sörfőzde

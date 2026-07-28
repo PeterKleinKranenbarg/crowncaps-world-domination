@@ -23,7 +23,7 @@
     }
   },
   "Australia": {
-    "count": 7,
+    "count": 9,
     "cities": {
       "Brookvale": {
         "lat": -33.7628854,
@@ -59,7 +59,9 @@
               "Coopers 2020 vintage ale.jpeg",
               "Coopers brewery original pale ale.jpeg",
               "Coopers dark ale.jpeg",
-              "Coopers mild ale.jpeg"
+              "Coopers mild ale.jpeg",
+              "Coopers best extra stout.jpeg",
+              "Coopers sparkling ale.jpeg"
             ]
           }
         ]
@@ -79,7 +81,7 @@
     }
   },
   "Belgium": {
-    "count": 571,
+    "count": 595,
     "cities": {
       "Thuin": {
         "lat": 50.3397445,
@@ -151,7 +153,9 @@
               "Affligem fris blond.jpeg",
               "Affligem tripel.jpeg",
               "Postel.jpeg",
-              "Primus.jpeg"
+              "Primus.jpeg",
+              "Affligem 0.0 2.jpeg",
+              "Affligem VI brut.jpeg"
             ]
           }
         ]
@@ -253,7 +257,8 @@
               "Piraat.jpeg",
               "Piraat red.jpg",
               "Piraat tripel hop.jpeg",
-              "Steenberge.jpeg"
+              "Steenberge.jpeg",
+              "Steenberge 2.jpeg"
             ]
           }
         ]
@@ -287,7 +292,8 @@
               "Petrus red.jpeg",
               "Petrus speciale.jpeg",
               "Petrus tripel.jpeg",
-              "Wittekerke.jpeg"
+              "Wittekerke.jpeg",
+              "Petrus tripel 2.jpeg"
             ]
           }
         ]
@@ -406,7 +412,8 @@
               "Le Fort tripel.jpeg",
               "Omer.jpeg",
               "Vanderghinste.jpeg",
-              "Ypra.jpg"
+              "Ypra.jpg",
+              "Ypra hoppy tripel groot.jpeg"
             ]
           },
           {
@@ -490,7 +497,8 @@
           {
             "name": "Brasserie {C}",
             "caps": [
-              "Brasserie {c}.jpeg"
+              "Brasserie {c}.jpeg",
+              "Smash original.jpeg"
             ]
           },
           {
@@ -617,7 +625,10 @@
               "Slurfke blond.jpeg",
               "St-Louis Premium Kriek.jpeg",
               "St-Louis Premium Peche.jpeg",
-              "Kasteel donker 3.jpg"
+              "Kasteel donker 3.jpg",
+              "Kasteel tripel 3.jpeg",
+              "Kasteel tropical.jpeg",
+              "Kasteel tropical 0.0.jpeg"
             ]
           },
           {
@@ -869,7 +880,10 @@
               "Chouffe N'ice.jpeg",
               "Chouffe rouge.jpeg",
               "Chouffe soleil.jpeg",
-              "Chouffe soleil 2.jpeg"
+              "Chouffe soleil 2.jpeg",
+              "Chouffe Lite 2.jpeg",
+              "Chouffe McChouffe 3.jpeg",
+              "Chouffe sans alcool.jpeg"
             ]
           }
         ]
@@ -985,7 +999,8 @@
             "name": "Delirium - Huyghe Brouwerij",
             "caps": [
               "Delirium argentum.jpeg",
-              "Delirium la guillotine.jpeg"
+              "Delirium la guillotine.jpeg",
+              "Blanche des Neiges.jpeg"
             ]
           }
         ]
@@ -1365,7 +1380,8 @@
               "Kompel ondergronds 2.jpeg",
               "Kompel prion des fleurs.jpeg",
               "Kompel Tripel Hop.jpeg",
-              "Kompel winter.jpg"
+              "Kompel winter.jpg",
+              "Kompel Het Ketelhuis.jpeg"
             ]
           }
         ]
@@ -1383,7 +1399,8 @@
               "Kwak groot.jpeg",
               "Kwak rouge.jpg",
               "Monte Cristo.jpeg",
-              "Tripel karmeliet.jpeg"
+              "Tripel karmeliet.jpeg",
+              "Tripel Karmeliet sans alcool.jpeg"
             ]
           },
           {
@@ -1447,7 +1464,8 @@
               "Lupulus brune.jpeg",
               "Lupulus hopera.jpeg",
               "Lupulus organicus.jpeg",
-              "Lupulus tripel.jpeg"
+              "Lupulus tripel.jpeg",
+              "Lupulus pils.jpeg"
             ]
           }
         ]
@@ -1511,7 +1529,8 @@
               "Paljas bruin.jpeg",
               "Paljas IPA.jpeg",
               "Paljas rosé.jpeg",
-              "Paljas saison.jpeg"
+              "Paljas saison.jpeg",
+              "Paljas self infused brandy.jpeg"
             ]
           }
         ]
@@ -1649,7 +1668,8 @@
               "Ter Dolen kriek.jpeg",
               "Ter Dolen tripel.jpeg",
               "Ter Dolen Winter.jpeg",
-              "Ter Dolen Wit.jpeg"
+              "Ter Dolen Wit.jpeg",
+              "Ter Dolen blond 2.jpeg"
             ]
           }
         ]
@@ -1785,7 +1805,8 @@
             "caps": [
               "Westvleteren 12.jpeg",
               "Westvleteren 8.jpeg",
-              "Westvleteren blond.jpeg"
+              "Westvleteren blond.jpeg",
+              "Westvleteren blond 2.jpeg"
             ]
           }
         ]
@@ -1864,7 +1885,8 @@
               "Schelde brouwerij oester stout.jpg",
               "Schelde brouwerij witheer.jpg",
               "Schelde brouwerij zeezuiper.jpg",
-              "Schelde strandgaper.jpg"
+              "Schelde strandgaper.jpg",
+              "Schelde brouwerij pats boem.jpeg"
             ]
           }
         ]
@@ -1880,11 +1902,59 @@
             ]
           }
         ]
+      },
+      "Tintigny": {
+        "lat": 49.6820986,
+        "lon": 5.5185152,
+        "breweries": [
+          {
+            "name": "Brasserie Artisanale MilleVertus",
+            "caps": [
+              "Brasserie Artisanale Millevertus.jpeg"
+            ]
+          }
+        ]
+      },
+      "Lendelede": {
+        "lat": 50.8854048,
+        "lon": 3.2311922,
+        "breweries": [
+          {
+            "name": "Brewery De Meester",
+            "caps": [
+              "Brewery de Meester.jpeg"
+            ]
+          }
+        ]
+      },
+      "Couvin": {
+        "lat": 50.0524258,
+        "lon": 4.4968742,
+        "breweries": [
+          {
+            "name": "Brasserie des Fagnes",
+            "caps": [
+              "Fagnes triple.jpeg"
+            ]
+          }
+        ]
+      },
+      "Perwez": {
+        "lat": 50.6234469,
+        "lon": 4.8134719,
+        "breweries": [
+          {
+            "name": "Brasserie Valduc-Thor",
+            "caps": [
+              "Valduc-Thor Rio.jpeg"
+            ]
+          }
+        ]
       }
     }
   },
   "Netherlands": {
-    "count": 404,
+    "count": 416,
     "cities": {
       "Budel": {
         "lat": 51.2744706,
@@ -1941,7 +2011,8 @@
           {
             "name": "Brouwerij 't IJ",
             "caps": [
-              "Brouwerij 't IJ.jpg"
+              "Brouwerij 't IJ.jpg",
+              "Brouwerij 't IJ 2.jpeg"
             ]
           },
           {
@@ -1992,7 +2063,8 @@
             "name": "Lowlander Botanical Beer",
             "caps": [
               "Lowlander.jpeg",
-              "Lowlander 2.jpeg"
+              "Lowlander 2.jpeg",
+              "Lowlander non-alc.jpeg"
             ]
           },
           {
@@ -2131,7 +2203,8 @@
               "Amstel radler 0.0 fris.jpeg",
               "Amstel radler 2.jpg",
               "Amstel radler fris 0.0 2.jpeg",
-              "Amstel witbier radler 0.0.jpg"
+              "Amstel witbier radler 0.0.jpg",
+              "Amstel pilsner 6.jpeg"
             ]
           },
           {
@@ -2170,7 +2243,8 @@
               "Claro.jpeg",
               "Keizerskroon.jpeg",
               "Swinckels.jpeg",
-              "Swinckels 0.0.jpeg"
+              "Swinckels 0.0.jpeg",
+              "Swinckels 0.0 2.jpeg"
             ]
           }
         ]
@@ -2366,7 +2440,8 @@
               "Grolsch wilde amber.jpeg",
               "Grolsch winterbok.jpeg",
               "Grolsch zomerbok.jpeg",
-              "Grolsch zomerbok 2.jpeg"
+              "Grolsch zomerbok 2.jpeg",
+              "Grolsch 0.0 4.jpeg"
             ]
           },
           {
@@ -2493,9 +2568,15 @@
         "lon": 4.5875432,
         "breweries": [
           {
-            "name": "Brouwerij 't Meuleneind",
+            "name": "Brouwerij 't Meuleneind|",
             "caps": [
               "Brouwerij 't Meuleneind.jpeg",
+              "Brouwerij 't Meuleneind 2.jpeg"
+            ]
+          },
+          {
+            "name": "Brouwerij 't Meuleneind",
+            "caps": [
               "Carnaval's vaccin 1.jpeg",
               "Carnaval's vaccin 2.jpeg",
               "Carnaval's vaccin 3.jpeg",
@@ -2604,7 +2685,8 @@
             "caps": [
               "Brouwerij de molen.jpeg",
               "Brouwerij de molen 2.jpeg",
-              "Brouwerij de Molen 3.jpg"
+              "Brouwerij de Molen 3.jpg",
+              "Brouwerij de Molen 4.jpeg"
             ]
           },
           {
@@ -3016,7 +3098,9 @@
               "Gulpener Chateau Neubourg.jpeg",
               "Gulpener de kroon op ons werk.jpg",
               "Gulpener korenwolf.jpg",
-              "Zwarte ruiter.jpeg"
+              "Zwarte ruiter.jpeg",
+              "Gulpener 4.jpeg",
+              "Gulpener de kroon op ons werk 2.jpeg"
             ]
           }
         ]
@@ -3355,7 +3439,8 @@
           {
             "name": "Othmar",
             "caps": [
-              "Othmar.jpeg"
+              "Othmar.jpeg",
+              "Othmar 2.jpeg"
             ]
           }
         ]
@@ -3634,6 +3719,30 @@
               "Zundert 10.jpeg",
               "Zundert 10 2.jpeg",
               "Zundert trappist.jpeg"
+            ]
+          }
+        ]
+      },
+      "Hoogeveen": {
+        "lat": 52.7264258,
+        "lon": 6.4930815,
+        "breweries": [
+          {
+            "name": "Black Beer Society",
+            "caps": [
+              "Black beer society.jpeg"
+            ]
+          }
+        ]
+      },
+      "Fijnaart": {
+        "lat": 51.6352829,
+        "lon": 4.4673134,
+        "breweries": [
+          {
+            "name": "Brouwerij de Toekomst",
+            "caps": [
+              "Brouwerij de toekomst.jpeg"
             ]
           }
         ]
@@ -3928,7 +4037,7 @@
     }
   },
   "Germany": {
-    "count": 275,
+    "count": 280,
     "cities": {
       "Bamberg": {
         "lat": 49.8916044,
@@ -4287,7 +4396,8 @@
           {
             "name": "Brauerei Diebels",
             "caps": [
-              "Diebels alkoholfrei.jpeg"
+              "Diebels alkoholfrei.jpeg",
+              "Diebels alt.jpeg"
             ]
           }
         ]
@@ -4511,6 +4621,13 @@
             "name": "Schreckenskammer",
             "caps": [
               "Schreckenskammer.jpg"
+            ]
+          },
+          {
+            "name": "REWE",
+            "caps": [
+              "Kosmonaut helles.jpeg",
+              "Kosmonaut radler.jpeg"
             ]
           }
         ]
@@ -4884,7 +5001,7 @@
             "name": "Schneider Weisse G. Schneider & Sohn",
             "caps": [
               "Schneiderweisse 150 jahre.jpg",
-              "Schneiderweisse aventinus eisbock.jpeg",
+              "Schneiderweisse tap 9 aventinus eisbock.jpeg",
               "Schneiderweisse tap 1 mein helle weisse 4.jpg",
               "Schneiderweisse tap 1 meine helle weisse.jpeg",
               "Schneiderweisse tap 1 meine helle weisse 2.jpeg",
@@ -4907,7 +5024,8 @@
               "Schneiderweisse tap 7 mein original 2.jpeg",
               "Schneiderweisse tap 7 mein original 3.jpeg",
               "Schneiderweisse tap 7 mein original 4.jpg",
-              "Schneiderweisse tap 9 aventinus eisbock 2.jpeg"
+              "Schneiderweisse tap 9 aventinus eisbock 2.jpeg",
+              "Schneiderweisse tap 9 aventinus eisbock 3.jpeg"
             ]
           }
         ]
@@ -5059,6 +5177,18 @@
             ]
           }
         ]
+      },
+      "Bodenwöhr": {
+        "lat": 49.2962804,
+        "lon": 12.2844994,
+        "breweries": [
+          {
+            "name": "Familienbrauerei Jacob",
+            "caps": [
+              "Jakobator.jpeg"
+            ]
+          }
+        ]
       }
     }
   },
@@ -5127,7 +5257,7 @@
     }
   },
   "France": {
-    "count": 40,
+    "count": 41,
     "cities": {
       "Rueil-Malmaison": {
         "lat": 48.87778,
@@ -5450,6 +5580,18 @@
             "name": "Brasserie La Choulette",
             "caps": [
               "Brasserie La Choulette.jpg"
+            ]
+          }
+        ]
+      },
+      "Croix": {
+        "lat": 50.6802124,
+        "lon": 3.1564365,
+        "breweries": [
+          {
+            "name": "Brasserie Cambier",
+            "caps": [
+              "Mongy Noël.jpeg"
             ]
           }
         ]
@@ -5976,7 +6118,7 @@
     }
   },
   "Italy": {
-    "count": 24,
+    "count": 25,
     "cities": {
       "Piozzo": {
         "lat": 44.5156548,
@@ -6135,6 +6277,18 @@
             "name": "Birra Toccalmatto",
             "caps": [
               "Toccalmatto stray dog no rules bitter.jpeg"
+            ]
+          }
+        ]
+      },
+      "Cagliari": {
+        "lat": 39.2171994,
+        "lon": 9.113311,
+        "breweries": [
+          {
+            "name": "Ichnusa",
+            "caps": [
+              "Ichnusa.jpeg"
             ]
           }
         ]
@@ -6661,7 +6815,7 @@
     }
   },
   "Czechia": {
-    "count": 20,
+    "count": 29,
     "cities": {
       "Velké Březno": {
         "lat": 50.662703,
@@ -6720,7 +6874,8 @@
             "caps": [
               "Kozel dark lager.jpeg",
               "Kozel lager.jpeg",
-              "Kozel Mistruv Lezak.jpg"
+              "Kozel Mistruv Lezak.jpg",
+              "Kozel premium lager.jpeg"
             ]
           }
         ]
@@ -6783,6 +6938,25 @@
             "name": "Nachmelená Opice",
             "caps": [
               "Nachmelená Opice (groot).jpg"
+            ]
+          }
+        ]
+      },
+      "Náchod 1": {
+        "lat": 50.4161828,
+        "lon": 16.1634299,
+        "breweries": [
+          {
+            "name": "Primátor",
+            "caps": [
+              "Primator 11.jpeg",
+              "Primator 13.jpeg",
+              "Primator 16.jpeg",
+              "Primator Antonin.jpeg",
+              "Primator Dark.jpeg",
+              "Primator EPA.jpeg",
+              "Primator premium.jpeg",
+              "Primator Weizen.jpeg"
             ]
           }
         ]
@@ -7049,7 +7223,7 @@
     }
   },
   "Spain": {
-    "count": 23,
+    "count": 24,
     "cities": {
       "Granada": {
         "lat": 37.1734995,
@@ -7210,6 +7384,18 @@
             ]
           }
         ]
+      },
+      "Valls de Torroella": {
+        "lat": 41.8480566,
+        "lon": 1.7191508,
+        "breweries": [
+          {
+            "name": "Cervesa Guineu",
+            "caps": [
+              "Guineu.jpeg"
+            ]
+          }
+        ]
       }
     }
   },
@@ -7288,7 +7474,7 @@
     }
   },
   "United States of America": {
-    "count": 50,
+    "count": 51,
     "cities": {
       "San Francisco": {
         "lat": 37.7792588,
@@ -7573,7 +7759,8 @@
               "Sierra Nevada Hoptimum.jpeg",
               "Sierra Nevada Narwhal.jpeg",
               "Sierra Nevada Wanderland.jpeg",
-              "Sierra Nevada Pale Ale.jpeg"
+              "Sierra Nevada Pale Ale.jpeg",
+              "Sierra Nevada Bigfoot 2023.jpeg"
             ]
           }
         ]
@@ -7657,7 +7844,7 @@
     }
   },
   "South Korea": {
-    "count": 1,
+    "count": 2,
     "cities": {
       "Seoul": {
         "lat": 37.5666791,
@@ -7667,6 +7854,12 @@
             "name": "HiteJinro",
             "caps": [
               "Hite pale lager.jpeg"
+            ]
+          },
+          {
+            "name": "Oriental Brewery",
+            "caps": [
+              "Cass fresh.jpeg"
             ]
           }
         ]
@@ -7727,6 +7920,69 @@
             "name": "Fischerstube",
             "caps": [
               "Ueli bier.jpg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "India": {
+    "count": 1,
+    "cities": {
+      "Dharuhera": {
+        "lat": 28.2055216,
+        "lon": 76.7953099,
+        "breweries": [
+          {
+            "name": "United Breweries",
+            "caps": [
+              "Kingfisher.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Slovakia": {
+    "count": 2,
+    "cities": {
+      "Hurbanovo": {
+        "lat": 47.8761227,
+        "lon": 18.198313,
+        "breweries": [
+          {
+            "name": "Heineken Slovensko",
+            "caps": [
+              "Zlatý Bazant 12.jpeg"
+            ]
+          }
+        ]
+      },
+      "Prešov": {
+        "lat": 49.0000074,
+        "lon": 21.2392122,
+        "breweries": [
+          {
+            "name": "Plzenský Prazdroj Slovensko",
+            "caps": [
+              "Smädny Mních.jpeg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Hungary": {
+    "count": 1,
+    "cities": {
+      "Békesszentandrás": {
+        "lat": 46.8717052,
+        "lon": 20.4851283,
+        "breweries": [
+          {
+            "name": "Szent András Sörfőzde",
+            "caps": [
+              "Szent András Sörfozde.jpeg"
             ]
           }
         ]
