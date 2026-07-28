@@ -350,6 +350,7 @@ function renderDashboard() {
   let html = `
     <div class="sidebar-drag-handle"><span></span></div>
     <div class="dashboard">
+      <button id="close-sidebar" title="Close">&times;</button>
       <h2>My Crown Cap Collection</h2>
       
       <div class="dashboard-stats">
@@ -388,6 +389,12 @@ function renderDashboard() {
   sidebar.innerHTML = html;
   
   // Event handlers
+  const sidebarCloseBtn = document.getElementById('close-sidebar');
+  sidebarCloseBtn.addEventListener('touchend', (e) => {
+    e.preventDefault();
+    closeSidebar();
+  });
+  
   document.querySelectorAll('.top-country-item').forEach(item => {
     item.addEventListener('click', () => {
       const countryName = item.dataset.country;
@@ -400,6 +407,7 @@ function renderDashboard() {
   
   document.getElementById('random-cap-card').addEventListener('click', showRandomCap);
   
+  showBackdrop();
   initSidebarTouch();
 }
 
@@ -554,7 +562,9 @@ function renderSidebar(options) {
   sidebar.innerHTML = html;
   
   // Event: Close button
-  document.getElementById('close-sidebar').addEventListener('click', () => {
+  const sidebarCloseBtn = document.getElementById('close-sidebar');
+  sidebarCloseBtn.addEventListener('touchend', (e) => {
+    e.preventDefault();
     closeSidebar();
   });
   
@@ -615,6 +625,7 @@ function renderSidebar(options) {
     }
   }
   
+  showBackdrop();
   initSidebarTouch();
   
   // Stop map interaction
@@ -638,6 +649,7 @@ function navigateBack(toIndex) {
 function closeSidebar() {
   const sidebar = document.getElementById('sidebar');
   sidebar.classList.remove('active');
+  hideBackdrop();
   navigationStack = [];
   currentSidebarContext = null;
   updateUrlState({});
@@ -689,6 +701,32 @@ function attachCapClickHandlers(grid, brewery) {
       const capIndex = parseInt(item.dataset.capIndex);
       openLightbox(brewery.caps, capIndex, brewery.name);
     });
+  });
+}
+
+// ==================== BACKDROP ====================
+
+function showBackdrop() {
+  if (!isMobile()) return;
+  document.getElementById('sidebar-backdrop').classList.add('active');
+}
+
+function hideBackdrop() {
+  document.getElementById('sidebar-backdrop').classList.remove('active');
+}
+
+function initBackdrop() {
+  document.getElementById('sidebar-backdrop').addEventListener('click', closeSidebar);
+  document.getElementById('sidebar-backdrop').addEventListener('touchend', (e) => {
+    closeSidebar();
+  });
+}
+
+function initSidebarClose() {
+  document.getElementById('sidebar').addEventListener('click', (e) => {
+    if (e.target.id === 'close-sidebar' || e.target.closest('#close-sidebar')) {
+      closeSidebar();
+    }
   });
 }
 
@@ -987,6 +1025,8 @@ Promise.all([
   
   initSearch();
   initLightbox();
+  initBackdrop();
+  initSidebarClose();
   
   function getColor(countryName) {
     const count = capsData[countryName]?.count || 0;

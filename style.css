@@ -177,6 +177,7 @@ html, body {
   justify-content: center;
   border-radius: 50%;
   transition: all 0.2s;
+  touch-action: manipulation;
 }
 
 #close-sidebar:hover {
@@ -194,6 +195,31 @@ html, body {
 /* ==================== DASHBOARD ==================== */
 .dashboard {
   padding: 20px;
+  position: relative;
+}
+
+.dashboard #close-sidebar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #999;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+.dashboard #close-sidebar:hover {
+  color: #333;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .dashboard h2 {
@@ -681,6 +707,24 @@ html, body {
 
   #sidebar.active {
     transform: translateY(0);
+  }
+
+  #sidebar-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  #sidebar-backdrop.active {
+    display: block;
+    opacity: 1;
   }
 
   #sidebar.dragging {
