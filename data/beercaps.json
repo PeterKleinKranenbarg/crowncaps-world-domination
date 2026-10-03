@@ -81,7 +81,7 @@
     }
   },
   "Belgium": {
-    "count": 595,
+    "count": 597,
     "cities": {
       "Thuin": {
         "lat": 50.3397445,
@@ -793,7 +793,8 @@
               "Ramée blonde.jpeg",
               "St. Pierre.jpeg",
               "Steenbrugge.jpeg",
-              "Steenbrugge dubbel bruin.jpeg"
+              "Steenbrugge dubbel bruin.jpeg",
+              "St. Florent.jpeg"
             ]
           },
           {
@@ -1669,7 +1670,8 @@
               "Ter Dolen tripel.jpeg",
               "Ter Dolen Winter.jpeg",
               "Ter Dolen Wit.jpeg",
-              "Ter Dolen blond 2.jpeg"
+              "Ter Dolen blond 2.jpeg",
+              "Ter Dolen Winter 2.jpeg"
             ]
           }
         ]
@@ -1954,7 +1956,7 @@
     }
   },
   "Netherlands": {
-    "count": 416,
+    "count": 420,
     "cities": {
       "Budel": {
         "lat": 51.2744706,
@@ -2441,7 +2443,9 @@
               "Grolsch winterbok.jpeg",
               "Grolsch zomerbok.jpeg",
               "Grolsch zomerbok 2.jpeg",
-              "Grolsch 0.0 4.jpeg"
+              "Grolsch 0.0 4.jpeg",
+              "Grolsch radler 0.0 3.jpeg",
+              "Grolsch speciaalbier 2.jpeg"
             ]
           },
           {
@@ -3682,6 +3686,13 @@
               "Wieckse Rosé.jpeg",
               "Wieckse witte.jpeg"
             ]
+          },
+          {
+            "name": "Stadsbrouwerij Maastricht",
+            "caps": [
+              "Stadsbrouwerij Maastricht.jpeg",
+              "Mergel Wit.jpeg"
+            ]
           }
         ]
       },
@@ -4037,7 +4048,7 @@
     }
   },
   "Germany": {
-    "count": 280,
+    "count": 294,
     "cities": {
       "Bamberg": {
         "lat": 49.8916044,
@@ -4050,7 +4061,8 @@
               "Aecht Schlenkerla Rauchbier Märzen.jpeg",
               "Aecht schlenkerla rauchbier fastenbier.jpeg",
               "Aecht Schlenkerla rauchbier kräusen.jpeg",
-              "Aecht Schlenkerla Rauchbier Weizen.jpeg"
+              "Aecht Schlenkerla Rauchbier Weizen.jpeg",
+              "Aecht Schlenkerla Erle.jpeg"
             ]
           }
         ]
@@ -4129,7 +4141,8 @@
           {
             "name": "Ayinger Privatbrauerei",
             "caps": [
-              "Ayinger winterbock.jpeg"
+              "Ayinger winterbock.jpeg",
+              "Ayinger celebrator.jpeg"
             ]
           }
         ]
@@ -4157,7 +4170,8 @@
               "Beck's alkoholfrei.jpg",
               "Beck's gold.jpeg",
               "Beck's green lemon.jpeg",
-              "Beck's pils groot.jpeg"
+              "Beck's pils groot.jpeg",
+              "Beck's pils.jpeg"
             ]
           }
         ]
@@ -4355,7 +4369,14 @@
             "name": "Auerbräu Rosenheimer Spezialitätenbrauerei",
             "caps": [
               "Chiemseer braustoff.jpg",
-              "Chiemseer hell.jpg"
+              "Chiemseer hell.jpg",
+              "Chiemseer 0.0.jpeg"
+            ]
+          },
+          {
+            "name": "Flötzinger Bräu Rosenheim",
+            "caps": [
+              "Flötzinger.jpeg"
             ]
           }
         ]
@@ -4369,7 +4390,9 @@
             "caps": [
               "Clausthaler alkoholfrei.jpg",
               "Schöfferhofer hefeweizen dunkel.jpeg",
-              "Schöfferhofer weizen.jpg"
+              "Schöfferhofer weizen.jpg",
+              "Clausthaler alkoholfrei naturtrüb.jpeg",
+              "Clausthaler alkoholfrei original.jpeg"
             ]
           }
         ]
@@ -4596,7 +4619,8 @@
               "Paulaner original munchner hell.jpeg",
               "Pauläner salvator.jpeg",
               "Pauläner Weissbier.jpeg",
-              "Paulaner Weissbier Alkoholfrei.jpeg"
+              "Paulaner Weissbier Alkoholfrei.jpeg",
+              "Pauläner hell alkoholfrei.jpeg"
             ]
           }
         ]
@@ -4812,7 +4836,8 @@
               "Jever fun alkoholfrei.jpeg",
               "Jever light.jpeg",
               "Jever light 2.jpg",
-              "Jever pilsener.jpg"
+              "Jever pilsener.jpg",
+              "Jever fun alkoholfrei 2.jpeg"
             ]
           }
         ]
@@ -4910,7 +4935,8 @@
           {
             "name": "Neumarkter Lammsbräu",
             "caps": [
-              "Neumarkter Lamssbräu.jpeg"
+              "Neumarkter Lamssbräu.jpeg",
+              "Neumarkter Lamssbräu alkoholfrei.jpeg"
             ]
           }
         ]
@@ -5025,7 +5051,8 @@
               "Schneiderweisse tap 7 mein original 3.jpeg",
               "Schneiderweisse tap 7 mein original 4.jpg",
               "Schneiderweisse tap 9 aventinus eisbock 2.jpeg",
-              "Schneiderweisse tap 9 aventinus eisbock 3.jpeg"
+              "Schneiderweisse tap 9 aventinus eisbock 3.jpeg",
+              "Schneiderweisse tap 6 mein aventinus 3.jpeg"
             ]
           }
         ]
@@ -5189,11 +5216,47 @@
             ]
           }
         ]
+      },
+      "Holzkirchen": {
+        "lat": 49.7816986,
+        "lon": 9.6796728,
+        "breweries": [
+          {
+            "name": "Holzkirchner Oberbräu",
+            "caps": [
+              "Oberbräu hell.jpeg"
+            ]
+          }
+        ]
+      },
+      "Passau": {
+        "lat": 48.5748229,
+        "lon": 13.4609744,
+        "breweries": [
+          {
+            "name": "Löwenbrauerei Passau",
+            "caps": [
+              "Redlbacher Bayrisch Hell.jpeg"
+            ]
+          }
+        ]
+      },
+      "Tegernsee": {
+        "lat": 47.7099191,
+        "lon": 11.7543337,
+        "breweries": [
+          {
+            "name": "Herzoglich Bayerisches Brauhaus Tegernsee",
+            "caps": [
+              "Tegernseer hell.jpeg"
+            ]
+          }
+        ]
       }
     }
   },
   "Estonia": {
-    "count": 9,
+    "count": 10,
     "cities": {
       "Keila": {
         "lat": 59.3110918,
@@ -5233,6 +5296,18 @@
               "Pühaste 2.jpeg",
               "Pühaste 3.jpeg",
               "Sori brewing.jpeg"
+            ]
+          }
+        ]
+      },
+      "Saku": {
+        "lat": 59.301578,
+        "lon": 24.6541952,
+        "breweries": [
+          {
+            "name": "Ollenaut",
+            "caps": [
+              "Ollenaut.jpeg"
             ]
           }
         ]
@@ -7910,7 +7985,7 @@
     }
   },
   "Switzerland": {
-    "count": 1,
+    "count": 10,
     "cities": {
       "Basel": {
         "lat": 47.5581077,
@@ -7920,6 +7995,81 @@
             "name": "Fischerstube",
             "caps": [
               "Ueli bier.jpg"
+            ]
+          }
+        ]
+      },
+      "Rheinfelden": {
+        "lat": 47.5543859,
+        "lon": 7.7922905,
+        "breweries": [
+          {
+            "name": "Feldschlösschen",
+            "caps": [
+              "Fieldschlösschen.jpeg"
+            ]
+          }
+        ]
+      },
+      "Luzern": {
+        "lat": 47.052144,
+        "lon": 8.3058123,
+        "breweries": [
+          {
+            "name": "Brauerei Eichhof",
+            "caps": [
+              "Brauerei Eichhof Lager.jpeg"
+            ]
+          }
+        ]
+      },
+      "Sion": {
+        "lat": 46.2311749,
+        "lon": 7.3588795,
+        "breweries": [
+          {
+            "name": "Valaisanne",
+            "caps": [
+              "Valaisanne white IPA.jpeg",
+              "Valaisanne pale ale.jpeg",
+              "Valaisanne bière de cave.jpeg",
+              "Valaisanne lager.jpeg"
+            ]
+          }
+        ]
+      },
+      "Appenzell": {
+        "lat": 47.3299506,
+        "lon": 9.4099311,
+        "breweries": [
+          {
+            "name": "Brauerei Locher",
+            "caps": [
+              "Appenzeller Quöllfrisch Hell.jpeg"
+            ]
+          }
+        ]
+      },
+      "Chur": {
+        "lat": 46.854747,
+        "lon": 9.5264904,
+        "breweries": [
+          {
+            "name": "Calanda",
+            "caps": [
+              "Calanda Radler.jpeg"
+            ]
+          }
+        ]
+      },
+      "Faido": {
+        "lat": 46.4780427,
+        "lon": 8.8009322,
+        "breweries": [
+          {
+            "name": "Gottardo",
+            "caps": [
+              "Gottardo.jpeg"
             ]
           }
         ]
